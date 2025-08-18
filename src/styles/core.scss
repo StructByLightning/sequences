@@ -1,0 +1,24 @@
+@import "./_variables.scss";
+@import "./_page.scss";
+@import "./_headers.scss";
+@import "./_blockquote.scss";
+@import "./_figure.scss";
+@import "./_table.scss";
+@import "./_code.scss";
+
+
+html{
+  font-size: 14px;
+}
+body{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  font-family: var(--primaryFont);
+  line-height: var(--lineHeight);
+}
+

@@ -1,0 +1,239 @@
+//Base page styling
+@page{
+  size: 6in 8.5in;
+
+  margin: 0.75in 0.5in 0.75in 0.5in;
+  @footnote{
+    margin-top: var(--spacing6);
+    padding-top: var(--spacing5);
+
+    border-top: 1px solid var(--black);
+  }
+}
+
+//Left page top and bottom pseudo content
+@page :left{
+  @top-left{
+    align-self: center;
+    height: 1.618em;
+
+    font-size: 0.8em;
+    font-family: var(--secondaryFont);
+    white-space: nowrap;
+    text-align: left;
+
+    border-bottom: 1px solid  var(--black);
+
+    content: string(section-title);
+  }
+  @bottom-left{
+    align-self: center;
+    height: 1.618em;
+
+    font-size: 0.8em;
+    white-space: nowrap;
+
+    border-top: 1px solid  var(--black);
+
+    content: counter(page);
+  }
+}
+
+//Right page top and bottom pseudocontent
+@page :right{
+  @top-right{
+    align-self: center;
+    height: 1.618em;
+
+    font-size: 0.8em;
+    font-family: var(--secondaryFont);
+    white-space: nowrap;
+    text-align: right;
+
+    border-bottom: 1px solid black;
+
+    content: string(chapter-title);
+  }
+  @bottom-right{
+    align-self: center;
+    height: 1.618em;
+
+    font-size: 0.8em;
+    white-space: nowrap;
+
+    border-top: 1px solid black;
+
+    content: counter(page);
+  }
+}
+@page :blank{
+  @top-left{
+    display: none;
+
+    content: none;
+  }
+  @top-right{
+    display: none;
+
+    content: none;
+  }
+  @bottom-left{
+    display: none;
+
+    content: none;
+  }
+  @bottom-right{
+    display: none;
+
+    content: none;
+  }
+}
+
+h1{
+  string-set: section-title content(), chapter-title "\200B";
+}
+
+h2,
+h3,
+h4,
+h5,
+h6{
+  string-set: chapter-title content();
+}
+
+.footnote{
+  float: footnote;
+
+  font-size: var(--fontSize0);
+  line-height: 1.3;
+
+  counter-increment: footnote;
+
+  &::footnote-call{
+    content: counter(footnote);
+  }
+}
+
+a.footnote + a.footnote::after{
+  content: " " counter(footnote);
+}
+
+section{
+  break-before: page;
+}
+
+.newpage{
+  break-before: page;
+}
+
+
+// Generate chapter styles for chapters 1-100
+@for $i from 1 through 100{
+  // Class to apply the named page
+  .chapter:nth-of-type(#{$i}){
+    display: block;
+
+    page-break-before: right;
+    page: chapter#{$i};
+    break-before: page;
+  }
+  @page chapter#{$i}{
+    size: 6in 8.5in;
+
+    margin: 0.75in 0.5in 0.75in 0.5in;
+  }
+
+  // First page of each chapter type - hide all margins
+  @page chapter#{$i}:first{
+    @top-left{
+      display: none;
+
+      content: none;
+    }
+    @top-right{
+      display: none;
+
+      content: none;
+    }
+  }
+}
+
+
+// Generate section styles for sections 1-100
+@for $i from 1 through 100{
+  // Class to apply the named page
+  .section:nth-of-type(#{$i}){
+    display: block;
+
+    page-break-before: right;
+    page: section#{$i};
+    break-before: page;
+  }
+  @page section#{$i}{
+    size: 6in 8.5in;
+
+    margin: 0.75in 0.5in 0.75in 0.5in;
+  }
+
+  // First page of each section - hide all margins
+  @page section#{$i}:first{
+    @top-left{
+      display: none;
+
+      content: none;
+    }
+    @top-right{
+      display: none;
+
+      content: none;
+    }
+    @bottom-left{
+      display: none;
+
+      content: none;
+    }
+    @bottom-right{
+      display: none;
+
+      content: none;
+    }
+  }
+}
+
+//Pages without header/footers
+.plainPage{
+  display: block;
+
+  page-break-before: right;
+  page: plainpage;
+  break-before: page;
+}
+@page plainpage{
+  size: 6in 8.5in;
+
+  margin: 0.75in 0.5in 0.75in 0.5in;
+}
+
+// First page of each section - hide all margins
+@page plainpage{
+  @top-left{
+    display: none;
+
+    content: none;
+  }
+  @top-right{
+    display: none;
+
+    content: none;
+  }
+  @bottom-left{
+    display: none;
+
+    content: none;
+  }
+  @bottom-right{
+    display: none;
+
+    content: none;
+  }
+}

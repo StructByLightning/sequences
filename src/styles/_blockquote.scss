@@ -1,0 +1,21 @@
+blockquote{
+  margin: var(--spacing5) 0;
+  padding: var(--spacing4);
+
+  font-family: var(--primaryFont);
+
+  border-left: 3px solid var(--black);
+
+  >:nth-child(1){
+    margin-top: 0;
+  }
+
+  >:nth-last-child(1){
+    margin-bottom: 0;
+  }
+
+  &:first-child,
+  &:last-child{
+    margin-top: 0;
+  }
+}

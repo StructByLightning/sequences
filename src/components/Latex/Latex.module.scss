@@ -1,0 +1,56 @@
+.inline{
+  display: inline;
+
+  // Ensure inline math aligns properly with surrounding text
+  font-size: 0.8em;
+
+  vertical-align: middle;
+}
+
+.block{
+  display: block;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  font-size: 0.8em;
+  text-align: center;
+
+  // Block math should be slightly larger and centered
+  .katex-display{
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+
+  // Handle very wide equations on mobile
+  @media (max-width: 768px){
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+
+    .katex-display{
+      min-width: fit-content;
+    }
+  }
+}
+
+// Common styles for both inline and block
+.inline,
+.block{
+  // Ensure consistent font rendering
+  .katex{
+    font-family: "KaTeX_Main", "Times New Roman", serif;
+    line-height: 1.2;
+  }
+
+  // Error state styling
+  &:has-text([LaTeX]){
+    padding: 0.25rem 0.5rem;
+
+    color: #dc2626;
+    font-size: 0.875em;
+    font-family: monospace;
+
+    background-color: #fef2f2;
+    border-radius: 0.25rem;
+  }
+}

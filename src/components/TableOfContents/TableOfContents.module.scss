@@ -1,0 +1,42 @@
+.toc{
+  .inner{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    .title{
+      margin-bottom: var(--spacing8);
+
+      font-size: var(--fontSize6);
+      font-family: var(--secondaryFont);
+      text-align: center;
+    }
+
+    .items{
+      display: flex;
+      flex-direction: column;
+
+      .label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: var(--spacing5);
+
+        .letter{
+          font-size: var(--fontSize7);
+          font-family: var(--dropCapsFont);
+          line-height: 1em;
+        }
+
+        .label{
+          font-family: var(--secondaryFont);
+        }
+      }
+
+      .chapters{
+        margin-bottom: var(--spacing8);
+      }
+    }
+  }
+}

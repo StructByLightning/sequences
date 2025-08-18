@@ -1,0 +1,67 @@
+.titlePage{
+  width: 100%;
+  height: 100%;
+
+  .inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    .sequences{
+      font-size: var(--fontSize7);
+      line-height: 1.3em;
+      text-transform: uppercase;
+    }
+
+    .separator{
+      display: flex;
+      gap: var(--spacing5);
+      align-items: center;
+      width: 90%;
+      margin: var(--spacing5) 0;
+
+      font-size: var(--fontSize3);
+
+      font-style: italic;
+      white-space: nowrap;
+      text-transform: lowercase;
+
+      &::after,
+      &::before{
+        width: 100%;
+        height: 1px;
+
+        background-color: var(--black);
+
+        content: "";
+      }
+    }
+
+    .subtitle{
+      font-size: var(--fontSize4);
+      line-height: 1.3em;
+      text-transform: uppercase;
+    }
+
+    .author{
+      font-size: var(--fontSize4);
+      text-transform: uppercase;
+    }
+
+    .lesswrong{
+      margin: var(--spacing7) 0;
+      svg{
+        width: 10rem;
+        height: auto;
+        path{
+          fill: var(--black);
+        }
+      }
+    }
+  }
+}
