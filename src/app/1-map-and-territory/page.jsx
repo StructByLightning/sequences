@@ -52,9 +52,9 @@ import ExplainWorshipIgnore from "@/app/1-map-and-territory/chapters/mysteriousA
 import ScienceAsCuriosityStopper from "@/app/1-map-and-territory/chapters/mysteriousAnswers/ScienceAsCuriosityStopper";
 import TrulyPartOfYou from "@/app/1-map-and-territory/chapters/mysteriousAnswers/TrulyPartOfYou";
 import TheSimpleTruth from "@/app/1-map-and-territory/chapters/mysteriousAnswers/TheSimpleTruth";
-import css from "./page.module.scss";
-import LesswrongSvg from "@/icons/lesswrong.svg"
+
 import TableOfContents from "@/components/TableOfContents/TableOfContents";
+import TitlePage from "@/components/TitlePage/TitlePage";
 
 export default function Home() {
   const contentRef = useRef(null);
@@ -118,20 +118,9 @@ export default function Home() {
   }); //No dependency array - runs on every render
 
   return <div ref={contentRef}>
-    <section className={`section ${css.titlePage}`}>
-      <div className={css.inner}>
-        <div className={css.sequences}>The Sequences</div>
-        <div className={css.separator}>volume 1</div>
-        <div className={css.subtitle}>Map and Territory</div>
 
+    <TitlePage volume="1" name="Map and Territory" />
 
-        <div className={css.lesswrong}>
-          <LesswrongSvg />
-        </div>
-
-        <div className={css.author}>Eliezer Yudkowsky</div>
-      </div>
-    </section>
     <TableOfContents items={[
       {
         sequence: "A",
