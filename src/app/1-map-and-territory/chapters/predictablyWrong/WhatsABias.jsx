@@ -2,7 +2,7 @@ import Chapter from "@/components/Chapter/Chapter";
 
 export default function WhatsABias() {
 
-  return <Chapter title={["What's a Bias", "Again?"]}>
+  return <Chapter title={["...What's a Bias, Again?"]}>
     <p><span className="dropCap">A</span> <em>bias</em> is a certain kind of obstacle to our goal of obtaining truth. (Its character as an “obstacle” stems from this goal of truth.) However, there are many obstacles that are not “biases.”</p>
     <p>If we start right out by asking “What is bias?,” it comes at the question in the wrong order. As the proverb goes, “There are forty kinds of lunacy but only one kind of common sense.” The truth is a narrow target, a small region of configuration space to hit. “She loves me, she loves me not” may be a binary question, but <em>E</em> = _mc_2 is a tiny dot in the space of all equations, like a winning lottery ticket in the space of all lottery tickets. Error is not an exceptional condition; it is success that is a priori so improbable that it requires an explanation.</p>
     <p>We don’t start out with a moral duty to “reduce bias,” because biases are bad and evil and Just Not Done. This is the sort of thinking someone might end up with if they acquired a deontological duty of “rationality” by social osmosis, which leads to people trying to execute techniques without appreciating the reason for them. (Which is bad and evil and Just Not Done, according to <em>Surely You’re Joking, Mr. Feynman</em>, which I read as a kid.)</p>

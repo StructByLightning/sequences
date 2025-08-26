@@ -114,7 +114,7 @@ h6{
   }
 }
 
-a.footnote + a.footnote::after{
+a.footnote.spaceBefore::after{
   content: " " counter(footnote);
 }
 
@@ -128,12 +128,14 @@ section{
 
 
 // Generate chapter styles for chapters 1-100
-@for $i from 1 through 100{
+@for $i from 1 through 200{
   // Class to apply the named page
   .chapter:nth-of-type(#{$i}){
     display: block;
 
     page-break-before: right;
+
+    counter-increment: chapter;
     page: chapter#{$i};
     break-before: page;
   }

@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function IllusionOfTransparency() {
 
 
-  return <Chapter title={["Illusion of Transparency", "Why No One Understands You"]}>
+  return <Chapter title={["Illusion of Transparency:", "Why No One Understands You"]}>
 
     <p><span className="dropCap">I</span>n hindsight bias, people who know the outcome of a situation believe the outcome should have been easy to predict in advance. Knowing the outcome, we reinterpret the situation in light of that outcome. Even when warned, we can’t de-interpret to empathize with someone who doesn’t know what we know.</p>
     <p>Closely related is the <em>illusion of transparency</em>: We always know what we mean by our words, and so we expect others to know it too. Reading our own writing, the intended interpretation falls easily into place, guided by our knowledge of what we really meant. It’s hard to empathize with someone who must interpret blindly, guided only by the words.</p>

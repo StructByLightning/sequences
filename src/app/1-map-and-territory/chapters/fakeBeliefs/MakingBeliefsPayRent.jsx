@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function MakingBeliefsPayRent() {
 
 
-  return <Chapter title={["Making Beliefs Pay Rent", "(In Anticipated Experiences)"]}>
+  return <Chapter title={["Making Beliefs Pay Rent", "(in Anticipated Experiences)"]}>
     <p>Thus begins the ancient parable:</p>
     <p><em>If a tree falls in a forest and no one hears it, does it make a sound? One says, “Yes it does, for it makes vibrations in the air.” Another says, “No it does not, for there is no auditory processing in any brain.”</em></p>
     <p>Suppose that, after the tree falls, the two walk into the forest together. Will one expect to see the tree fallen to the right, and the other expect to see the tree fallen to the left? Suppose that before the tree falls, the two leave a sound recorder next to the tree. Would one, playing back the recorder, expect to hear something different from the other? Suppose they attach an electroencephalograph to any brain in the world; would one expect to see a different trace than the other? Though the two argue, one saying “No,” and the other saying “Yes,” they do not anticipate any different experiences. The two think they have different models of the world, but they have no difference with respect to what they expect will <em>happen to</em> them.</p>

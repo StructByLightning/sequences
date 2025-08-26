@@ -24,6 +24,7 @@
     "eslint-plugin-sort-destructure-keys": "^2.0.0",
     "event-emitter": "^0.3.5",
     "katex": "^0.16.22",
+    "md5": "^2.3.0",
     "next": "15.4.6",
     "pagedjs": "^0.4.3",
     "postcss-scss": "^4.0.9",

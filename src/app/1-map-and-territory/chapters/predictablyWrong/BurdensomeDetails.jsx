@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function BurdensomeDetails() {
 
 
-  return <Chapter title={["Burdensome", "Details"]}>
+  return <Chapter title={["Burdensome Details"]}>
     <blockquote>
       <p>Merely corroborative detail, intended to give artistic verisimilitude to an otherwise bald and unconvincing narrative…</p>
       <p>—Pooh-Bah, in Gilbert and Sullivan’s <em>The Mikado</em><span className="footnote">William S. Gilbert and Arthur Sullivan, <em>The Mikado</em>, Opera, 1885. </span></p>
