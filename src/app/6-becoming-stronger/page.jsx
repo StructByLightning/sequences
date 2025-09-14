@@ -2,90 +2,175 @@
 import { Previewer } from "pagedjs";
 import { React, useEffect, useRef } from "react";
 import SequenceHeader from "@/components/SequenceHeader/SequenceHeader";
+import TitlePage from "@/components/TitlePage/TitlePage";
 
+// Yudkowsky's Coming of Age chapters
+import MyChildhoodDeathSpiral from "./chapters/yudkowskysComingOfAge/MyChildhoodDeathSpiral";
+import MyBestAndWorstMistake from "./chapters/yudkowskysComingOfAge/MyBestAndWorstMistake";
+import RaisedInTechnophilia from "./chapters/yudkowskysComingOfAge/RaisedInTechnophilia";
+import AProdigyOfRefutation from "./chapters/yudkowskysComingOfAge/AProdigyOfRefutation";
+import TheSheerFollyOfCallowYouth from "./chapters/yudkowskysComingOfAge/TheSheerFollyOfCallowYouth";
+import ThatTinyNoteOfDiscord from "./chapters/yudkowskysComingOfAge/ThatTinyNoteOfDiscord";
+import FightingARearguardActionAgainstTheTruth from "./chapters/yudkowskysComingOfAge/FightingARearguardActionAgainstTheTruth";
+import MyNaturalisticAwakening from "./chapters/yudkowskysComingOfAge/MyNaturalisticAwakening";
+import TheLevelAboveMine from "./chapters/yudkowskysComingOfAge/TheLevelAboveMine";
+import TheMagnitudeOfHisOwnFolly from "./chapters/yudkowskysComingOfAge/TheMagnitudeOfHisOwnFolly";
+import BeyondTheReachOfGod from "./chapters/yudkowskysComingOfAge/BeyondTheReachOfGod";
+import MyBayesianEnlightenment from "./chapters/yudkowskysComingOfAge/MyBayesianEnlightenment";
+
+// Challenging the Difficult chapters
+import TsuyokuNaritai from "./chapters/challengingTheDifficult/TsuyokuNaritai";
+import TsuyokuVsTheEgalitarianInstinct from "./chapters/challengingTheDifficult/TsuyokuVsTheEgalitarianInstinct";
+import TryingToTry from "./chapters/challengingTheDifficult/TryingToTry";
+import UseTheTryHarderLuke from "./chapters/challengingTheDifficult/UseTheTryHarderLuke";
+import OnDoingTheImpossible from "./chapters/challengingTheDifficult/OnDoingTheImpossible";
+import MakeAnExtraordinaryEffort from "./chapters/challengingTheDifficult/MakeAnExtraordinaryEffort";
+import ShutUpAndDoTheImpossible from "./chapters/challengingTheDifficult/ShutUpAndDoTheImpossible";
+import FinalWords from "./chapters/challengingTheDifficult/FinalWords";
+
+// The Craft and the Community chapters
+import RaisingTheSanityWaterline from "./chapters/theCraftAndTheCommunity/RaisingTheSanityWaterline";
+import ASenseThatMoreIsPossible from "./chapters/theCraftAndTheCommunity/ASenseThatMoreIsPossible";
+import EpistemicViciousness from "./chapters/theCraftAndTheCommunity/EpistemicViciousness";
+import SchoolsProliferatingWithoutEvidence from "./chapters/theCraftAndTheCommunity/SchoolsProliferatingWithoutEvidence";
+import ThreeLevelsOfRationalityVerification from "./chapters/theCraftAndTheCommunity/ThreeLevelsOfRationalityVerification";
+import WhyOurKindCantCooperate from "./chapters/theCraftAndTheCommunity/WhyOurKindCantCooperate";
+import TolerateTolerance from "./chapters/theCraftAndTheCommunity/TolerateTolerance";
+import YourPriceForJoining from "./chapters/theCraftAndTheCommunity/YourPriceForJoining";
+import CanHumanismMatchReligionsOutput from "./chapters/theCraftAndTheCommunity/CanHumanismMatchReligionsOutput";
+import ChurchVsTaskforce from "./chapters/theCraftAndTheCommunity/ChurchVsTaskforce";
+import RationalityCommonInterestOfManyCauses from "./chapters/theCraftAndTheCommunity/RationalityCommonInterestOfManyCauses";
+import HelplessIndividuals from "./chapters/theCraftAndTheCommunity/HelplessIndividuals";
+import MoneyTheUnitOfCaring from "./chapters/theCraftAndTheCommunity/MoneyTheUnitOfCaring";
+import PurchaseFuzziesAndUtilonsSeparately from "./chapters/theCraftAndTheCommunity/PurchaseFuzziesAndUtilonsSeparately";
+import BystanderApathy from "./chapters/theCraftAndTheCommunity/BystanderApathy";
+import CollectiveApathyAndTheInternet from "./chapters/theCraftAndTheCommunity/CollectiveApathyAndTheInternet";
+import IncrementalProgressAndTheValley from "./chapters/theCraftAndTheCommunity/IncrementalProgressAndTheValley";
+import BayesiansVsBarbarians from "./chapters/theCraftAndTheCommunity/BayesiansVsBarbarians";
+import BewareOfOtherOptimizing from "./chapters/theCraftAndTheCommunity/BewareOfOtherOptimizing";
+import PracticalAdviceBackedByDeepTheories from "./chapters/theCraftAndTheCommunity/PracticalAdviceBackedByDeepTheories";
+import TheSinOfUnderconfidence from "./chapters/theCraftAndTheCommunity/TheSinOfUnderconfidence";
+import GoForthAndCreateTheArt from "./chapters/theCraftAndTheCommunity/GoForthAndCreateTheArt";
+
+import TableOfContents from "@/components/TableOfContents/TableOfContents";
 
 export default function Home() {
-  const contentRef = useRef(null);
 
-  useEffect(() => {
-    const loadPagedJS = async () => {
-      try {
-        if (contentRef.current) {
-          //Remove any existing preview container first
-          const existingPreview = document.getElementById("preview-container");
-          if (existingPreview) {
-            existingPreview.remove();
-          }
+  return <>
 
-          const paged = new Previewer();
+    <TitlePage volume="6" name="Becoming Stronger" />
 
-          //Get the HTML content as a string
-          const htmlContent = contentRef.current.innerHTML;
-
-          //Create a container for the preview
-          const previewContainer = document.createElement("div");
-          previewContainer.id = "preview-container";
-          document.body.appendChild(previewContainer);
-
-          //Get all stylesheets - this is crucial for PagedJS to see your @page rules
-          const stylesheets = [];
-          for (let i = 0; i < document.styleSheets.length; i++) {
-            const sheet = document.styleSheets[i];
-            if (sheet.href) {
-              stylesheets.push(sheet.href);
-            }
-          }
-
-          //Preview the content with stylesheets
-          await paged.preview(htmlContent, stylesheets, previewContainer).then((flow) => {
-            //Hide the original content
-            if (contentRef.current) {
-              contentRef.current.style.display = "none";
-            }
-          });
-        }
-      } catch (error) {
-        console.error("Failed to load PagedJS:", error);
+    <TableOfContents items={[
+      {
+        sequence: "X",
+        label: "Yudkowsky's Coming of Age",
+        chapters: [
+          { name: "My Childhood Death Spiral" },
+          { name: "My Best and Worst Mistake" },
+          { name: "Raised in Technophilia" },
+          { name: "A Prodigy of Refutation" },
+          { name: "The Sheer Folly of Callow Youth" },
+          { name: "That Tiny Note of Discord" },
+          { name: "Fighting a Rearguard Action Against the Truth" },
+          { name: "My Naturalistic Awakening" },
+          { name: "The Level Above Mine" },
+          { name: "The Magnitude of His Own Folly" },
+          { name: "Beyond the Reach of God" },
+          { name: "My Bayesian Enlightenment" },
+        ]
+      },
+      {
+        sequence: "Y",
+        label: "Challenging the Difficult",
+        chapters: [
+          { name: "Tsuyoku Naritai! (I Want to Become Stronger)" },
+          { name: "Tsuyoku vs. the Egalitarian Instinct" },
+          { name: "Trying to Try" },
+          { name: "Use the Try Harder, Luke" },
+          { name: "On Doing the Impossible" },
+          { name: "Make an Extraordinary Effort" },
+          { name: "Shut Up and Do the Impossible!" },
+          { name: "Final Words" },
+        ]
+      },
+      {
+        sequence: "Z",
+        label: "The Craft and the Community",
+        chapters: [
+          { name: "Raising the Sanity Waterline" },
+          { name: "A Sense That More Is Possible" },
+          { name: "Epistemic Viciousness" },
+          { name: "Schools Proliferating Without Evidence" },
+          { name: "Three Levels of Rationality Verification" },
+          { name: "Why Our Kind Can't Cooperate" },
+          { name: "Tolerate Tolerance" },
+          { name: "Your Price for Joining" },
+          { name: "Can Humanism Match Religion's Output?" },
+          { name: "Church vs. Taskforce" },
+          { name: "Rationality: Common Interest of Many Causes" },
+          { name: "Helpless Individuals" },
+          { name: "Money: The Unit of Caring" },
+          { name: "Purchase Fuzzies and Utilons Separately" },
+          { name: "Bystander Apathy" },
+          { name: "Collective Apathy and the Internet" },
+          { name: "Incremental Progress and the Valley" },
+          { name: "Bayesians vs. Barbarians" },
+          { name: "Beware of Other-Optimizing" },
+          { name: "Practical Advice Backed by Deep Theories" },
+          { name: "The Sin of Underconfidence" },
+          { name: "Go Forth and Create the Art!" },
+        ]
       }
-    };
-
-    loadPagedJS();
-
-    //Cleanup function to remove preview container
-    return () => {
-      const preview = document.getElementById("preview-container");
-      if (preview) {
-        preview.remove();
-      }
-      //Show original content again
-      if (contentRef.current) {
-        contentRef.current.style.display = "";
-      }
-    };
-  }); //No dependency array - runs on every render
-
-  return <div ref={contentRef}>
+    ]} />
 
 
-    <SequenceHeader title="" letter="A" />
+    <SequenceHeader title="Yudkowsky's Coming of Age" letter="X" />
+    <MyChildhoodDeathSpiral />
+    <MyBestAndWorstMistake />
+    <RaisedInTechnophilia />
+    <AProdigyOfRefutation />
+    <TheSheerFollyOfCallowYouth />
+    <ThatTinyNoteOfDiscord />
+    <FightingARearguardActionAgainstTheTruth />
+    <MyNaturalisticAwakening />
+    <TheLevelAboveMine />
+    <TheMagnitudeOfHisOwnFolly />
+    <BeyondTheReachOfGod />
+    <MyBayesianEnlightenment />
 
+    <SequenceHeader title="Challenging the Difficult" letter="Y" />
+    <TsuyokuNaritai />
+    <TsuyokuVsTheEgalitarianInstinct />
+    <TryingToTry />
+    <UseTheTryHarderLuke />
+    <OnDoingTheImpossible />
+    <MakeAnExtraordinaryEffort />
+    <ShutUpAndDoTheImpossible />
+    <FinalWords />
 
+    <SequenceHeader title="The Craft and the Community" letter="Z" />
+    <RaisingTheSanityWaterline />
+    <ASenseThatMoreIsPossible />
+    <EpistemicViciousness />
+    <SchoolsProliferatingWithoutEvidence />
+    <ThreeLevelsOfRationalityVerification />
+    <WhyOurKindCantCooperate />
+    <TolerateTolerance />
+    <YourPriceForJoining />
+    <CanHumanismMatchReligionsOutput />
+    <ChurchVsTaskforce />
+    <RationalityCommonInterestOfManyCauses />
+    <HelplessIndividuals />
+    <MoneyTheUnitOfCaring />
+    <PurchaseFuzziesAndUtilonsSeparately />
+    <BystanderApathy />
+    <CollectiveApathyAndTheInternet />
+    <IncrementalProgressAndTheValley />
+    <BayesiansVsBarbarians />
+    <BewareOfOtherOptimizing />
+    <PracticalAdviceBackedByDeepTheories />
+    <TheSinOfUnderconfidence />
+    <GoForthAndCreateTheArt />
 
-
-    <SequenceHeader title="" letter="B" />
-
-
-
-
-
-    <SequenceHeader title="" letter="C" />
-
-
-
-
-
-    <SequenceHeader title="" letter="D" />
-
-
-  </div>;
+  </>
 }

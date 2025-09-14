@@ -1,7 +1,7 @@
 "use client";
 
 import katex from "katex";
-import React, {useEffect, useRef} from "react";
+import React, { useEffect, useRef } from "react";
 import "katex/dist/katex.min.css";
 import css from "./Latex.module.scss";
 
@@ -13,7 +13,7 @@ import css from "./Latex.module.scss";
  * @param display - [optional] Display mode: "inline" or "block" (defaults to "inline")
  * @returns       A span element containing the rendered LaTeX expression
  */
-export default function Latex({display = "inline", math}) {
+export default function Latex({ display = "inline", math }) {
   const containerRef = useRef();
 
   useEffect(() => {

@@ -1,0 +1,29 @@
+import React from "react";
+import Chapter from "@/components/Chapter/Chapter";
+
+export default function SchoolsProliferatingWithoutEvidence() {
+  return <Chapter title={["Schools Proliferating Without Evidence"]}>
+
+
+    <p><span className="dropCap">R</span>obyn Dawes, author of one of the original papers from <em>Judgment Under Uncertainty</em> and of the book <em>Rational Choice in an Uncertain World</em>—one of the few who tries really hard to import the results to real life—is also the author of <em>House of Cards: Psychology and Psychotherapy Built on Myth</em>.</p>
+    <p>From House of Cards, chapter 1:<span class="footnote">Robyn M. Dawes, <em>House of Cards: Psychology and Psychotherapy Built on Myth</em> (Free Press, 1996).</span></p>
+    <blockquote>
+      <p>The ability of these professionals has been subjected to empirical scrutiny—for example, their effectiveness as therapists (Chapter 2), their insight about people (Chapter 3), and the relationship between how well they function and the amount of experience they have had in their field (Chapter 4). Virtually all the research—and this book will reference more than three hundred empirical investigations and summaries of investigations—has found that these professionals’ claims to superior intuitive insight, understanding, and skill as therapists are simply invalid…</p>
+    </blockquote>
+    <p>Remember Rorschach ink-blot tests? It’s such an appealing argument: the patient looks at the ink-blot and says what they see, the psychotherapist interprets their psychological state based on this. There’ve been hundreds of experiments looking for some evidence that it actually works. Since you’re reading this, you can guess the answer is simply “No.” Yet the Rorschach is still in use. It’s just such a <em>good story</em> that psychotherapists simply can’t bring themselves to believe the vast mounds of experimental evidence saying it doesn’t work—</p>
+    <p>—which tells you what sort of field we’re dealing with here.</p>
+    <p>And the experimental results on the field as a whole are commensurate. Yes, patients who see psychotherapists have been known to get better faster than patients who simply do nothing. But there is no statistically discernible difference between the many schools of psychotherapy. There is no discernible gain from years of expertise.</p>
+    <p>And there’s also no discernible difference between seeing a psychotherapist and spending the same amount of time talking to a randomly selected college professor from another field. It’s just talking to <em>anyone</em> that helps you get better, apparently.</p>
+    <p><em>In the entire absence of the slightest experimental evidence for their effectiveness</em>, psychotherapists became licensed by states, their testimony accepted in court, their teaching schools accredited, and their bills paid by health insurance.</p>
+    <p>And there was also a huge proliferation of “schools,” of traditions of practice, in psychotherapy; despite—or perhaps <em>because</em> of—the lack of any experiments showing that one school was better than another…</p>
+    <p>I should really write more some other time on all the sad things this says about our world. About how <em>the essence of medicine</em>, as recognized by society and the courts, is not a repertoire of procedures with statistical evidence for their healing effectiveness; but, rather, the right air of authority.</p>
+    <p>But the subject here is the proliferation of traditions in psychotherapy. So far as I can discern, this was the way you picked up prestige in the field—not by discovering an amazing new technique whose effectiveness could be experimentally verified and adopted by all; but, rather, by splitting off your own “school,” supported by your charisma as founder, and by the good stories you told about all the reasons your techniques <em>should</em> work.</p>
+    <p>This was probably, to no small extent, responsible for the existence and continuation of psychotherapy in the first place—the promise of making yourself a Master, like Freud who’d done it first (also without the slightest scrap of experimental evidence). That’s the brass ring of success to chase—the prospect of being a guru and having your own adherents. It’s the struggle for adherents that keeps the clergy vital.</p>
+    <p>That’s what happens to a field when it unbinds itself from the experimental evidence—though there were other factors that also placed psychotherapists at risk, such as the deference shown them by their patients, the wish of society to believe that mental healing was possible, and, of course, the general dangers of telling people how to think.</p>
+    <p>(Dawes wrote in the ’80s and I know that the Rorschach was still in use as recently as the ’90s, but it’s possible matters have improved since then (as one commenter states). I do remember hearing that there was positive evidence for the greater effectiveness of cognitive-behavioral therapy.)</p>
+    <p>The field of hedonic psychology (happiness studies) began, to some extent, with the realization that you could <em>measure</em> happiness—that there was a family of measures that by golly did validate well against each other.</p>
+    <p>The act of creating a new measurement creates new science; if it’s a <em>good</em> measurement, you get good science.</p>
+    <p>If you’re going to create an organized practice of anything, you really do need some way of telling how well you’re doing, and a practice of doing serious testing—that means a control group, an experimental group, and statistics—on plausible-sounding techniques that people come up with. You <em>really</em> need it.</p>
+
+  </Chapter>;
+}

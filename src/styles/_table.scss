@@ -1,11 +1,13 @@
 table{
+  break-inside: avoid;
+
   border-collapse: collapse;
   thead th{
     border-bottom: 1px solid var(--black);
   }
 
   th,
- td{
+  td{
     padding: var(--spacing3) var(--spacing4);
   }
 }

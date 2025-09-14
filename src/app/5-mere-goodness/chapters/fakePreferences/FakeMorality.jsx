@@ -1,0 +1,21 @@
+import React from "react";
+import Chapter from "@/components/Chapter/Chapter";
+
+export default function FakeMorality() {
+  return <Chapter title={["Fake Morality"]}>
+
+
+
+    <p><span className="dropCap">G</span>od, say the religious fundamentalists, is the source of all morality; there can be no morality without a Judge who rewards and punishes. If we did not fear hell and yearn for heaven, then what would stop people from murdering each other left and right?</p>
+    <p>Suppose Omega makes a credible threat that if you ever step inside a bathroom between 7 a.m. and 10 a.m. in the morning, Omega will kill you. Would you be panicked by the prospect of Omega withdrawing its threat? Would you cower in existential terror and cry: “If Omega withdraws its threat, then what’s to keep me from going to the bathroom?” No; you’d probably be quite relieved at your increased opportunity to, ahem, relieve yourself.</p>
+    <p>Which is to say: The very fact that a religious person would be <em>afraid</em> of God withdrawing Its threat to punish them for committing murder shows that they have a revulsion of murder that is independent of whether God punishes murder or not. If they had no sense that murder was wrong independently of divine retribution, the prospect of God not punishing murder would be no more existentially horrifying than the prospect of God not punishing sneezing. If <em>Overcoming Bias</em> has any religious readers left, I say to you: it may be that you will someday lose your faith; and on that day, you will <em>not</em> lose all sense of moral direction. For if you fear the prospect of God not punishing some deed, that <em>is</em> a moral compass. You can plug that compass directly into your decision system and steer by it. You can simply <em>not do</em> whatever you are afraid God may not punish you for doing. The fear of losing a moral compass is <em>itself</em> a moral compass. Indeed, I suspect you <em>are</em> steering by that compass, and that you always have been. As Piers Anthony once said, “Only those with souls worry over whether or not they have them.” s/soul/morality/ and the point carries.</p>
+    <p>You don’t hear religious fundamentalists using the argument: “If we did not fear hell and yearn for heaven, then what would stop people from eating pork?” <em>Yet by their assumptions</em>—that we have no moral compass but divine reward and retribution—this argument should sound just as forceful as the other.</p>
+    <p>Even the notion that God threatens you with eternal hellfire, rather than cookies, piggybacks on a pre-existing negative value for hellfire. Consider the following, and ask which of these two philosophers is really the altruist, and which is really selfish?</p>
+    <blockquote>
+      <p>“You should be selfish, because when people set out to improve society, they meddle in their neighbors’ affairs and pass laws and seize control and make everyone unhappy. Take whichever job that pays the most money: the reason the job pays more is that the efficient market thinks it produces more value than its alternatives. Take a job that pays less, and you’re second-guessing what the market thinks will benefit society most.”</p>
+      <p>“You should be altruistic, because the world is an iterated Prisoner’s Dilemma, and the strategy that fares best is Tit for Tat with initial cooperation. People don’t <em>like</em> jerks. Nice guys really do finish first. Studies show that people who contribute to society and have a sense of meaning in their lives are happier than people who don’t; being selfish will only make you unhappy in the long run.”</p>
+    </blockquote>
+    <p>Blank out the <em>recommendations</em> of these two philosophers, and you can see that the first philosopher is using strictly prosocial criteria to <em>justify</em> their recommendations; to the first philosopher, what validates an argument for selfishness is showing that selfishness benefits everyone. The second philosopher appeals to strictly individual and hedonic criteria; to them, what <em>validates</em> an argument for altruism is showing that altruism benefits them as an individual—higher social status, or more intense feelings of pleasure.</p>
+    <p>So which of these two is the <em>actual</em> altruist? Whichever one <em>actually</em> holds open doors for little old ladies.</p>
+  </Chapter>;
+}

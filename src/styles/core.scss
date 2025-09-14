@@ -5,6 +5,7 @@
 @import "./_figure.scss";
 @import "./_table.scss";
 @import "./_code.scss";
+@import "./_hr.scss";
 
 
 html{
@@ -25,4 +26,10 @@ body{
 
 .smallCaps{
   font-family: var(--secondaryFont);
+}
+
+
+p{
+  widows: 1;
+  orphans: 1;
 }

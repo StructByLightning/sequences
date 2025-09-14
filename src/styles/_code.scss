@@ -2,3 +2,12 @@ code{
   font-size: var(--fontSize1);
   font-family: "Fira Code", serif;
 }
+
+
+pre{
+  padding: var(--spacing4) var(--spacing5);
+
+  white-space: pre-wrap;
+
+  border: 1px solid var(--black);
+}

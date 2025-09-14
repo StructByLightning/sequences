@@ -65,7 +65,7 @@ import AnIntuitiveExplanationOfBayessTheorem from "@/app/3-the-machine-in-the-gh
 export default function Home() {
 
   return <>
-    {/* 
+
     <TitlePage volume="3" name="The Machine in the Ghost" />
 
     <TableOfContents items={[
@@ -141,39 +141,38 @@ export default function Home() {
           { name: "An Intuitive Explanation of Bayes's Theorem" },
         ]
       }
-
-    ]} /> */}
-
+    ]} />
 
 
-    {/* <SequenceHeader title="The Simple Math of Evolution" letter="L" /> */}
 
-    {/* <ThePowerOfIntelligence /> */}
-    {/* <AnAlienGod /> */}
-    {/* <TheWonderOfEvolution /> */}
-    {/* <EvolutionsAreStupid /> */}
-    {/* <NoEvolutionsForCorporationsOrNanodevices /> */}
-    {/* <EvolvingToExtinction /> */}
-    {/* <TheTragedyOfGroupSelectionism /> */}
-    {/* <FakeOptimizationCriteria /> */}
-    {/* <AdaptationExecutersNotFitnessMaximizers /> */}
-    {/* <EvolutionaryPsychology /> */}
-    {/* <AnEspeciallyElegantEvolutionaryPsychologyExperiment /> */}
-    {/* <SuperstimuliAndTheCollapseOfWesternCivilization /> */}
-    {/* <ThouArtGodshatter /> */}
+    <SequenceHeader title="The Simple Math of Evolution" letter="L" />
 
-    {/* <SequenceHeader title="Fragile Purposes" letter="M" /> */}
+    <ThePowerOfIntelligence />
+    <AnAlienGod />
+    <TheWonderOfEvolution />
+    <EvolutionsAreStupid />
+    <NoEvolutionsForCorporationsOrNanodevices />
+    <EvolvingToExtinction />
+    <TheTragedyOfGroupSelectionism />
+    <FakeOptimizationCriteria />
+    <AdaptationExecutersNotFitnessMaximizers />
+    <EvolutionaryPsychology />
+    <AnEspeciallyElegantEvolutionaryPsychologyExperiment />
+    <SuperstimuliAndTheCollapseOfWesternCivilization />
+    <ThouArtGodshatter />
 
-    {/* <BeliefInIntelligence /> */}
-    {/* <HumansInFunnySuits /> */}
-    {/* <OptimizationAndTheIntelligenceExplosion /> */}
-    {/* <GhostsInTheMachine /> */}
-    {/* <ArtificialAddition /> */}
-    {/* <TerminalValuesAndInstrumentalValues /> */}
-    {/* <LeakyGeneralizations /> */}
-    {/* <TheHiddenComplexityOfWishes /> */}
-    {/* <AnthropomorphicOptimism /> */}
-    {/* <LostPurposes /> */}
+    <SequenceHeader title="Fragile Purposes" letter="M" />
+
+    <BeliefInIntelligence />
+    <HumansInFunnySuits />
+    <OptimizationAndTheIntelligenceExplosion />
+    <GhostsInTheMachine />
+    <ArtificialAddition />
+    <TerminalValuesAndInstrumentalValues />
+    <LeakyGeneralizations />
+    <TheHiddenComplexityOfWishes />
+    <AnthropomorphicOptimism />
+    <LostPurposes />
 
     <SequenceHeader title="A Human's Guide to Words" letter="N" />
 

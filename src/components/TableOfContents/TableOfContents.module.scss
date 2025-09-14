@@ -50,7 +50,7 @@
         .letter{
           font-size: var(--fontSize7);
           font-family: var(--dropCapsFont);
-          line-height: 1em;
+          line-height: 1.3em;
 
           // Extra insurance - keep drop cap with its sibling
           break-after: avoid;

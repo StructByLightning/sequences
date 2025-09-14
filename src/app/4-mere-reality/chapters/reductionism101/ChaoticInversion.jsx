@@ -1,0 +1,25 @@
+import React from "react";
+import Chapter from "@/components/Chapter/Chapter";
+
+export default function ChaoticInversion() {
+  return <Chapter title={["Chaotic Inversion"]}>
+
+
+    <p><span className="dropCap">I</span> was recently having a conversation with some friends on the topic of hour-by-hour productivity and willpower maintenance—something I’ve struggled with my whole life.</p>
+    <p>I can avoid running away from a hard problem the first time I see it (perseverance on a timescale of seconds), and I can stick to the same problem for years; but to keep working on a timescale of <em>hours</em> is a constant battle for me. It goes without saying that I’ve already read reams and reams of advice; and the most help I got from it was realizing that a sizable fraction of other creative professionals had the same problem, and couldn’t beat it either, no matter how reasonable all the advice sounds.</p>
+    <p>“What do you do when you can’t work?” my friends asked me. (Conversation probably not accurate, this is a very loose gist.)</p>
+    <p>And I replied that I usually browse random websites, or watch a short video.</p>
+    <p>“Well,” they said, “if you know you can’t work for a while, you should watch a movie or something.”</p>
+    <p>“Unfortunately,” I replied, “I have to do something whose time comes in short units, like browsing the Web or watching short videos, because I might become able to work again at any time, and I can’t predict when—”</p>
+    <p>And then I stopped, because I’d just had a revelation.</p>
+    <p>I’d always thought of my workcycle as something <em>chaotic</em>, something <em>unpredictable</em>. I never used those words, but that was the way I <em>treated</em> it.</p>
+    <p>But here my friends seemed to be implying—what a strange thought—that <em>other</em> people could predict when they would become able to work again, and structure their time accordingly.</p>
+    <p>And it occurred to me for the first time that I might have been committing that damned old chestnut the Mind Projection Fallacy, right out there in my ordinary everyday life instead of high abstraction.</p>
+    <p>Maybe it wasn’t that my productivity was <em>unusually chaotic</em>; maybe I was just <em>unusually stupid</em> with respect to predicting it.</p>
+    <p>That’s what inverted stupidity looks like—chaos. Something hard to handle, hard to grasp, hard to guess, something you can’t do anything with. It’s not just an idiom for high abstract things like Artificial Intelligence. It can apply in ordinary life too.</p>
+    <p>And the reason we don’t think of the alternative explanation “I’m stupid,” is <em>not</em>—I suspect—that we think so highly of ourselves. It’s just that we don’t think of ourselves at all. We just see a chaotic feature of the environment.</p>
+    <p>So now it’s occurred to me that my productivity problem may not be chaos, but my own stupidity.</p>
+    <p>And that may or may not help anything. It certainly doesn’t fix the problem right away. Saying “I’m ignorant” doesn’t make you knowledgeable.</p>
+    <p>But it is, at least, a different path than saying “it’s too chaotic.”</p>
+  </Chapter>;
+}
