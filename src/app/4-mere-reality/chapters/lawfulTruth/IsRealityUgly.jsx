@@ -14,8 +14,10 @@ export default function IsRealityUgly() {
     <p>Score:</p>
     <table>
       <thead>
-        <th>Person</th>
-        <th>Score</th>
+        <tr>
+          <th>Person</th>
+          <th>Score</th>
+        </tr>
       </thead>
       <tbody>
         <tr>

@@ -210,6 +210,14 @@ section{
   page: plainpage;
   break-before: page;
 }
+
+//Forced blank pages before chapters
+.forced-blank-page{
+  display: block;
+  page: blankpage;
+  break-before: page;
+  break-after: page;
+}
 @page plainpage{
   size: 6in 8.5in;
 
@@ -218,6 +226,33 @@ section{
 
 // First page of each section - hide all margins
 @page plainpage{
+  @top-left{
+    display: none;
+
+    content: none;
+  }
+  @top-right{
+    display: none;
+
+    content: none;
+  }
+  @bottom-left{
+    display: none;
+
+    content: none;
+  }
+  @bottom-right{
+    display: none;
+
+    content: none;
+  }
+}
+
+//Blank page styling (no headers/footers)
+@page blankpage{
+  size: 6in 8.5in;
+
+  margin: 0.75in 0.5in 0.75in 0.5in;
   @top-left{
     display: none;
 

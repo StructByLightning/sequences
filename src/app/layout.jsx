@@ -22,7 +22,28 @@ export default function RootLayout({ children }) {
           const paged = new Previewer();
 
           //Get the HTML content as a string
-          const htmlContent = contentRef.current.innerHTML;
+          let htmlContent = contentRef.current.innerHTML;
+
+          //Insert blank pages before chapters
+          const tempDiv = document.createElement('div');
+          tempDiv.innerHTML = htmlContent;
+
+          //Find all chapter elements
+          const chapters = tempDiv.querySelectorAll('.chapter');
+
+          chapters.forEach((chapter) => {
+            //Create a blank page element that will force a page break
+            const blankPage = document.createElement('div');
+            blankPage.className = 'forced-blank-page';
+            blankPage.style.cssText = 'page-break-before: always; page-break-after: always; height: 1px;';
+            blankPage.innerHTML = '&nbsp;'; //Non-breaking space to ensure the element renders
+
+            //Insert the blank page before the chapter
+            chapter.parentNode.insertBefore(blankPage, chapter);
+          });
+
+          //Update the HTML content with the blank pages
+          htmlContent = tempDiv.innerHTML;
 
           //Create a container for the preview
           const previewContainer = document.createElement("div");
