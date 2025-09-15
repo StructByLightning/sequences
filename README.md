@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Sequences
 
-## Getting Started
+Web app rendering Eliezer Yudkowsky's "The Sequences" (Rationality: From AI to Zombies) as a paginated book using PagedJS.
 
-First, run the development server:
+## Setup
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Book URLs
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Access each book at these localhost URLs:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Map and Territory**: http://localhost:3000/1-map-and-territory
+2. **How to Actually Change Your Mind**: http://localhost:3000/2-how-to-actually-change-your-mind
+3. **The Machine in the Ghost**: http://localhost:3000/3-the-machine-in-the-ghost
+4. **Mere Reality**: http://localhost:3000/4-mere-reality
+5. **Mere Goodness**: http://localhost:3000/5-mere-goodness
+6. **Becoming Stronger**: http://localhost:3000/6-becoming-stronger
 
-## Learn More
+## Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 15.4.6 / React 19.1.0
+- PagedJS for pagination
+- KaTeX for math rendering
+- SCSS for styling
