@@ -1,0 +1,80 @@
+.toc{
+  .inner{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    .title{
+      margin-bottom: var(--spacing8);
+
+      font-size: var(--fontSize6);
+      font-family: var(--secondaryFont);
+      text-align: center;
+    }
+
+    .items{
+
+      .sequence{
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: var(--spacing8);
+
+        // Keep first few elements of sequence together
+        // This prevents orphaning the label group
+        break-inside: avoid-page;
+
+        // If sequence is too long, allow break after 3rd entry
+        .entry:nth-child(n+4){
+          break-before: auto;
+        }
+      }
+
+      .label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: var(--spacing5);
+
+        page-break-after: avoid;
+        page-break-inside: avoid;
+
+        // CRITICAL: Prevent the label from breaking internally
+        // This keeps drop cap and section title together
+        break-inside: avoid;
+
+        // Also prevent break right after the label
+        break-after: avoid;
+
+        .letter{
+          font-size: var(--fontSize7);
+          font-family: var(--dropCapsFont);
+          line-height: 1.3em;
+
+          // Extra insurance - keep drop cap with its sibling
+          break-after: avoid;
+
+          page-break-after: avoid;
+        }
+
+        .label{
+          font-family: var(--secondaryFont);
+        }
+      }
+
+      .entry{
+        color: initial;
+        text-decoration: none;
+
+        // Keep first two entries with the label
+        &:nth-child(2),
+        &:nth-child(3){
+          break-after: avoid;
+
+          page-break-after: avoid;
+        }
+      }
+    }
+  }
+}

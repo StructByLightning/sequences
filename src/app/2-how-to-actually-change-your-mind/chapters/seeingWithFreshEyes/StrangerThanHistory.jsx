@@ -1,0 +1,22 @@
+import React from "react";
+import Chapter from "@/components/Chapter/Chapter";
+
+export default function StrangerThanHistory() {
+  return <Chapter title={["Stranger than History"]}>
+
+    <p><span className="dropCap">S</span>uppose I told you that I knew for a <em>fact</em> that the following statements were true:</p>
+    <ul>
+      <li>If you paint yourself a certain <em>exact</em> color between blue and green, it will reverse the force of gravity on you and cause you to fall upward.</li>
+      <li>In the future, the sky will be filled by billions of floating black spheres. Each sphere will be larger than all the zeppelins that have ever existed put together. If you offer a sphere money, it will lower a male prostitute out of the sky on a bungee cord.</li>
+      <li>Your grand children will think it is not just foolish, but <em>evil</em>, to put thieves in jail instead of spanking them.</li>
+    </ul>
+    <p>You’d think I was crazy, right?</p>
+    <p>Now suppose it were the year 1901, and you had to choose between believing those statements I have just offered, and believing statements like the following:</p>
+    <ul>
+      <li>There is an absolute speed limit on how fast two objects can seem to be traveling relative to each other, which is exactly 670,616,629.2 miles per hour. If you hop on board a train going almost this fast and fire a gun out the window, the fundamental units of length change around, so it looks to <em>you</em> like the bullet is speeding ahead of you, but other people see something different. Oh, and time changes around too.</li>
+      <li>In the future, there will be a superconnected global network of billions of adding machines, each one of which has more power than all pre-1901 adding machines put together. One of the primary uses of this network will be to transport moving pictures of lesbian sex by pretending they are made out of numbers.</li>
+      <li>Your grand children will think it is not just foolish, but <em>evil</em>, to say that someone should not be President of the United States because she is black.</li>
+    </ul>
+    <p>Based on a comment of Robin Hanson’s: <em>“I wonder if one could describe in enough detail a fictional story of an alternative reality, a reality that our ancestors could not distinguish from the truth, in order to make it very clear how surprising the truth turned out to be.”</em></p>
+  </Chapter>;
+}

@@ -1,0 +1,23 @@
+import React from "react";
+import Chapter from "@/components/Chapter/Chapter";
+
+export default function WrongQuestions() {
+  return <Chapter title={["Wrong Questions"]}>
+
+
+    <p><span className="dropCap">W</span>here the mind cuts against reality’s grain, it generates <em>wrong questions</em>—questions that cannot possibly be answered <em>on their own terms</em>, but only dissolved by understanding the cognitive algorithm that generates the <em>perception</em> of a question.</p>
+    <p>One good cue that you’re dealing with a “wrong question” is when you cannot even <em>imagine</em> any concrete, specific state of how-the-world-is that would answer the question. When it doesn’t even seem <em>possible</em> to answer the question.</p>
+    <p>Take the Standard Definitional Dispute, for example, about the tree falling in a deserted forest. Is there any way-the-world-could-be—any state of affairs— that corresponds to the word “sound” <em>really meaning</em> only acoustic vibrations, or <em>really meaning</em> only auditory experiences?</p>
+    <p>(“Why, yes,” says the one, “it is the state of affairs where ‘sound’ means acoustic vibrations.” So Taboo the word “means,” and “represents,” and all similar synonyms, and describe again: What way-the-world-can-be, what state of affairs, would make one side right, and the other side wrong?)</p>
+    <p>Or if that seems too easy, take free will: What concrete state of affairs, whether in deterministic physics, or in physics with a dice-rolling random component, could ever correspond to having free will?</p>
+    <p>And if <em>that</em> seems too easy, then ask “Why does anything exist at all?,” and then tell me what a satisfactory answer to that question would even <em>look like</em>.</p>
+    <p>And no, I don’t know the answer to that last one. But I <em>can</em> guess one thing, based on my previous experience with unanswerable questions. The answer will not consist of some grand triumphant First Cause. The question will go away as a result of some insight into how my mental algorithms run skew to reality, after which I will understand how the question itself was wrong from the beginning—how the question itself assumed the fallacy, contained the skew.</p>
+    <p>Mystery exists in the mind, not in reality. If I am ignorant about a phenomenon, that is a fact about my state of mind, not a fact about the phenomenon itself. All the more so if it seems like no possible answer can exist: Confusion exists in the map, not in the territory. <em>Unanswerable</em> questions do not mark places where magic enters the universe. They mark places where your mind runs skew to reality.</p>
+    <p>Such questions <em>must</em> be dissolved. Bad things happen when you try to answer them. It inevitably generates the worst sort of Mysterious Answer to a Mysterious Question: The one where you come up with seemingly strong arguments for your Mysterious Answer, but the “answer” doesn’t let you make any new predictions even in retrospect, and the phenomenon still possesses the same sacred inexplicability that it had at the start.</p>
+    <p>I could guess, for example, that the answer to the puzzle of the First Cause is that nothing <em>does</em> exist—that the whole concept of “existence” is bogus. But if you sincerely believed that, would you be any less confused? Me neither.</p>
+    <p>But the wonderful thing about <em>unanswerable</em> questions is that they are <em>always</em> solvable, at least in my experience. What went through Queen Elizabeth I’s mind, first thing in the morning, as she woke up on her fortieth birthday? As I can easily <em>imagine</em> answers to this question, I can readily see that I may never be able to <em>actually</em> answer it, the true information having been lost in time.</p>
+    <p>On the other hand, “Why does anything exist at all?” seems <em>so</em> absolutely impossible that I can infer that I am just confused, one way or another, and the truth probably isn’t all that complicated in an absolute sense, and once the confusion goes away I’ll be able to see it.</p>
+    <p>This may seem counterintuitive if you’ve never solved an unanswerable question, but I assure you that it <em>is</em> how these things work.</p>
+    <p>Coming next: a simple trick for handling “wrong questions.”</p>
+  </Chapter>;
+}

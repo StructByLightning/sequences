@@ -1,0 +1,16 @@
+import React from "react";
+import Chapter from "@/components/Chapter/Chapter";
+
+export default function MindProjectionFallacy() {
+  return <Chapter title={["Mind Projection Fallacy"]}>
+    <p><span className="dropCap">I</span>n the dawn days of science fiction, alien invaders would occasionally kidnap a girl in a torn dress and carry her off for intended ravishing, as lovingly depicted on many ancient magazine covers. Oddly enough, the aliens never go after men in torn shirts.</p>
+    <p>Would a non-humanoid alien, with a different evolutionary history and evolutionary psycho­lo­gy, sexually desire a human female? It seems rather unlikely. To put it mildly.</p>
+    <p>People don’t make mistakes like that by deliberately reasoning: “All possible minds are likely to be wired pretty much the same way, therefore a bug-eyed monster will find human females attractive.” Probably the artist did not even think to ask whether an alien <em>perceives</em> human females as attractive. Instead, a human female in a torn dress <em>is sexy</em>—inherently so, as an intrinsic property.</p>
+    <p>They who went astray did not think about the alien’s evolutionary history; they focused on the woman’s torn dress. If the dress were not torn, the woman would be less sexy; the alien monster doesn’t enter into it.</p>
+    <p>Apparently we instinctively represent Sexiness as a direct attribute of the Woman data structure, Woman.sexiness, like Woman.height or Woman.weight.</p>
+    <p>If your brain uses that data structure, or something metaphorically similar to it, then from the inside it feels like sexiness is an inherent property of the woman, not a property of the alien looking at the woman. Since the woman <em>is attractive</em>, the alien monster will be <em>attracted</em> to her—isn’t that logical?</p>
+    <p>E. T. Jaynes used the term Mind Projection Fallacy to denote the error of projecting your own mind’s properties into the external world. Jaynes, as a late grand master of the Bayesian Conspiracy, was most concerned with the mistreatment of <em>probabilities</em> as inherent properties of objects, rather than states of partial knowledge in some particular mind. More about this shortly.</p>
+    <p>But the Mind Projection Fallacy generalizes as an error. It is in the argument over the real meaning of the word sound, and in the magazine cover of the monster carrying off a woman in the torn dress, and Kant’s declaration that space by its very nature is flat, and Hume’s definition of a priori ideas as those “discoverable by the mere operation of thought, without dependence on what is anywhere existent in the universe”…</p>
+    <p>(Incidentally, I once read a science fiction story about a human male who entered into a sexual relationship with a sentient alien plant of appropriately squishy fronds; discovered that it was an androecious (male) plant; agonized about this for a bit; and finally decided that it didn’t really matter at that point. And in Foglio and Pollotta’s <em>Illegal Aliens</em>, the humans land on a planet inhabited by sentient insects, and see a movie advertisement showing a human carrying off a bug in a delicate chiffon dress. Just thought I’d mention that.)</p>
+  </Chapter>;
+}
