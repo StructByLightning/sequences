@@ -1,5 +1,8 @@
 blockquote{
-  margin: var(--spacing5) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing5);
+  margin: 0;
   padding: var(--spacing4);
 
   font-family: var(--primaryFont);
@@ -14,8 +17,7 @@ blockquote{
     margin-bottom: 0;
   }
 
-  &:first-child,
-  &:last-child{
+  &:first-child{
     margin-top: 0;
   }
 }

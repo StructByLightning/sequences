@@ -1,6 +1,8 @@
 table{
   break-inside: avoid;
 
+  text-align: center;
+
   border-collapse: collapse;
   thead th{
     border-bottom: 1px solid var(--black);

@@ -15,6 +15,6 @@ export default function YourStrengthAsARationalist() {
     <p>Your strength as a rationalist is your ability to be more confused by fiction than by reality. If you are equally good at explaining any outcome, you have zero knowledge.</p>
     <p>We are all weak, from time to time; the sad part is that I <em>could</em> have been stronger. I had all the information I needed to arrive at the correct answer, I even <em>noticed</em> the problem, and then I ignored it. My feeling of confusion was a Clue, and I threw my Clue away.</p>
     <p>I should have paid more attention to that sensation of <em>still feels a little forced</em>. It’s one of the most important feelings a truthseeker can have, a part of your strength as a rationalist. It is a design flaw in human cognition that this sensation manifests as a quiet strain in the back of your mind, instead of a wailing alarm siren and a glowing neon sign reading:</p>
-    <p style={{ textAlign: "center", fontSize: "1.618em", lineHeight: "1.618em", fontFamily: "var(--secondaryFont)" }}>Either Your Model Is False Or This Story Is Wrong.</p>
+    <p style={{ textAlign: "center", fontSize: "1.618em", lineHeight: "1.618em", fontFamily: "var(--secondaryFont)" }}>Either Your Model Is False<br /> Or This Story Is Wrong</p>
   </Chapter>
 }

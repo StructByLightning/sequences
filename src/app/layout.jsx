@@ -67,6 +67,14 @@ export default function RootLayout({ children }) {
             if (contentRef.current) {
               contentRef.current.style.display = "none";
             }
+
+            //Set height: 100% on all .chapter elements
+            //We have to do it here instead of css or it will break the layout with footnotes
+            const chapterElements = previewContainer.querySelectorAll('.chapter');
+            chapterElements.forEach((chapter) => {
+              chapter.style.height = '100%';
+            });
+
           });
 
           // Update TOC page numbers after a short delay to ensure DOM is ready

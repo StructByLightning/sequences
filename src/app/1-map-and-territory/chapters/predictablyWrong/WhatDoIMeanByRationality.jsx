@@ -25,7 +25,7 @@ export default function WhatDoIMeanByRationality() {
 
     <Latex math="P(\textit{Bill plays jazz})" display="block" />
     <p>is less than</p>
-    <Latex math="P(\textit{Bill plays jazz, Bill is an accountant)})" display="block" />
+    <Latex math="P(\textit{Bill plays jazz, Bill is an accountant})" display="block" />
 
     <p>is labeled incorrect.</p>
 

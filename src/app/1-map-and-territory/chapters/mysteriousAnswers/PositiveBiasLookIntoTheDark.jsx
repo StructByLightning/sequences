@@ -1,4 +1,5 @@
 import Chapter from "@/components/Chapter/Chapter";
+import Latex from "@/components/Latex/Latex";
 
 export default function PositiveBiasLookIntoTheDark() {
 
@@ -33,7 +34,8 @@ export default function PositiveBiasLookIntoTheDark() {
     <p>At this point the student wrote down their guess at the rule. What do <em>you</em> think the rule is? Would you have wanted to test another triplet, and if so, what would it be? Take a moment to think before continuing.</p>
     <p>The challenge above is based on a classic experiment due to Peter Wason, the 2-4-6 task. Although subjects given this task typically expressed high confidence in their guesses, only 21% of the subjects successfully guessed the experimenter’s real rule, and replications since then have continued to show success rates of around 20%.<span className="footnote">Peter Cathcart Wason, “On the Failure to Eliminate Hypotheses in a Conceptual Task,” <em>Quarterly Journal of Experimental Psychology</em> 12, no. 3 (1960): 129–140, doi:10.1080/17470216008416717.</span></p>
     <p>The study was called “On the failure to eliminate hypotheses in a conceptual task.” Subjects who attempt the 2-4-6 task usually try to generate <em>positive</em> examples, rather than <em>negative</em> examples—they apply the hypothetical rule to generate a representative instance, and see if it is labeled “Yes.”</p>
-    <p>Thus, someone who forms the hypothesis “numbers increasing by two” will test the triplet 8-10-12, hear that it fits, and confidently announce the rule. Someone who forms the hypothesis <em>X</em>-2_X_-3_X_ will test the triplet 3-6-9, discover that it fits, and then announce that rule.</p>
+
+    <p>Thus, someone who forms the hypothesis “numbers increasing by two” will test the triplet 8-10-12, hear that it fits, and confidently announce the rule. Someone who forms the hypothesis X-2X-3X will test the triplet 3-6-9, discover that it fits, and then announce that rule.</p>
     <p>In every case the actual rule is the same: the three numbers must be in ascending order.</p>
     <p>But to discover this, you would have to generate triplets that <em>shouldn’t</em> fit, such as 20-23-26, and see if they are labeled “No.” Which people tend not to do, in this experiment. In some cases, subjects devise, “test,” and announce rules far more complicated than the actual answer.</p>
     <p>This cognitive phenomenon is usually lumped in with “confirmation bias.” However, it seems to me that the phenomenon of trying to test <em>positive</em> rather than <em>negative</em> examples, ought to be distinguished from the phenomenon of trying to preserve the belief you started with. “Positive bias” is sometimes used as a synonym for “confirmation bias,” and fits this particular flaw much better.</p>
