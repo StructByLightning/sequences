@@ -6,7 +6,7 @@ export default function TitlePage({ volume, name }) {
   return <section className={`section ${css.titlePage}`}>
     <div className={css.inner}>
       <div className={css.sequences}>The Sequences</div>
-      <div className={css.separator}>volume {volume}</div>
+      <div className={css.separator}>{volume}</div>
       <div className={css.subtitle}>{name}</div>
 
 
