@@ -134,9 +134,11 @@ export default function Home() {
 
 
     <SequenceHeader title="Predictably Wrong" letter="A" />
-
-
     <WhatDoIMeanByRationality />
+
+
+{/* 
+
     <FeelingRational />
     <WhyTruth />
     <WhatsABias />
@@ -196,6 +198,6 @@ export default function Home() {
     <ExplainWorshipIgnore />
     <ScienceAsCuriosityStopper />
     <TrulyPartOfYou />
-    <TheSimpleTruth />
+    <TheSimpleTruth /> */}
   </>;
 }
