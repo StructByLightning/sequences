@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function CachedThoughts() {
   return <Chapter title={["Cached Thoughts"]}>
 
-    <p><span className="dropCap">O</span>ne of the single greatest puzzles about the human brain is how the damn thing works <em>at all</em> when most neurons fire 10–20 times per second, or 200Hz tops. In neurology, the “hundred-step rule” is that any postulated operation has to complete in <em>at most</em> 100 sequential steps—you can be as parallel as you like, but you can’t postulate more than 100 (preferably fewer) neural spikes one after the other.</p>
+    <p>One of the single greatest puzzles about the human brain is how the damn thing works <em>at all</em> when most neurons fire 10–20 times per second, or 200Hz tops. In neurology, the “hundred-step rule” is that any postulated operation has to complete in <em>at most</em> 100 sequential steps—you can be as parallel as you like, but you can’t postulate more than 100 (preferably fewer) neural spikes one after the other.</p>
     <p>Can you imagine having to program using 100Hz CPUs, no matter how many of them you had? You’d also need a hundred billion processors just to get <em>anything</em> done in realtime.</p>
     <p>If you did need to write realtime programs for a hundred billion 100Hz processors, one trick you’d use as heavily as possible is caching. That’s when you store the results of previous operations and look them up next time, instead of recomputing them from scratch. And it’s a very <em>neural</em> idiom—recognition, association, completing the pattern.</p>
     <p>It’s a good guess that the actual <em>majority</em> of human cognition consists of cache lookups.</p>

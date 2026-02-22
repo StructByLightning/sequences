@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function TheLogicalFallacyOfGeneralizationFromFictionalEvidence() {
   return <Chapter title={["The Logical Fallacy of", "Generalization from Fictional Evidence"]}>
 
-    <p><span className="dropCap">W</span>hen I try to introduce the subject of advanced AI, what’s the first thing I hear, more than half the time?</p>
+    <p>When I try to introduce the subject of advanced AI, what’s the first thing I hear, more than half the time?</p>
     <p>“Oh, you mean like the <em>Terminator</em> movies / <em>The Matrix</em> / Asimov’s robots!”</p>
     <p>And I reply, “Well, no, not exactly. I try to avoid the logical fallacy of generalizing from fictional evidence.”</p>
     <p>Some people get it right away, and laugh. Others defend their use of the example, disagreeing that it’s a fallacy.</p>

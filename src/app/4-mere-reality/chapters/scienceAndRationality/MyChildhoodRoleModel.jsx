@@ -5,7 +5,7 @@ export default function MyChildhoodRoleModel() {
   return <Chapter title={["My Childhood Role Model"]}>
 
 
-    <p><span className="dropCap">W</span>hen I lecture on the intelligence explosion, I often draw a graph of the “scale of intelligence” as it appears in everyday life:</p>
+    <p>When I lecture on the intelligence explosion, I often draw a graph of the “scale of intelligence” as it appears in everyday life:</p>
     <figure>
       <img src="https://www.readthesequences.com/wiki/uploads/MyChildhoodRoleModel_diagram_1.svg" style={{ width: "61%" }} />
     </figure>

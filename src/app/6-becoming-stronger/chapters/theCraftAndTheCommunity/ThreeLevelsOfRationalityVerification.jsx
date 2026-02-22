@@ -5,7 +5,7 @@ export default function ThreeLevelsOfRationalityVerification() {
   return <Chapter title={["Three Levels of Rationality Verification"]}>
 
 
-    <p><span className="dropCap">I</span> strongly suspect that there is a possible art of rationality (attaining the map that reflects the territory, choosing so as to direct reality into regions high in your preference ordering) that goes beyond the skills that are standard, and beyond what any single practitioner singly knows. I have a sense that more is possible.</p>
+    <p>I strongly suspect that there is a possible art of rationality (attaining the map that reflects the territory, choosing so as to direct reality into regions high in your preference ordering) that goes beyond the skills that are standard, and beyond what any single practitioner singly knows. I have a sense that more is possible.</p>
     <p>The degree to which a <em>group</em> of people can do anything useful about this, will depend <em>overwhelmingly</em> on what methods we can devise to <em>verify</em> our many amazing good ideas.</p>
     <p>I suggest stratifying verification methods into three levels of usefulness:</p>
     <ul>

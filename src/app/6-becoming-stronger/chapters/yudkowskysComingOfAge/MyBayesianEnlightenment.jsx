@@ -5,7 +5,7 @@ export default function MyBayesianEnlightenment() {
   return <Chapter title={["My Bayesian Enlightenment"]}>
 
 
-    <p><span className="dropCap">I</span> remember (dimly, as human memories go) the first time I self-identified as a “Bayesian.” Someone had just asked a malformed version of an old probability puzzle, saying:</p>
+    <p>I remember (dimly, as human memories go) the first time I self-identified as a “Bayesian.” Someone had just asked a malformed version of an old probability puzzle, saying:</p>
     <blockquote>
       <p>If I meet a mathematician on the street, and she says, “I have two children, and at least one of them is a boy,” what is the probability that they are both boys?</p>
     </blockquote>

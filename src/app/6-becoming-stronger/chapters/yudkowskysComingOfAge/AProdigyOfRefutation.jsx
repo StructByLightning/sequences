@@ -5,7 +5,7 @@ export default function AProdigyOfRefutation() {
   return <Chapter title={["A Prodigy of Refutation"]}>
 
 
-    <p><span className="dropCap">M</span>y Childhood Death Spiral described the core momentum carrying me into my mistake, an affective death spiral around something that Eliezer1996 called “intelligence.” I was also a technophile, pre-allergized against fearing the future. And I’d read a lot of science fiction built around personhood ethics—in which fear of the Alien puts humanity-at-large in the position of the bad guys, mistreating aliens or sentient AIs because they “aren’t human.”</p>
+    <p>My Childhood Death Spiral described the core momentum carrying me into my mistake, an affective death spiral around something that Eliezer1996 called “intelligence.” I was also a technophile, pre-allergized against fearing the future. And I’d read a lot of science fiction built around personhood ethics—in which fear of the Alien puts humanity-at-large in the position of the bad guys, mistreating aliens or sentient AIs because they “aren’t human.”</p>
     <p>That’s part of the ethos you acquire from science fiction—to define your in-group, your tribe, appropriately broadly. Hence my email address, sentience@pobox.com.</p>
     <p>So Eliezer1996 is out to build superintelligence, for the good of humanity and all sentient life.</p>
     <p>At first, I think, the question of whether a superintelligence will/could be good/evil didn’t really occur to me as a separate topic of discussion. Just the standard intuition of, “Surely no supermind would be stupid enough to turn the galaxy into paperclips; surely, being so intelligent, it will also know what’s <em>right</em> far better than a human being could.”</p>

@@ -9,7 +9,7 @@ export default function IfYouDemandMagicMagicWontHelp() {
       <p>Most witches don’t believe in gods. They know that the gods exist, of course. They even deal with them occasionally. But they don’t believe in them. They know them too well. It would be like believing in the postman.</p>
       <p>—Terry Pratchett, <em>Witches Abroad</em><span class="footnote">Terry Pratchett, _Witches Abroad (London: Corgi Books, 1992).</span></p>
     </blockquote>
-    <p><span className="dropCap">O</span>nce upon a time, I was pondering the philosophy of fantasy stories—</p>
+    <p>Once upon a time, I was pondering the philosophy of fantasy stories—</p>
     <p>And before anyone chides me for my “failure to understand what fantasy is about,” let me say this: I was raised in a science fiction and fantasy household. I have been reading fantasy stories since I was five years old. I occasionally try to <em>write</em> fantasy stories. And I am <em>not</em> the sort of person who tries to write for a genre without pondering its philosophy. Where do you think story ideas come from?</p>
     <p>Anyway:</p>
     <p>I was pondering the philosophy of fantasy stories, and it occurred to me that if there were actually dragons in our world—if you could go down to the zoo, or even to a distant mountain, and meet a fire-breathing dragon—while nobody had ever actually seen a zebra, then our fantasy stories would contain zebras aplenty, while dragons would be unexciting.</p>

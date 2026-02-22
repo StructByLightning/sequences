@@ -6,7 +6,7 @@ export default function SeriousStories() {
 
 
 
-    <p><span className="dropCap">E</span>very Utopia ever constructed—in philosophy, fiction, or religion—has been, to one degree or another, a place where you wouldn’t <em>actually want</em> to live. I am not alone in this important observation: George Orwell said much the same thing in “Why Socialists Don’t Believe In Fun,” and I expect that many others said it earlier.</p>
+    <p>Every Utopia ever constructed—in philosophy, fiction, or religion—has been, to one degree or another, a place where you wouldn’t <em>actually want</em> to live. I am not alone in this important observation: George Orwell said much the same thing in “Why Socialists Don’t Believe In Fun,” and I expect that many others said it earlier.</p>
     <p>If you read books on How To Write—and there are a <em>lot</em> of books out there on How To Write, because, amazingly, a lot of book-writers think they know something about writing—these books will tell you that stories must contain “conflict.”</p>
     <p>That is, the more <em>lukewarm</em> sort of instructional book will tell you that stories contain “conflict.” But some authors speak more plainly.</p>
     <p>“Stories are about people’s pain.” Orson Scott Card.</p>

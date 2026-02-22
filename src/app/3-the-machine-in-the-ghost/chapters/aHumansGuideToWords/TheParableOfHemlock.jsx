@@ -9,7 +9,7 @@ export default function TheParableOfHemlock() {
       <p>All men are mortal. Socrates is a man. Therefore Socrates is mortal.</p>
       <p>—Standard Medieval syllogism</p>
     </blockquote>
-    <p><span className="dropCap">S</span><em>ocrates raised the glass of hemlock to his lips…</em></p>
+    <p>S<em>ocrates raised the glass of hemlock to his lips…</em></p>
     <p>“Do you suppose,” asked one of the onlookers, “that even hemlock will not be enough to kill so wise and good a man?”</p>
     <p>“No,” replied another bystander, a student of philosophy; “all men are mortal, and Socrates is a man; and if a mortal drinks hemlock, surely he dies.”</p>
     <p>“Well,” said the onlooker, “what if it happens that Socrates <em>isn’t</em> mortal?”</p>

@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function EvaluabilityAndCheapHolidayShopping() {
   return <Chapter title={["Evaluability", "(and Cheap Holiday Shopping)"]}>
 
-    <p><span className="dropCap">W</span>ith the <em>expensive</em> part of the Hallowthankmas season now approaching, a question must be looming large in our readers’ minds:</p>
+    <p>With the <em>expensive</em> part of the Hallowthankmas season now approaching, a question must be looming large in our readers’ minds:</p>
     <blockquote>
       <p>“Dear <em>Overcoming Bias</em>, are there biases I can exploit to be <em>seen</em> as generous without <em>actually</em> spending lots of money?”</p>
     </blockquote>

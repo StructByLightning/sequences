@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function Scarcity() {
   return <Chapter title={["Scarcity"]}>
 
-    <p><span className="dropCap">W</span>hat follows is taken primarily from Robert Cialdini’s <em>Influence: The Psychology of Persuasion</em>.<span class="footnote">Robert B. Cialdini, <em>Influence: The Psychology of Persuasion: Revised Edition</em> (New York: Quill, 1993). </span> I own three copies of this book: one for myself, and two for loaning to friends.</p>
+    <p>What follows is taken primarily from Robert Cialdini’s <em>Influence: The Psychology of Persuasion</em>.<span class="footnote">Robert B. Cialdini, <em>Influence: The Psychology of Persuasion: Revised Edition</em> (New York: Quill, 1993). </span> I own three copies of this book: one for myself, and two for loaning to friends.</p>
     <p><em>Scarcity</em>, as that term is used in social psychology, is when things become <em>more desirable</em> as they appear <em>less obtainable</em>.</p>
     <ul>
       <li>If you put a two-year-old boy in a room with two toys, one toy in the open and the other behind a Plexiglas wall, the two-year-old will ignore the easily accessible toy and go after the apparently forbidden one. If the wall is low enough to be easily climbable, the toddler is no more likely to go after one toy than the other.<span class="footnote">Sharon S. Brehm and Marsha Weintraub, “Physical Barriers and Psychological Reactance: Two-year-olds’ Responses to Threats to Freedom,” <em>Journal of Personality and Social Psychology</em> 35 (1977): 830–836.</span></li>

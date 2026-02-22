@@ -5,7 +5,7 @@ export default function DisguisedQueries() {
   return <Chapter title={["Disguised Queries"]}>
 
 
-    <p><span className="dropCap">I</span>magine that you have a peculiar job in a peculiar factory: Your task is to take objects from a mysterious conveyor belt, and sort the objects into two bins. When you first arrive, Susan the Senior Sorter explains to you that blue egg-shaped objects are called “bleggs” and go in the “blegg bin,” while red cubes are called “rubes” and go in the “rube bin.”</p>
+    <p>Imagine that you have a peculiar job in a peculiar factory: Your task is to take objects from a mysterious conveyor belt, and sort the objects into two bins. When you first arrive, Susan the Senior Sorter explains to you that blue egg-shaped objects are called “bleggs” and go in the “blegg bin,” while red cubes are called “rubes” and go in the “rube bin.”</p>
     <p>Once you start working, you notice that bleggs and rubes differ in ways besides color and shape. Bleggs have fur on their surface, while rubes are smooth. Bleggs flex slightly to the touch; rubes are hard. Bleggs are opaque, the rube’s surface slightly translucent.</p>
     <p>Soon after you begin working, you encounter a blegg shaded an unusually dark blue—in fact, on closer examination, the color proves to be purple, halfway between red and blue.</p>
     <p>Yet wait! Why are you calling this object a “blegg”? A “blegg” was originally defined as blue and egg-shaped—the qualification of blueness appears in the very name “blegg,” in fact. This object is not blue. One of the necessary qualifications is missing; you should call this a “purple egg-shaped object,” not a “blegg.”</p>

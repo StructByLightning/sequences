@@ -5,7 +5,7 @@ export default function RightingAWrongQuestion() {
   return <Chapter title={["Righting a Wrong Question"]}>
 
 
-    <p><span className="dropCap">W</span>hen you are faced with an <em>unanswerable</em> question—a question to which it seems impossible to even <em>imagine</em> an answer—there is a simple trick that can turn the question solvable.</p>
+    <p>When you are faced with an <em>unanswerable</em> question—a question to which it seems impossible to even <em>imagine</em> an answer—there is a simple trick that can turn the question solvable.</p>
     <p>Compare:</p>
     <ul>
       <li>“Why do I have free will?”</li>

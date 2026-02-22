@@ -5,7 +5,7 @@ export default function GAZPVsGLUT() {
   return <Chapter title={["GAZP vs. GLUT"]}>
 
 
-    <p><span className="dropCap">I</span>n “The Unimagined Preposterousness of Zombies,” Daniel Dennett says:<span class="footnote">Daniel C. Dennett, “The Unimagined Preposterousness of Zombies,” <em>Journal of Consciousness Studies</em> 2 (4 1995): 322–26.</span></p>
+    <p>In “The Unimagined Preposterousness of Zombies,” Daniel Dennett says:<span class="footnote">Daniel C. Dennett, “The Unimagined Preposterousness of Zombies,” <em>Journal of Consciousness Studies</em> 2 (4 1995): 322–26.</span></p>
     <blockquote>
       <p>To date, several philosophers have told me that they plan to accept my challenge to offer a non-question-begging defense of zombies, but the only one I have seen so far involves postulating a “logically possible” but fantastic being—a descendent of Ned Block’s Giant Lookup Table fantasy…</p>
     </blockquote>

@@ -6,7 +6,7 @@ export default function TwoPlaceAndOnePlaceWords() {
 
 
 
-    <p><span className="dropCap">I</span> have previously spoken of the ancient, pulp-era magazine covers that showed a bug-eyed monster carrying off a girl in a torn dress; and about how people think as if sexiness is an inherent property of a sexy entity, without dependence on the admirer.</p>
+    <p>I have previously spoken of the ancient, pulp-era magazine covers that showed a bug-eyed monster carrying off a girl in a torn dress; and about how people think as if sexiness is an inherent property of a sexy entity, without dependence on the admirer.</p>
     <p>“Of <em>course</em> the bug-eyed monster will prefer human females to its own kind,” says the artist (who we’ll call Fred); “it can see that human females have soft, pleasant skin instead of slimy scales. It may be an alien, but it’s not <em>stupid</em>—why are you expecting it to make such a basic mistake about sexiness?”</p>
     <p>What is Fred’s error? It is treating a function of 2 arguments (“2-place function”):</p>
     <p><code>Sexiness: Admirer, Entity ➝ [0, ∞)</code></p>

@@ -5,7 +5,7 @@ export default function BrainBreakthroughItsMadeOfNeurons() {
   return <Chapter title={["Brain Breakthrough!", "It's Made of Neurons!"]}>
 
 
-    <p><span className="dropCap">I</span>n an amazing breakthrough, a multinational team of scientists led by Nobel laureate Santiago Ramón y Cajal announced that the brain is composed of a <em>ridiculously</em> complicated network of tiny cells connected to each other by infinitesimal threads and branches.</p>
+    <p>In an amazing breakthrough, a multinational team of scientists led by Nobel laureate Santiago Ramón y Cajal announced that the brain is composed of a <em>ridiculously</em> complicated network of tiny cells connected to each other by infinitesimal threads and branches.</p>
     <p>The multinational team—which also includes the famous technician Antonie van Leeuwenhoek, and possibly Imhotep, promoted to the Egyptian god of medicine—issued this statement:</p>
     <p>“The present discovery culminates years of research indicating that the convoluted squishy thing inside our skulls is even more complicated than it looks. Thanks to Cajal’s application of a new staining technique invented by Camillo Golgi, we have learned that this structure is not a continuous network like the blood vessels of the body, but is actually composed of many tiny cells, or ‘neurons,’ connected to one another by even more tiny filaments.</p>
     <p>“Other extensive evidence, beginning from Greek medical researcher Alcmaeon and continuing through Paul Broca’s research on speech deficits, indicates that the brain is the seat of reason.</p>

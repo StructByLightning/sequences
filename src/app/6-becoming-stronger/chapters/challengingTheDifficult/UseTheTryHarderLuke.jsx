@@ -9,7 +9,7 @@ export default function UseTheTryHarderLuke() {
       <p>When there’s a will to fail, obstacles can be found.</p>
       <p>—John McCarthy</p>
     </blockquote>
-    <p><span className="dropCap">I</span> first watched <em>Star Wars IV-VI</em> when I was very young. Seven, maybe, or nine? So my memory was dim, but I recalled Luke Skywalker as being, you know, this cool Jedi guy.</p>
+    <p>I first watched <em>Star Wars IV-VI</em> when I was very young. Seven, maybe, or nine? So my memory was dim, but I recalled Luke Skywalker as being, you know, this cool Jedi guy.</p>
     <p>Imagine my horror and disappointment when I watched the saga again, years later, and discovered that Luke was a whiny teenager.</p>
     <p>I mention this because yesterday, I looked up, on Youtube, the source of the Yoda quote: “Do, or do not. There is no try.”</p>
     <p>Oh. My. Cthulhu.</p>

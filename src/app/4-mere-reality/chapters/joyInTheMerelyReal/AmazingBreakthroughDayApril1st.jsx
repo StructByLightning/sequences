@@ -5,7 +5,7 @@ export default function AmazingBreakthroughDayApril1st() {
   return <Chapter title={["Amazing Breakthrough Day:", "April 1st"]}>
 
 
-    <p><span className="dropCap">S</span>o you’re thinking, “April 1st… isn’t that already supposed to be April Fool’s Day?”</p>
+    <p>So you’re thinking, “April 1st… isn’t that already supposed to be April Fool’s Day?”</p>
     <p>Yes—and that will provide the ideal cover for celebrating Amazing Breakthrough Day.</p>
     <p>As I argued in The Beauty of Settled Science, it is a major problem that media coverage of science focuses only on <em>breaking news</em>. Breaking news, in science, occurs at the furthest fringes of the scientific frontier, which means that the new discovery is often:</p>
     <ul>

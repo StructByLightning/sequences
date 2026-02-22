@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function TheGeneticFallacy() {
   return <Chapter title={["The Genetic Fallacy"]}>
 
-    <p><span className="dropCap">I</span>n lists of logical fallacies, you will find included “the genetic fallacy”—the fallacy of attacking a belief based on someone’s causes for believing it.</p>
+    <p>In lists of logical fallacies, you will find included “the genetic fallacy”—the fallacy of attacking a belief based on someone’s causes for believing it.</p>
     <p>This is, at first sight, a very strange idea—if the causes of a belief do not determine its systematic reliability, what does? If Deep Blue advises us of a chess move, we trust it based on our understanding of the <em>code</em> that searches the game tree, being unable to evaluate the actual game tree ourselves. What could license any probability assignment as “rational,” except that it was produced by some systematically reliable process?</p>
     <p>Articles on the genetic fallacy will tell you that genetic reasoning is not always a fallacy—that the origin of evidence <em>can</em> be relevant to its evaluation, as in the case of a trusted expert. But other times, say the articles, it <em>is</em> a fallacy; the chemist Kekulé first saw the ring structure of benzene in a dream, but this doesn’t mean we can never trust this belief.</p>
     <p>So sometimes the genetic fallacy is a fallacy, and sometimes it’s not?</p>

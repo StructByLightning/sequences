@@ -11,7 +11,7 @@ export default function FakeReductionism() {
         In the dull catalogue of common things.</p>
       <p>—John Keats, <em>Lamia</em></p>
     </blockquote>
-    <p><span className="dropCap">I</span> am guessing—though it is only a guess—that Keats himself did not know the woof and texture of the rainbow. Not the way that Newton understood rainbows. Perhaps not even at all. Maybe Keats just read, somewhere, that Newton had explained the rainbow as “light reflected from raindrops”—</p>
+    <p>I am guessing—though it is only a guess—that Keats himself did not know the woof and texture of the rainbow. Not the way that Newton understood rainbows. Perhaps not even at all. Maybe Keats just read, somewhere, that Newton had explained the rainbow as “light reflected from raindrops”—</p>
     <p>—which was actually known in the thirteenth century. Newton only added a refinement by showing that the light was decomposed into colored parts, rather than transformed in color. But that put rainbows back in the news headlines. And so Keats, with Charles Lamb and William Wordsworth and Benjamin Haydon, drank “confusion to the memory of Newton” because “he destroyed the poetry of the rainbow by reducing it to a prism.” That’s one reason to suspect Keats didn’t understand the subject too deeply.</p>
     <p>I am guessing, though it is only a guess, that Keats could <em>not</em> have sketched out on paper why rainbows only appear when the Sun is behind your head, or why the rainbow is an arc of a circle.</p>
     <p>If so, Keats had a Fake Explanation. In this case, a <em>fake reduction</em>. He’d been <em>told that</em> the rainbow had been reduced, but it had not actually <em>been reduced</em> in his model of the world.</p>

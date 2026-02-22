@@ -4,7 +4,7 @@ export default function MyWildAndRecklessYouth() {
 
 
   return <Chapter title={["My Wild and Reckless Youth"]}>
-    <p><span className="dropCap">I</span>t is said that parents do all the things they tell their children not to do, which is how they know not to do them.</p>
+    <p>It is said that parents do all the things they tell their children not to do, which is how they know not to do them.</p>
     <p>Long ago, in the unthinkably distant past, I was a devoted Traditional Rationalist, conceiving myself skilled according to that kind, yet I knew not the Way of Bayes. When the young Eliezer was confronted with a mysterious-seeming question, the precepts of Traditional Rationality did not stop him from devising a Mysterious Answer. It is, by far, the most embarrassing mistake I made in my life, and I still wince to think of it.</p>
     <p>What was my mysterious answer to a mysterious question? This I will not describe, for it would be a long tale and complicated. I was young, and a mere Traditional Rationalist who knew not the teachings of Tversky and Kahneman. I knew about Occam’s Razor, but not the conjunction fallacy. I thought I could get away with thinking complicated thoughts myself, in the literary style of the complicated thoughts I read in science books, not realizing that correct complexity is only possible when every step is pinned down overwhelmingly. Today, one of the chief pieces of advice I give to aspiring young rationalists is “Do not attempt long chains of reasoning or complicated plans.”</p>
     <p>Nothing more than this need be said: Even after I invented my “answer,” the phenomenon was still a mystery unto me, and possessed the same quality of wondrous impenetrability that it had at the start.</p>

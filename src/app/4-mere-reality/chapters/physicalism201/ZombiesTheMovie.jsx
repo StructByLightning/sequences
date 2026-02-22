@@ -5,7 +5,7 @@ export default function ZombiesTheMovie() {
   return <Chapter title={["Zombies: The Movie"]}>
 
 
-    <p><span className="dropCap">F</span>ade in around a serious-looking group of uniformed military officers. At the head of the table, a senior, heavy-set man, General Fred, speaks.</p>
+    <p>Fade in around a serious-looking group of uniformed military officers. At the head of the table, a senior, heavy-set man, General Fred, speaks.</p>
     <p><span className="smallCaps">General Fred</span>: The reports are confirmed. New York has been overrun… by <em>zombies</em>.</p>
     <p><span className="smallCaps">Colonel Todd</span>: Again? But we just had a zombie invasion 28 days ago!</p>
     <p><span className="smallCaps">General Fred</span>: These zombies… are different. They're… <em>philosophical</em> zombies.</p>

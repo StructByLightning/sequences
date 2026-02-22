@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function JustLoseHopeAlready() {
   return <Chapter title={["Just Lose Hope Already"]}>
 
-    <p><span className="dropCap">C</span>asey Serin, a 24-year-old web programmer with no prior experience in real estate, owes banks 2.2 million dollars after lying on mortgage applications in order to simultaneously buy eight different houses in different states. He took cash out of the mortgage (applied for larger amounts than the price of the house) and spent the money on living expenses and real-estate seminars. He was expecting the market to go up, it seems.</p>
+    <p>Casey Serin, a 24-year-old web programmer with no prior experience in real estate, owes banks 2.2 million dollars after lying on mortgage applications in order to simultaneously buy eight different houses in different states. He took cash out of the mortgage (applied for larger amounts than the price of the house) and spent the money on living expenses and real-estate seminars. He was expecting the market to go up, it seems.</p>
     <p>That’s not even the sad part. The sad part is that <em>he still hasn’t given up</em>. Casey Serin does not accept defeat. He refuses to declare bankruptcy, or get a job; he still thinks he can make it big in real estate. He went on spending money on seminars. He tried to take out a mortgage on a ninth house. He hasn’t <em>failed</em>, you see, he’s just had a <em>learning experience</em>.</p>
     <p>That’s what happens when you refuse to lose hope.</p>
     <p>While this behavior may seem to be merely stupid, it also puts me in mind of two Nobel-Prize-winning economists…</p>

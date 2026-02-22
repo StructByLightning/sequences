@@ -6,7 +6,7 @@ export default function NewcombsProblemAndRegretOfRationality() {
 
 
 
-    <p><span className="dropCap">T</span>he following may well be the most controversial dilemma in the history of decision theory:</p>
+    <p>The following may well be the most controversial dilemma in the history of decision theory:</p>
     <blockquote>
       <p>A superintelligence from another galaxy, whom we shall call Omega, comes to Earth and sets about playing a strange little game. In this game, Omega selects a human being, sets down two boxes in front of them, and flies away.</p>
       <p>Box <em>A</em> is transparent and contains a thousand dollars.</p>

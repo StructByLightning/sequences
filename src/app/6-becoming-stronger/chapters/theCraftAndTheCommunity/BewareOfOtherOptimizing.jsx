@@ -5,7 +5,7 @@ export default function BewareOfOtherOptimizing() {
   return <Chapter title={["Beware of Other-Optimizing"]}>
 
 
-    <p><span className="dropCap">I</span> have noticed a serious problem in which aspiring rationalists vastly overestimate their ability to optimize other people’s lives. And I think I have some idea of how the problem arises.</p>
+    <p>I have noticed a serious problem in which aspiring rationalists vastly overestimate their ability to optimize other people’s lives. And I think I have some idea of how the problem arises.</p>
     <p>You read nineteen different webpages advising you about personal improvement—productivity, dieting, saving money. And the writers all sound bright and enthusiastic about Their Method, they tell tales of how it worked for them and promise <em>amazing</em> results…</p>
     <p>But most of the advice rings so false as to not even seem worth considering. So you sigh, mournfully pondering the wild, childish enthusiasm that people can seem to work up for just about anything, no matter how silly. Pieces of advice #4 and #15 sound interesting, and you try them, but… they don’t… quite… well, it fails miserably. The advice was wrong, or you couldn’t do it, and either way you’re not any better off.</p>
     <p>And then you read the twentieth piece of advice—or even more, you discover a twentieth method that wasn’t in any of the pages—and stars above it actually works this time.</p>

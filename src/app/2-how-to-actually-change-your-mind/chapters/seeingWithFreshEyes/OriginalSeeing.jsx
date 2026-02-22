@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function OriginalSeeing() {
   return <Chapter title={["Original Seeing"]}>
 
-    <p><span className="dropCap">S</span>ince Robert Pirsig put this very well, I’ll just copy down what he said. I don’t know if this story is based on reality or not, but either way, it’s true.<span class="footnote">Pirsig, <em>Zen and the Art of Motorcycle Maintenance</em>.</span></p>
+    <p>Since Robert Pirsig put this very well, I’ll just copy down what he said. I don’t know if this story is based on reality or not, but either way, it’s true.<span class="footnote">Pirsig, <em>Zen and the Art of Motorcycle Maintenance</em>.</span></p>
     <blockquote>
       <p>He’d been having trouble with students who had nothing to say. At first he thought it was laziness but later it became apparent that it wasn’t. They just couldn’t think of anything to say.</p>
       <p>One of them, a girl with strong-lensed glasses, wanted to write a five-hundred word essay about the United States. He was used to the sinking feeling that comes from statements like this, and suggested without disparagement that she narrow it down to just Bozeman.</p>

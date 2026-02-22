@@ -6,7 +6,7 @@ export default function WhenNotToUseProbabilities() {
 
 
 
-    <p><span className="dropCap">I</span>t may come as a surprise to some readers that I do not always advocate using probabilities.</p>
+    <p>It may come as a surprise to some readers that I do not always advocate using probabilities.</p>
     <p>Or rather, I don’t always advocate that human beings, trying to solve their problems, should try to <em>make up</em> verbal probabilities, and then apply the laws of probability theory or decision theory to whatever number they just made up, and then use the result as their final belief or decision.</p>
     <p>The laws of probability are laws, not suggestions, but often the true Law is too difficult for us humans to compute. If P ≠ NP and the universe has no source of exponential computing power, then there are evidential updates too difficult for even a superintelligence to compute—even though the probabilities would be quite well-defined, if we could afford to calculate them.</p>
     <p>So sometimes you don’t apply probability theory. Especially if you’re human, and your brain has evolved with all sorts of useful algorithms for uncertain reasoning, that <em>don’t</em> involve verbal probability assignments.</p>

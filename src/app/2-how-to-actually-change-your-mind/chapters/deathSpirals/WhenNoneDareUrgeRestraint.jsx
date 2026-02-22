@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function WhenNoneDareUrgeRestraint() {
   return <Chapter title={["When None Dare", "Urge Restraint"]}>
 
-    <p><span className="dropCap">O</span>ne morning, I got out of bed, turned on my computer, and my Netscape email client automatically downloaded that day’s news pane. On that particular day, the news was that two hijacked planes had been flown into the World Trade Center.</p>
+    <p>One morning, I got out of bed, turned on my computer, and my Netscape email client automatically downloaded that day’s news pane. On that particular day, the news was that two hijacked planes had been flown into the World Trade Center.</p>
     <p>These were my first three thoughts, in order:</p>
     <p><em>I guess I really am living in the Future.</em></p>
     <p><em>Thank goodness it wasn’t nuclear.</em></p>

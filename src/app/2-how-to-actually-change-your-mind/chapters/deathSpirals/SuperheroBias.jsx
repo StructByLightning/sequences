@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function SuperheroBias() {
   return <Chapter title={["Superhero Bias"]}>
 
-    <p><span className="dropCap">S</span>uppose there’s a heavily armed sociopath, a kidnapper with hostages, who has just rejected all requests for negotiation and announced his intent to start killing. In real life, the good guys don’t usually kick down the door when the bad guy has hostages. But sometimes—<em>very</em> rarely, but sometimes—life imitates Hollywood to the extent of genuine good guys needing to smash through a door.</p>
+    <p>Suppose there’s a heavily armed sociopath, a kidnapper with hostages, who has just rejected all requests for negotiation and announced his intent to start killing. In real life, the good guys don’t usually kick down the door when the bad guy has hostages. But sometimes—<em>very</em> rarely, but sometimes—life imitates Hollywood to the extent of genuine good guys needing to smash through a door.</p>
     <p>Imagine, in two widely separated realities, two heroes who charge into the room, first to confront the villain.</p>
     <p>In one reality, the hero is strong enough to throw cars, can fire power blasts out of his nostrils, has X-ray hearing, and his skin doesn’t just <em>deflect</em> bullets but annihilates them on contact. The villain has ensconced himself in an elementary school and taken over two hundred children hostage; their parents are waiting outside, weeping.</p>
     <p>In another reality, the hero is a New York police officer, and the hostages are three prostitutes the villain collected off the street.</p>

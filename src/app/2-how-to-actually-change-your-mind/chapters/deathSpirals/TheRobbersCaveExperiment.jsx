@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function TheRobbersCaveExperiment() {
   return <Chapter title={["The Robbers Cave", "Experiment"]}>
 
-    <p><span className="dropCap">D</span>id you ever wonder, when you were a kid, whether your inane “summer camp” actually had some kind of elaborate hidden purpose—say, it was all a science experiment and the “camp counselors” were really researchers observing your behavior?</p>
+    <p>Did you ever wonder, when you were a kid, whether your inane “summer camp” actually had some kind of elaborate hidden purpose—say, it was all a science experiment and the “camp counselors” were really researchers observing your behavior?</p>
     <p>Me neither.</p>
     <p>But we’d have been more paranoid if we’d read “Intergroup Conflict and Cooperation: The Robbers Cave Experiment” by Sherif, Harvey, White, Hood, and Sherif.<span class="footnote">Muzafer Sherif et al., “Study of Positive and Negative Intergroup Attitudes Between Experimentally Produced Groups: Robbers Cave Study,” Unpublished manuscript (1954). </span> In this study, the experimental subjects—excuse me, “campers”— were 22 boys between fifth and sixth grade, selected from 22 different schools in Oklahoma City, of stable middle-class Protestant families, doing well in school, median IQ 112. They were as well-adjusted and as similar to each other as the researchers could manage.</p>
     <p>The experiment, conducted in the bewildered aftermath of World War II, was meant to investigate the causes—and possible remedies—of intergroup conflict. How would they spark an intergroup conflict to investigate? Well, the 22 boys were divided into two groups of 11 campers, and—</p>

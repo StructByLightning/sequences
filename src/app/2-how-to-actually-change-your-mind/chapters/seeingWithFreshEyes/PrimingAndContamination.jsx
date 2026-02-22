@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function PrimingAndContamination() {
   return <Chapter title={["Priming and", "Contamination"]}>
 
-    <p><span className="dropCap">S</span>uppose you ask subjects to press one button if a string of letters forms a word, and another button if the string does not form a word (e.g., “banack” vs. “banner”). Then you show them the string “water.” Later, they will more quickly identify the string “drink” as a word. This is known as “cognitive priming”; this particular form would be “semantic priming” or “conceptual priming.”</p>
+    <p>Suppose you ask subjects to press one button if a string of letters forms a word, and another button if the string does not form a word (e.g., “banack” vs. “banner”). Then you show them the string “water.” Later, they will more quickly identify the string “drink” as a word. This is known as “cognitive priming”; this particular form would be “semantic priming” or “conceptual priming.”</p>
     <p>The fascinating thing about priming is that it occurs at such a low level— priming speeds up <em>identifying letters as forming a word</em>, which one would expect to take place <em>before</em> you deliberate on the word’s meaning.</p>
     <p>Priming also reveals the massive parallelism of spreading activation: if seeing “water” activates the word “drink,” it probably also activates “river,” or “cup,” or “splash”… and this activation spreads, from the semantic linkage of concepts, all the way back to recognizing strings of letters.</p>
     <p>Priming is subconscious and unstoppable, an artifact of the human neural architecture. Trying to stop yourself from priming is like trying to stop the spreading activation of your own neural circuits.</p>

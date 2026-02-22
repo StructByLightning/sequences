@@ -5,7 +5,7 @@ export default function WrongQuestions() {
   return <Chapter title={["Wrong Questions"]}>
 
 
-    <p><span className="dropCap">W</span>here the mind cuts against reality’s grain, it generates <em>wrong questions</em>—questions that cannot possibly be answered <em>on their own terms</em>, but only dissolved by understanding the cognitive algorithm that generates the <em>perception</em> of a question.</p>
+    <p>Where the mind cuts against reality’s grain, it generates <em>wrong questions</em>—questions that cannot possibly be answered <em>on their own terms</em>, but only dissolved by understanding the cognitive algorithm that generates the <em>perception</em> of a question.</p>
     <p>One good cue that you’re dealing with a “wrong question” is when you cannot even <em>imagine</em> any concrete, specific state of how-the-world-is that would answer the question. When it doesn’t even seem <em>possible</em> to answer the question.</p>
     <p>Take the Standard Definitional Dispute, for example, about the tree falling in a deserted forest. Is there any way-the-world-could-be—any state of affairs— that corresponds to the word “sound” <em>really meaning</em> only acoustic vibrations, or <em>really meaning</em> only auditory experiences?</p>
     <p>(“Why, yes,” says the one, “it is the state of affairs where ‘sound’ means acoustic vibrations.” So Taboo the word “means,” and “represents,” and all similar synonyms, and describe again: What way-the-world-can-be, what state of affairs, would make one side right, and the other side wrong?)</p>

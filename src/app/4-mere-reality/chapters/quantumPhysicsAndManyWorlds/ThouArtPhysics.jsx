@@ -5,7 +5,7 @@ export default function ThouArtPhysics() {
   return <Chapter title={["Thou Art Physics"]}>
 
 
-    <p><span className="dropCap">T</span>hree months ago—jeebers, has it really been that long?—I posed the following homework assignment: Do a stack trace of the human cognitive algorithms that produce debates about “free will.” Note that this task is strongly distinguished from arguing that free will does or does not exist.</p>
+    <p>Three months ago—jeebers, has it really been that long?—I posed the following homework assignment: Do a stack trace of the human cognitive algorithms that produce debates about “free will.” Note that this task is strongly distinguished from arguing that free will does or does not exist.</p>
     <p>Now, as expected, people are asking, “If the future is determined, how can our choices control it?” The wise reader can guess that it all adds up to normality; but this leaves the question of <em>how</em>.</p>
     <p>People hear: “The universe runs like clockwork; physics is deterministic; the future is fixed.” And their minds form a causal network that looks like this:</p>
     <figure>

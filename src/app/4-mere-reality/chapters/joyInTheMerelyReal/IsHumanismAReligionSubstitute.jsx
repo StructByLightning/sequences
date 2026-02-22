@@ -5,7 +5,7 @@ export default function IsHumanismAReligionSubstitute() {
   return <Chapter title={["Is Humanism a Religion Substitute?"]}>
 
 
-    <p><span className="dropCap">F</span>or many years before the Wright Brothers, people dreamed of flying with magic potions. There was nothing irrational about the <em>raw desire</em> to fly. There was nothing <em>tainted</em> about the wish to look down on a cloud from above. Only the “magic potions” part was irrational.</p>
+    <p>For many years before the Wright Brothers, people dreamed of flying with magic potions. There was nothing irrational about the <em>raw desire</em> to fly. There was nothing <em>tainted</em> about the wish to look down on a cloud from above. Only the “magic potions” part was irrational.</p>
     <p>Suppose you were to put me into an fMRI scanner, and take a movie of my brain’s activity levels, while I watched a space shuttle launch. (Wanting to visit space is not “realistic,” but it is an essentially lawful dream—one that can be fulfilled in a lawful universe.) The fMRI might—maybe, maybe not—resemble the f MRI of a devout Christian watching a nativity scene.</p>
     <p>Should an experimenter obtain this result, there’s a lot of people out there, both Christians and some atheists, who would gloat: “Ha, ha, space travel is your religion!”</p>
     <p>But that’s drawing the wrong category boundary. It’s like saying that, because some people once tried to fly by irrational means, no one should ever enjoy looking out of an airplane window on the clouds below.</p>

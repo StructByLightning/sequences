@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 
 export default function ArtificialAddition() {
   return <Chapter title={["Artificial Addition"]}>
-    <p><span className="dropCap">S</span>uppose that human beings had absolutely <em>no idea</em> how they performed arithmetic. Imagine that human beings had <em>evolved</em>, rather than having <em>learned</em>, the ability to count sheep and add sheep. People using this built-in ability have no idea how it worked, the way Aristotle had no idea how his visual cortex supported his ability to see things. Peano Arithmetic as we know it has not been invented. There are philosophers working to formalize numerical intuitions, but they employ notations such as</p>
+    <p>Suppose that human beings had absolutely <em>no idea</em> how they performed arithmetic. Imagine that human beings had <em>evolved</em>, rather than having <em>learned</em>, the ability to count sheep and add sheep. People using this built-in ability have no idea how it worked, the way Aristotle had no idea how his visual cortex supported his ability to see things. Peano Arithmetic as we know it has not been invented. There are philosophers working to formalize numerical intuitions, but they employ notations such as</p>
     <p style={{ textAlign: "center" }}><code>Plus-Of(Seven, Six) = Thirteen</code></p>
 
     <p>to formalize the intuitively obvious fact that when you add “seven” plus “six,” of course you get “thirteen.”</p>

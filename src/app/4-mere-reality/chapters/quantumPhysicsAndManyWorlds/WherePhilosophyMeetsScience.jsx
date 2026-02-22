@@ -5,7 +5,7 @@ export default function WherePhilosophyMeetsScience() {
   return <Chapter title={["Where Philosophy", "Meets Science"]}>
 
 
-    <p><span className="dropCap">L</span>ooking back on early quantum physics—not for purposes of admonishing the major figures, or to claim that <em>we</em> could have done better if we’d been born into that era, but in order to try and learn a moral, and do better next time—looking back on the dark ages of quantum physics, I say, I would nominate as the “most basic” error…</p>
+    <p>Looking back on early quantum physics—not for purposes of admonishing the major figures, or to claim that <em>we</em> could have done better if we’d been born into that era, but in order to try and learn a moral, and do better next time—looking back on the dark ages of quantum physics, I say, I would nominate as the “most basic” error…</p>
     <p>… <em>not</em> that they tried to reverse course on the last three thousand years of science suggesting that mind was complex within physics rather than fundamental in physics. This is Science, and we do have revolutions here. Every now and then you’ve got to reverse a trend. The future is always absurd and never unlawful.</p>
     <p>I would nominate, as the basic error not to repeat next time, that the early scientists forgot that they <em>themselves</em> were made out of particles.</p>
     <p>I mean, I’m sure that most of them knew it in theory.</p>

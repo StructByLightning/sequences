@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function MooresParadox() {
   return <Chapter title={["Moore's Paradox"]}>
 
-    <p><span className="dropCap">M</span>oore’s Paradox is the standard term for saying “It’s raining outside but I don’t believe that it is.” Hat tip to painquale on MetaFilter.</p>
+    <p>Moore’s Paradox is the standard term for saying “It’s raining outside but I don’t believe that it is.” Hat tip to painquale on MetaFilter.</p>
     <p>I think I understand Moore’s Paradox a bit better now, after reading some of the comments on <em>Less Wrong</em>. Jimrandomh suggests:</p>
     <blockquote>
       <p>Many people cannot distinguish between levels of indirection. To them, “I believe <em>X</em>” and “<em>X</em>” are the same thing, and therefore, reasons why it is beneficial to believe <em>X</em> are also reasons why <em>X</em> is true.</p>

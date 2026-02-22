@@ -5,7 +5,7 @@ export default function TheFailuresOfEldScience() {
   return <Chapter title={["The Failures of Eld Science"]}>
 
 
-    <p><span className="dropCap">T</span>his time there were no robes, no hoods, no masks. Students were expected to become friends, and allies. And everyone knew why you were in the classroom. It would have been pointless to pretend you weren’t in the Conspiracy.</p>
+    <p>This time there were no robes, no hoods, no masks. Students were expected to become friends, and allies. And everyone knew why you were in the classroom. It would have been pointless to pretend you weren’t in the Conspiracy.</p>
     <p>Their <em>sensei</em> was Jeffreyssai, who might have been the best of his era, in his era. His students were either the most promising learners, or those whom the <em>beisutsukai</em> saw political advantage in molding.</p>
     <p>Brennan fell into the latter category, and knew it. Nor had he hesitated to use his Mistress’s name to open doors. You used every avenue available to you, in seeking knowledge; that was respected here.</p>
     <p>“—for over thirty years,” Jeffreyssai said. “Not one of them saw it; not Einstein, not Schrödinger, not even von Neumann.” He turned away from his sketcher, and toward the classroom. “I pose to you to the question: How did they fail?”</p>

@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function AbsoluteAuthority() {
   return <Chapter title={["Absolute Authority"]}>
 
-    <p><span className="dropCap">T</span>he one comes to you and loftily says: “Science doesn’t really <em>know</em> anything. All you have are <em>theories</em>—you can’t know for <em>certain</em> that you’re right. You scientists changed your minds about how gravity works—who’s to say that tomorrow you won’t change your minds about evolution?”</p>
+    <p>The one comes to you and loftily says: “Science doesn’t really <em>know</em> anything. All you have are <em>theories</em>—you can’t know for <em>certain</em> that you’re right. You scientists changed your minds about how gravity works—who’s to say that tomorrow you won’t change your minds about evolution?”</p>
     <p>Behold the abyssal cultural gap. If you think you can cross it in a few sentences, you are bound to be sorely disappointed.</p>
     <p>In the world of the unenlightened ones, there is authority and un-authority. What can be trusted, can be trusted; what cannot be trusted, you may as well throw away. There are good sources of information and bad sources of information. If scientists have changed their stories ever in their history, then science cannot be a true Authority, and can never again be trusted—like a witness caught in a contradiction, or like an employee found stealing from the till.</p>
     <p>Plus, the one takes for granted that a proponent of an idea is expected to defend it against every possible counterargument and confess nothing. All claims are discounted accordingly. If even the <em>proponent</em> of science admits that science is less than perfect, why, it must be pretty much worthless.</p>

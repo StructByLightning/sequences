@@ -6,7 +6,7 @@ export default function TheGiftWeGiveToTomorrow() {
 
 
 
-    <p><span className="dropCap">H</span>ow, oh how, could the universe, itself unloving and mindless, cough up minds who were capable of love?</p>
+    <p>How, oh how, could the universe, itself unloving and mindless, cough up minds who were capable of love?</p>
     <p>“No mystery in that,” you say. “It’s just a matter of natural selection.”</p>
     <p>But natural selection is cruel, bloody, and bloody stupid. Even when, on the surface of things, biological organisms aren’t <em>directly</em> fighting each other—aren’t <em>directly</em> tearing at each other with claws—there’s still a deeper competition going on between the genes. Genetic information is created when genes increase their <em>relative</em> frequency in the next generation—what matters for “genetic fitness” is not how many children you have, but that you have <em>more</em> children than others. It is quite possible for a species to evolve to extinction, if the winning genes are playing negative-sum games.</p>
     <p>How, oh how, could such a process create beings capable of love?</p>

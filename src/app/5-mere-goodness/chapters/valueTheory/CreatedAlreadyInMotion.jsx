@@ -4,7 +4,7 @@ import Latex from "@/components/Latex/Latex";
 
 export default function CreatedAlreadyInMotion() {
   return <Chapter title={["Created Already in Motion"]}>
-    <p><span className="dropCap">L</span>ewis Carroll, who was also a mathematician, once wrote a short dialogue called "What the Tortoise said to Achilles." If you have not yet read this ancient classic, consider doing so now.</p>
+    <p>Lewis Carroll, who was also a mathematician, once wrote a short dialogue called "What the Tortoise said to Achilles." If you have not yet read this ancient classic, consider doing so now.</p>
     <p>The Tortoise offers Achilles a step of reasoning drawn from Euclid's First Proposition:</p>
     <blockquote>
       <p>(<em>A</em>) Things that are equal to the same are equal to each other.</p>

@@ -6,7 +6,7 @@ export default function SomethingToProtect() {
 
 
 
-    <p><span className="dropCap">I</span>n the gestalt of (ahem) Japanese fiction, one finds this oft-repeated motif: Power comes from having something to protect.</p>
+    <p>In the gestalt of (ahem) Japanese fiction, one finds this oft-repeated motif: Power comes from having something to protect.</p>
     <p>I’m not just talking about superheroes that power up when a friend is threatened, the way it works in Western fiction. In the Japanese version it runs deeper than that.</p>
     <p>In the <em>X</em> saga it’s explicitly stated that each of the good guys draw their power from having someone—one person—who they want to protect. Who? That question is part of <em>X</em>’s plot—the “most precious person” isn’t always who we think. But if that person is killed, or hurt in the wrong way, the protector loses their power—not so much from magical backlash, as from simple despair. This isn’t something that happens once per week per good guy, the way it would work in a Western comic. It’s equivalent to being Killed Off For Real—taken off the game board.</p>
     <p>The way it works in Western superhero comics is that the good guy gets bitten by a radioactive spider; and then he needs something to do with his powers, to keep him busy, so he decides to fight crime. And then Western superheroes are always whining about how much time their superhero duties take up, and how they’d rather be ordinary mortals so they could go fishing or something.</p>

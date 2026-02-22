@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 
 export default function TheHaloEffect() {
   return <Chapter title={["The Halo Effect"]}>
-    <p><span className="dropCap">T</span>he affect heuristic is how an overall feeling of goodness or badness contributes to many other judgments, whether it’s logical or not, whether you’re aware of it or not. Subjects told about the benefits of nuclear power are likely to rate it as having fewer risks; stock analysts rating unfamiliar stocks judge them as generally good or generally bad—low risk and high returns, or high risk and low returns—in defiance of ordinary economic theory, which says that risk and return should correlate positively.</p>
+    <p>The affect heuristic is how an overall feeling of goodness or badness contributes to many other judgments, whether it’s logical or not, whether you’re aware of it or not. Subjects told about the benefits of nuclear power are likely to rate it as having fewer risks; stock analysts rating unfamiliar stocks judge them as generally good or generally bad—low risk and high returns, or high risk and low returns—in defiance of ordinary economic theory, which says that risk and return should correlate positively.</p>
     <p>The halo effect is the manifestation of the affect heuristic in social psychology. Robert Cialdini, in <em>Influence: Science and Practice</em>,<span className="footnote">Robert B. Cialdini, <em>Influence: Science and Practice</em> (Boston: Allyn &amp; Bacon, 2001). </span> summarizes:</p>
     <blockquote>
       <p>

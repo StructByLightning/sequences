@@ -5,7 +5,7 @@ export default function NoSafeDefenseNotEvenScience() {
   return <Chapter title={["No Safe Defense,", "Not Even Science"]}>
 
 
-    <p><span className="dropCap">I</span> don’t ask my friends about their childhoods—I lack social curiosity—and so I don’t know how much of a trend this really is:</p>
+    <p>I don’t ask my friends about their childhoods—I lack social curiosity—and so I don’t know how much of a trend this really is:</p>
     <p>Of the people I know who are reaching upward as rationalists, who volunteer information about their childhoods, there is a surprising tendency to hear things like, “My family joined a cult and I had to break out,” or, “One of my parents was clinically insane and I had to learn to filter out reality from their madness.”</p>
     <p>My own experience with growing up in an Orthodox Jewish family seems tame by comparison… but it accomplished the same outcome: It broke my core emotional trust in the sanity of the people around me.</p>
     <p>Until this core emotional trust is broken, you don’t start growing as a rationalist. I have trouble putting into words why this is so. Maybe any <em>unusual</em> skills you acquire—anything that makes you <em>unusually</em> rational—requires you to zig when other people zag. Maybe that’s just too scary, if the world still seems like a sane place unto you.</p>

@@ -6,7 +6,7 @@ export default function SuperexponentialConceptspaceAndSimpleWords() {
   return <Chapter title={["Superexponential Conceptspace,", "and Simple Words"]}>
 
 
-    <p><span className="dropCap">T</span>hingspace, you might think, is a rather huge space. Much larger than reality, for where reality only contains things that actually exist, Thingspace contains everything that <em>could</em> exist.</p>
+    <p>Thingspace, you might think, is a rather huge space. Much larger than reality, for where reality only contains things that actually exist, Thingspace contains everything that <em>could</em> exist.</p>
     <p>Actually, the way I "defined" Thingspace to have dimensions for every possible attribute—including correlated attributes like density and volume and mass—Thingspace may be too poorly defined to have anything you could call a <em>size</em>. But it's important to be able to visualize Thingspace <em>anyway</em>. Surely, no one can <em>really</em> understand a flock of sparrows if all they see is a cloud of flapping cawing things, rather than a cluster of points in Thingspace.</p>
     <p>But as vast as Thingspace may be, it doesn't hold a candle to the size of Conceptspace.</p>
     <p>"Concept," in machine learning, means a rule that includes or excludes examples. If you see the data &#123;2:+, 3:-, 14:+, 23:-, 8:+, 9:-&#125; then you might guess that the concept was "even numbers." There is a rather large literature (as one might expect) on how to learn concepts from data… given random examples, given chosen examples… given possible errors in classification… and most importantly, given different spaces of possible rules.</p>

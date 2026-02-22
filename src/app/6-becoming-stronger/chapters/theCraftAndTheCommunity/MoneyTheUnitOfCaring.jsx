@@ -5,7 +5,7 @@ export default function MoneyTheUnitOfCaring() {
   return <Chapter title={["Money: The Unit of Caring"]}>
 
 
-    <p><span className="dropCap">S</span>teve Omohundro has suggested a folk theorem to the effect that, within the interior of any approximately rational self-modifying agent, the marginal benefit of investing additional resources in anything ought to be about equal. Or, to put it a bit more exactly, shifting a unit of resource between any two tasks should produce no increase in expected utility, relative to the agent’s utility function and its probabilistic expectations about its own algorithms.</p>
+    <p>Steve Omohundro has suggested a folk theorem to the effect that, within the interior of any approximately rational self-modifying agent, the marginal benefit of investing additional resources in anything ought to be about equal. Or, to put it a bit more exactly, shifting a unit of resource between any two tasks should produce no increase in expected utility, relative to the agent’s utility function and its probabilistic expectations about its own algorithms.</p>
     <p>This resource balance principle implies that—over a very wide range of approximately rational systems, including even the interior of a self-modifying mind—there will exist some common currency of expected utilons, by which everything worth doing can be measured.</p>
     <p>In our society, this common currency of expected utilons is called “money.” It is the measure of how much society cares about something.</p>
     <p>This is a brutal yet obvious point, which many are motivated to deny.</p>

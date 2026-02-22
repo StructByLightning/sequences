@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function StrangerThanHistory() {
   return <Chapter title={["Stranger than History"]}>
 
-    <p><span className="dropCap">S</span>uppose I told you that I knew for a <em>fact</em> that the following statements were true:</p>
+    <p>Suppose I told you that I knew for a <em>fact</em> that the following statements were true:</p>
     <ul>
       <li>If you paint yourself a certain <em>exact</em> color between blue and green, it will reverse the force of gravity on you and cause you to fall upward.</li>
       <li>In the future, the sky will be filled by billions of floating black spheres. Each sphere will be larger than all the zeppelins that have ever existed put together. If you offer a sphere money, it will lower a male prostitute out of the sky on a bungee cord.</li>

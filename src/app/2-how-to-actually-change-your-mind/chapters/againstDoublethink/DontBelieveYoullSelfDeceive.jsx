@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function DontBelieveYoullSelfDeceive() {
   return <Chapter title={["Don't Believe", "You'll Self-Deceive"]}>
 
-    <p><span className="dropCap">I</span> don’t mean to seem like I’m picking on Kurige, but I think you have to expect a certain amount of questioning if you show up on <em>Less Wrong</em> and say:</p>
+    <p>I don’t mean to seem like I’m picking on Kurige, but I think you have to expect a certain amount of questioning if you show up on <em>Less Wrong</em> and say:</p>
     <blockquote>
       <p>One thing I’ve come to realize that helps to explain the disparity I feel when I talk with most other Christians is the fact that somewhere along the way my world-view took a major shift away from blind faith and landed somewhere in the vicinity of Orwellian double-think.</p>
     </blockquote>

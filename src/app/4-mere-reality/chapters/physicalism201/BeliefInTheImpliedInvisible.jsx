@@ -5,7 +5,7 @@ export default function BeliefInTheImpliedInvisible() {
   return <Chapter title={["Belief in the", "Implied Invisible"]}>
 
 
-    <p><span className="dropCap">O</span>ne generalized lesson <em>not</em> to learn from the Anti-Zombie Argument is, “Anything you can’t see doesn’t exist.”</p>
+    <p>One generalized lesson <em>not</em> to learn from the Anti-Zombie Argument is, “Anything you can’t see doesn’t exist.”</p>
     <p>It’s tempting to conclude the general rule. It would make the Anti-Zombie Argument much simpler, on future occasions, if we could take this as a premise. But unfortunately that’s just not Bayesian.</p>
     <p>Suppose I transmit a photon out toward infinity, not aimed at any stars, or any galaxies, pointing it toward one of the great voids between superclusters. Based on standard physics, in other words, I don’t expect this photon to intercept anything on its way out. The photon is moving at light speed, so I can’t chase after it and capture it again.</p>
     <p>If the expansion of the universe is accelerating, as current cosmology holds, there will come a future point where I don’t expect to be able to interact with the photon even in principle—a future time beyond which I don’t expect the photon’s future light cone to intercept my world-line. Even if an alien species captured the photon and rushed back to tell us, they couldn’t travel fast enough to make up for the accelerating expansion of the universe.</p>

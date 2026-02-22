@@ -5,7 +5,7 @@ export default function LivingInManyWorlds() {
   return <Chapter title={["Living in Many Worlds"]}>
 
 
-    <p><span className="dropCap">S</span>ome commenters have recently expressed disturbance at the thought of constantly splitting into zillions of other people, as is the straightforward and unavoidable prediction of quantum mechanics.</p>
+    <p>Some commenters have recently expressed disturbance at the thought of constantly splitting into zillions of other people, as is the straightforward and unavoidable prediction of quantum mechanics.</p>
     <p>Others have confessed themselves unclear as to the implications of many-worlds for planning: If you decide to buckle your seat belt in this world, does that increase the chance of another self unbuckling their seat belt? Are you being selfish at their expense?</p>
     <p>Just remember Egan’s Law: <em>It all adds up to normality.</em></p>
     <p>(After Greg Egan, in <em>Quarantine</em>.<span class="footnote">Greg Egan, <em>Quarantine</em> (London: Legend Press, 1992).</span>)</p>

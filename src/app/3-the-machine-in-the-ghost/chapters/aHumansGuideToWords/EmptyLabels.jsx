@@ -5,7 +5,7 @@ export default function EmptyLabels() {
   return <Chapter title={["Empty Labels"]}>
 
 
-    <p><span className="dropCap">C</span>onsider (yet again) the Aristotelian idea of categories. Let’s say that there’s some object with properties <em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>, and <em>E</em>, or at least it looks <em>E</em>-ish.</p>
+    <p>Consider (yet again) the Aristotelian idea of categories. Let’s say that there’s some object with properties <em>A</em>, <em>B</em>, <em>C</em>, <em>D</em>, and <em>E</em>, or at least it looks <em>E</em>-ish.</p>
     <blockquote>
       <p><span className="smallCaps">Fred:</span> “You mean that thing over there is blue, round, fuzzy, and—”</p>
       <p><span className="smallCaps">Me:</span> “In Aristotelian logic, it’s not supposed to make a difference what the properties are, or what I call them. That’s why I’m just using the letters.”</p>

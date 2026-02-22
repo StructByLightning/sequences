@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function IsThatYourTrueRejection() {
   return <Chapter title={["Is That Your", "True Rejection?"]}>
 
-    <p><span className="dropCap">I</span>t happens every now and then, that the one encounters some of my transhumanist-side beliefs—as opposed to my ideas having to do with human rationality—strange, exotic-sounding ideas like superintelligence and Friendly AI. And the one rejects them.</p>
+    <p>It happens every now and then, that the one encounters some of my transhumanist-side beliefs—as opposed to my ideas having to do with human rationality—strange, exotic-sounding ideas like superintelligence and Friendly AI. And the one rejects them.</p>
     <p>If the one is called upon to explain the rejection, not uncommonly the one says, “Why should I believe anything Yudkowsky says? He doesn’t have a PhD!”</p>
     <p>And occasionally someone else, hearing, says, “Oh, you should get a PhD, so that people will listen to you.” Or this advice may even be offered by the same one who disbelieved, saying, “Come back when you have a PhD.”</p>
     <p>Now there are good and bad reasons to get a PhD, but this is one of the bad ones.</p>

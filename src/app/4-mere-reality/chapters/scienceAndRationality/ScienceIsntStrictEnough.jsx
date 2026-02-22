@@ -5,7 +5,7 @@ export default function ScienceIsntStrictEnough() {
   return <Chapter title={["Science Isn't Strict Enough"]}>
 
 
-    <p><span className="dropCap">O</span>nce upon a time, a younger Eliezer had a stupid theory. Eliezer18 was careful to follow the precepts of Traditional Rationality that he had been taught; he made sure his stupid theory had experimental consequences. Eliezer18 professed, in accordance with the virtues of a scientist he had been taught, that he wished to test his stupid theory.</p>
+    <p>Once upon a time, a younger Eliezer had a stupid theory. Eliezer18 was careful to follow the precepts of Traditional Rationality that he had been taught; he made sure his stupid theory had experimental consequences. Eliezer18 professed, in accordance with the virtues of a scientist he had been taught, that he wished to test his stupid theory.</p>
     <p>This was all that was required to be virtuous, according to what Eliezer18 had been taught was virtue in the way of science.</p>
     <p>It was not even <em>remotely</em> the order of effort that would have been required to get it <em>right</em>.</p>
     <p>The traditional ideals of Science too readily give out gold stars. Negative experimental results are also knowledge, so everyone who plays gets an award. So long as you can think of some kind of experiment that tests your theory, and you <em>do</em> the experiment, and you <em>accept</em> the results, you’ve played by the rules; you’re a good scientist.</p>

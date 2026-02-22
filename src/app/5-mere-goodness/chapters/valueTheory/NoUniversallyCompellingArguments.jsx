@@ -6,7 +6,7 @@ export default function NoUniversallyCompellingArguments() {
 
 
 
-    <p><span className="dropCap">W</span>hat is so <em>terrifying</em> about the idea that not every possible mind might agree with us, even in principle?</p>
+    <p>What is so <em>terrifying</em> about the idea that not every possible mind might agree with us, even in principle?</p>
     <p>For some folks, nothing—it doesn’t bother them in the slightest. And for some of <em>those</em> folks, the <em>reason</em> it doesn’t bother them is that they don’t have strong intuitions about standards and truths that go beyond personal whims. If they say the sky is blue, or that murder is wrong, that’s just their personal opinion; and that someone else might have a different opinion doesn’t surprise them.</p>
     <p>For other folks, a disagreement that persists even <em>in principle</em> is something they can’t accept. And for some of <em>those</em> folks, the <em>reason</em> it bothers them is that it seems to them that if you allow that some people cannot be persuaded <em>even in principle</em> that the sky is blue, then you’re conceding that “the sky is blue” is merely an <em>arbitrary</em> personal opinion.</p>
     <p>I’ve proposed that you should resist the temptation to generalize over all of mind design space. If we restrict ourselves to minds specifiable in a trillion bits or less, then each <em>universal</em> generalization “All minds <em>m</em>: <em>X</em> (<em>m</em>)” has two to the trillionth chances to be false, while each <em>existential</em> generalization “Exists mind <em>m</em>: <em>X</em> (<em>m</em>)” has two to the trillionth chances to be true.</p>

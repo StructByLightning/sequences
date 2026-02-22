@@ -6,7 +6,7 @@ export default function ConfigurationsAndAmplitude() {
   return <Chapter title={["Configurations and Amplitude"]}>
 
 
-    <p><span className="dropCap">S</span>o the universe isn't made of little billiard balls, and it isn't made of crests and troughs in a pool of aether… Then what is the stuff that stuff is made of?</p>
+    <p>So the universe isn't made of little billiard balls, and it isn't made of crests and troughs in a pool of aether… Then what is the stuff that stuff is made of?</p>
     <figure>
       <img src="/ConfigurationsAndAmplitude_diagram_1.svg" width="100px" height="auto" />
       <figcaption>Figure 1</figcaption>

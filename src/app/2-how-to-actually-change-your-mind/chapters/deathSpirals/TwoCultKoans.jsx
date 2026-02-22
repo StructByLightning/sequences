@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function TwoCultKoans() {
   return <Chapter title={["Two Cult Koans"]}>
 
-    <p><span className="dropCap">A</span> novice rationalist studying under the master Ougi was rebuked by a friend who said, “You spend all this time listening to your master, and talking of ‘rational’ this and ‘rational’ that—you have fallen into a cult!”</p>
+    <p>A novice rationalist studying under the master Ougi was rebuked by a friend who said, “You spend all this time listening to your master, and talking of ‘rational’ this and ‘rational’ that—you have fallen into a cult!”</p>
     <p>The novice was deeply disturbed; he heard the words, “You have fallen into a cult!” resounding in his ears as he lay in bed that night, and even in his dreams.</p>
     <p>The next day, the novice approached Ougi and related the events, and said, “Master, I am constantly consumed by worry that this is all really a cult, and that your teachings are only dogma.”</p>
     <p>Ougi replied, “If you find a hammer lying in the road and sell it, you may ask a low price or a high one. But if you keep the hammer and use it to drive nails, who can doubt its worth?”</p>

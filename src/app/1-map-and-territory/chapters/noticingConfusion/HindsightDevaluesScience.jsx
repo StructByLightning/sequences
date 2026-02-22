@@ -4,7 +4,7 @@ export default function HindsightDevaluesScience() {
 
 
   return <Chapter title={["Hindsight Devalues Science"]}>
-    <p><span className="dropCap">T</span>his essay is closely based on an excerpt from Meyers’s <em>Exploring Social Psychology</em>;<span className="footnote">David G. Meyers, <em>Exploring Social Psychology</em> (New York: McGraw-Hill, 1994), 15–19.</span> the excerpt is worth reading in its entirety.</p>
+    <p>This essay is closely based on an excerpt from Meyers’s <em>Exploring Social Psychology</em>;<span className="footnote">David G. Meyers, <em>Exploring Social Psychology</em> (New York: McGraw-Hill, 1994), 15–19.</span> the excerpt is worth reading in its entirety.</p>
     <p>Cullen Murphy, editor of <em>The Atlantic</em>, said that the social sciences turn up “no ideas or conclusions that can’t be found in [any] encyclopedia of quotations… Day after day social scientists go out into the world. Day after day they discover that people’s behavior is pretty much what you’d expect.”</p>
     <p>Of course, the “expectation” is all hindsight. (Hindsight bias: Subjects who know the actual answer to a question assign much higher probabilities they “would have” guessed for that answer, compared to subjects who must guess without knowing the answer.)</p>
     <p>The historian Arthur Schlesinger, Jr. dismissed scientific studies of World War II soldiers’ experiences as “ponderous demonstrations” of common sense. For example:</p>

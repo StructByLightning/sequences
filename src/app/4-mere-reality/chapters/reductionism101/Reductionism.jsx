@@ -5,7 +5,7 @@ export default function Reductionism() {
   return <Chapter title={["Reductionism"]}>
 
 
-    <p><span className="dropCap">A</span>lmost one year ago, in April 2007, Matthew C. submitted the following suggestion for an <em>Overcoming Bias</em> topic:</p>
+    <p>Almost one year ago, in April 2007, Matthew C. submitted the following suggestion for an <em>Overcoming Bias</em> topic:</p>
     <blockquote>
       <p>How and why the current reigning philosophical hegemon (reductionistic materialism) is obviously correct […], while the reigning philosophical viewpoints of all past societies and civilizations are obviously suspect—</p>
     </blockquote>

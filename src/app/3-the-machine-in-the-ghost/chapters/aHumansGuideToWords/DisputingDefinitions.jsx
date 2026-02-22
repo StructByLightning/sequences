@@ -5,7 +5,7 @@ export default function DisputingDefinitions() {
   return <Chapter title={["Disputing Definitions"]}>
 
 
-    <p><span className="dropCap">I</span> have watched more than one conversation—even conversations supposedly about cognitive science—go the route of disputing over definitions. Taking the classic example to be “If a tree falls in a forest, and no one hears it, does it make a sound?,” the dispute often follows a course like this:</p>
+    <p>I have watched more than one conversation—even conversations supposedly about cognitive science—go the route of disputing over definitions. Taking the classic example to be “If a tree falls in a forest, and no one hears it, does it make a sound?,” the dispute often follows a course like this:</p>
     <blockquote>
       <p><em>If a tree falls in the forest, and no one hears it, does it make a sound?</em></p>
       <p><span className="smallCaps">Albert:</span> “Of course it does. What kind of silly question is that? Every time I’ve listened to a tree fall, it made a sound, so I’ll guess that other trees falling also make sounds. I don’t believe the world changes around when I’m not looking.”</p>

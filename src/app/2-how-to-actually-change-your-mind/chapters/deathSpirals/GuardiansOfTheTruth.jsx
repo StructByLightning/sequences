@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 
 export default function GuardiansOfTheTruth() {
   return <Chapter title={["Guardians of the Truth"]}>
-    <p><span className="dropCap">T</span>he criticism is sometimes leveled against rationalists: “The Inquisition thought <em>they</em> had the truth! Clearly this ‘truth’ business is dangerous.”</p>
+    <p>The criticism is sometimes leveled against rationalists: “The Inquisition thought <em>they</em> had the truth! Clearly this ‘truth’ business is dangerous.”</p>
     <p>There are many obvious responses, such as “If you think that possessing the truth <em>would</em> license you to torture and kill, you’re making a mistake that has nothing to do with epistemology.” Or, “So that historical statement you just made about the Inquisition—is it true?”</p>
     <p>Reversed stupidity is not intelligence: “If your current computer stops working, you can’t conclude that everything about the current system is wrong and that you need a new system without an AMD processor, an ATI video card… even though your current system has all these things and it doesn’t work. Maybe you just need a new power cord.” To arrive at a poor conclusion requires only one wrong step, not every step wrong. The Inquisitors believed that 2 + 2 = 4, but that wasn’t the source of their madness. Maybe epistemological realism wasn’t the problem either?</p>
     <p>It does seem plausible that if the Inquisition had been made up of relativists, professing that nothing was true and nothing mattered, they would have mustered less enthusiasm for their torture. They would also have been less enthusiastic if lobotomized. I think that’s a fair analogy.</p>

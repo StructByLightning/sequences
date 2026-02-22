@@ -4,7 +4,7 @@ export default function ApplauseLights() {
 
 
   return <Chapter title={["Applause Lights"]}>
-    <p><span className="dropCap">A</span>t the Singularity Summit 2007, one of the speakers called for democratic, multinational development of Artificial Intelligence. So I stepped up to the microphone and asked:</p>
+    <p>At the Singularity Summit 2007, one of the speakers called for democratic, multinational development of Artificial Intelligence. So I stepped up to the microphone and asked:</p>
     <blockquote>
       <p>Suppose that a group of democratic republics form a consortium to develop AI, and there’s a lot of politicking during the process—some interest groups have unusually large influence, others get shafted—in other words, the result looks just like the products of modern democracies. Alternatively, suppose a group of rebel nerds develops an AI in their basement, and instructs the AI to poll everyone in the world—dropping cellphones to anyone who doesn’t have them—and do whatever the majority says. Which of these do you think is more “democratic,” and would you feel safe with either?</p>
     </blockquote>

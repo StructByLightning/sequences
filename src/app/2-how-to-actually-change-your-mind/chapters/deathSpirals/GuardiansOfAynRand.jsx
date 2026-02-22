@@ -8,7 +8,7 @@ export default function GuardiansOfAynRand() {
       <p>For skeptics, the idea that reason can lead to a cult is absurd. The characteristics of a cult are 180 degrees out of phase with reason. But as I will demonstrate, not only can it happen, it has happened, and to a group that would have to be considered the unlikeliest cult in history. It is a lesson in what happens when the truth becomes more important than the search for truth…</p>
       <p>—Michael Shermer, “The Unlikeliest Cult in History”<span class="footnote">Michael Shermer, “The Unlikeliest Cult in History,” <em>Skeptic</em> 2, no. 2 (1993): 74–81, http://www.2think.org/02_2_she.shtml.</span></p>
     </blockquote>
-    <p><span className="dropCap">I</span> think Michael Shermer is over-explaining Objectivism. I’ll get around to amplifying on that.</p>
+    <p>I think Michael Shermer is over-explaining Objectivism. I’ll get around to amplifying on that.</p>
     <p>Ayn Rand’s novels glorify technology, capitalism, individual defiance of the System, limited government, private property, selfishness. Her ultimate fictional hero, John Galt, was <spoiler>a scientist who invented a new form of cheap renewable energy; but then refuses to give it to the world since the profits will only be stolen to prop up corrupt governments.</spoiler></p>
     <p>And then—somehow—it all turned into a moral and philosophical “closed system” with Ayn Rand at the center. The term “closed system” is not my own accusation; it’s the term the Ayn Rand Institute uses to describe Objectivism.</p>
     <p>Objectivism is defined by the works of Ayn Rand. Now that Rand is dead, Objectivism is closed. If you disagree with Rand’s works in any respect, you cannot be an Objectivist.</p>

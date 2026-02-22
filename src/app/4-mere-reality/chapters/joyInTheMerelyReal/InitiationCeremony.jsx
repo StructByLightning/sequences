@@ -5,7 +5,7 @@ export default function InitiationCeremony() {
   return <Chapter title={["Initiation Ceremony"]}>
 
 
-    <p><span className="dropCap">T</span>he torches that lit the narrow stairwell burned intensely and in the wrong color, flame like melting gold or shattered suns.</p>
+    <p>The torches that lit the narrow stairwell burned intensely and in the wrong color, flame like melting gold or shattered suns.</p>
     <p><em>192… 193…</em></p>
     <p>Brennan’s sandals clicked softly on the stone steps, snicking in sequence, like dominos very slowly falling.</p>
     <p><em>227… 228…</em></p>

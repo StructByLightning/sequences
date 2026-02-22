@@ -5,7 +5,7 @@ export default function WordsAsMentalPaintbrushHandles() {
   return <Chapter title={["Words as Mental", "Paintbrush Handles"]}>
 
 
-    <p><span className="dropCap">S</span>uppose I tell you: “It’s the strangest thing: The lamps in this hotel have triangular lightbulbs.”</p>
+    <p>Suppose I tell you: “It’s the strangest thing: The lamps in this hotel have triangular lightbulbs.”</p>
     <p>You may or may not have visualized it—if you haven’t done it yet, do so now—what, in your mind’s eye, does a “triangular lightbulb” look like?</p>
     <p>In your mind’s eye, did the glass have sharp edges, or smooth?</p>
     <p>When the phrase “triangular lightbulb” first crossed my mind—no, the hotel doesn’t have them—then as best as my introspection could determine, I first saw a pyramidal lightbulb with sharp edges, then (almost immediately) the edges were smoothed, and then my mind generated a loop of flourescent bulb in the shape of a smooth triangle as an alternative.</p>

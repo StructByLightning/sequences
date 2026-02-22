@@ -14,7 +14,7 @@ export default function EndsDontJustifyMeansAmongHumans() {
       <p>I think of myself as running on hostile hardware.</p>
       <p>—Justin Corwin</p>
     </blockquote>
-    <p><span className="dropCap">H</span>umans may have evolved a structure of political revolution, beginning by believing themselves morally superior to the corrupt current power structure, but ending by being corrupted by power themselves—not by any plan in their own minds, but by the echo of ancestors who did the same and thereby reproduced.</p>
+    <p>Humans may have evolved a structure of political revolution, beginning by believing themselves morally superior to the corrupt current power structure, but ending by being corrupted by power themselves—not by any plan in their own minds, but by the echo of ancestors who did the same and thereby reproduced.</p>
     <p>This fits the template:</p>
     <blockquote>
       <p>In some cases, human beings have evolved in such fashion as to think that they are doing <em>X</em> for prosocial reason <em>Y</em>, but when human beings actually do <em>X</em>, other adaptations execute to promote self-benefiting consequence <em>Z</em>.</p>

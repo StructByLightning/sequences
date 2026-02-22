@@ -5,7 +5,7 @@ export default function LeakyGeneralizations() {
   return <Chapter title={["Leaky Generalizations"]}>
 
 
-    <p><span className="dropCap">A</span>re apples good to eat? Usually, but some apples are rotten. Do humans have ten fingers? Most of us do, but plenty of people have lost a finger and nonetheless qualify as “human.”</p>
+    <p>Are apples good to eat? Usually, but some apples are rotten. Do humans have ten fingers? Most of us do, but plenty of people have lost a finger and nonetheless qualify as “human.”</p>
     <p>Unless you descend to a level of description far below any macroscopic object—below societies, below people, below fingers, below tendon and bone, below cells, all the way down to particles and fields where the laws are truly universal—practically every generalization you use in the real world will be leaky.</p>
     <p>(Though there may, of course, be some exceptions to the above rule…)</p>
     <p>Mostly, the way you deal with leaky generalizations is that, well, you just have to deal. If the cookie market almost always closes at 10 p.m., except on Thanksgiving it closes at 6 p.m., and today happens to be National Native American Genocide Day, you’d better show up before 6 p.m. or you won’t get a cookie.</p>

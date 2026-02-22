@@ -5,7 +5,7 @@ export default function MundaneMagic() {
   return <Chapter title={["Mundane Magic"]}>
 
 
-    <p><span className="dropCap">I</span> think that part of the rationalist ethos is <em>binding yourself emotionally</em> to an absolutely lawful reductionistic universe—a universe containing no supernatural things such as souls or magic—and pouring all your hope and all your care into that merely real universe and its possibilities, without disappointment.</p>
+    <p>I think that part of the rationalist ethos is <em>binding yourself emotionally</em> to an absolutely lawful reductionistic universe—a universe containing no supernatural things such as souls or magic—and pouring all your hope and all your care into that merely real universe and its possibilities, without disappointment.</p>
     <p>There’s an old trick for combating dukkha where you make a list of things you’re grateful for, like a roof over your head.</p>
     <p>So why not make a list of abilities you have that would be amazingly cool <em>if they were magic</em>, or if only a few chosen individuals had them?</p>
     <p>For example, suppose that instead of one eye, you possessed a magical <em>second</em> eye embedded in your forehead. And this second eye enabled you to <em>see into the third dimension</em>—so that you could somehow tell <em>how far away</em> things were—where an ordinary eye would see only a two-dimensional shadow of the true world. Only the possessors of this ability can accurately aim the legendary distance-weapons that kill at ranges far beyond a sword, or use to their fullest potential the shells of ultrafast machinery called “cars.”</p>

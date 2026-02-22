@@ -5,7 +5,7 @@ export default function QuantumExplanations() {
   return <Chapter title={["Quantum Explanations"]}>
 
 
-    <p><span className="dropCap">T</span>here’s a widespread belief that quantum mechanics is <em>supposed</em> to be confusing. This is not a good frame of mind for either a teacher or a student.</p>
+    <p>There’s a widespread belief that quantum mechanics is <em>supposed</em> to be confusing. This is not a good frame of mind for either a teacher or a student.</p>
     <p>And I find that legendarily “confusing” subjects often are not really all that complicated <em>as math</em>, particularly if you just want a very basic—but still mathematical—grasp on what goes on down there.</p>
     <p>I am not a physicist, and physicists famously hate it when non-professional-physicists talk about quantum mechanics. But I do have some experience with explaining mathy things that are allegedly “hard to understand.”</p>
     <p>I wrote the Intuitive Explanation of Bayesian Reasoning because people were complaining that Bayes’s Theorem was “counterintuitive”—in fact it was <em>famously</em> counterintuitive—and this did not seem right. The equation just did not seem complicated enough to deserve the fearsome reputation it had. So I tried explaining it <em>my way</em>, and I did not manage to reach my original target of elementary school students, but I get frequent grateful emails from formerly confused folks ranging from reporters to outside academic college professors.</p>

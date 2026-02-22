@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function HugTheQuery() {
   return <Chapter title={["Hug the Query"]}>
 
-    <p><span className="dropCap">I</span>n the art of rationality there is a discipline of <em>closeness-to-the-issue</em>—trying to observe evidence that is as near to the original question as possible, so that it screens off as many other arguments as possible.</p>
+    <p>In the art of rationality there is a discipline of <em>closeness-to-the-issue</em>—trying to observe evidence that is as near to the original question as possible, so that it screens off as many other arguments as possible.</p>
     <p>The Wright Brothers say, “My plane will fly.” If you look at their authority (bicycle mechanics who happen to be excellent amateur physicists) then you will compare their authority to, say, Lord Kelvin, and you will find that Lord Kelvin is the greater authority.</p>
     <p>If you demand to see the Wright Brothers’ calculations, and you can follow them, and you demand to see Lord Kelvin’s calculations (he probably doesn’t have any apart from his own incredulity), then authority becomes much less relevant.</p>
     <p>If you actually <em>watch the plane fly,</em> the calculations themselves become moot for many purposes, and Kelvin’s authority not even worth considering.</p>

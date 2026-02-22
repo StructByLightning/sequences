@@ -5,7 +5,7 @@ export default function ThirtySevenWaysThatWordsCanBeWrong() {
   return <Chapter title={["37 Ways That Words", "Can Be Wrong"]}>
 
 
-    <p><span className="dropCap">S</span>ome reader is bound to declare that a better title for this essay would be “37 Ways That You Can Use Words Unwisely,” or “37 Ways That Suboptimal Use Of Categories Can Have Negative Side Effects On Your Cognition.”</p>
+    <p>Some reader is bound to declare that a better title for this essay would be “37 Ways That You Can Use Words Unwisely,” or “37 Ways That Suboptimal Use Of Categories Can Have Negative Side Effects On Your Cognition.”</p>
     <p>But one of the primary lessons of this gigantic list is that saying “There’s no way my choice of <em>X</em> can be ‘wrong’ ” is nearly always an error in practice, whatever the theory. You can always be wrong. Even when it’s theoretically impossible to be wrong, you can still be wrong. There is never a Get Out of Jail Free card for anything you do. That’s life.</p>
     <p>Besides, I can define the word “wrong” to mean anything I like—it’s not like a word can be <em>wrong</em>.</p>
     <p>Personally, I think it quite justified to use the word “wrong” when:</p>

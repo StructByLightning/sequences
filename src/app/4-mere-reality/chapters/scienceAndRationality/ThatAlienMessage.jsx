@@ -5,7 +5,7 @@ export default function ThatAlienMessage() {
   return <Chapter title={["That Alien Message"]}>
 
 
-    <p><span className="dropCap">I</span>magine a world much like this one, in which, thanks to gene-selection technologies, the average IQ is 140 (on our scale). Potential Einsteins are one-in-a-thousand, not one-in-a-million; and they grow up in a school system suited, if not to them personally, then at least to bright kids. Calculus is routinely taught in sixth grade. Albert Einstein, himself, still lived and still made approximately the same discoveries, but his work no longer seems <em>exceptional</em>. Several modern top-flight physicists have made equivalent breakthroughs, and are still around to talk.</p>
+    <p>Imagine a world much like this one, in which, thanks to gene-selection technologies, the average IQ is 140 (on our scale). Potential Einsteins are one-in-a-thousand, not one-in-a-million; and they grow up in a school system suited, if not to them personally, then at least to bright kids. Calculus is routinely taught in sixth grade. Albert Einstein, himself, still lived and still made approximately the same discoveries, but his work no longer seems <em>exceptional</em>. Several modern top-flight physicists have made equivalent breakthroughs, and are still around to talk.</p>
     <p>(No, this is not the world Brennan lives in.)</p>
     <p>One day, the stars in the night sky begin to change.</p>
     <p>Some grow brighter. Some grow dimmer. Most remain the same. Astronomical telescopes capture it all, moment by moment. The stars that change change their luminosity one at a time, distinctly so; the luminosity change occurs over the course of a microsecond, but a whole second separates each change.</p>

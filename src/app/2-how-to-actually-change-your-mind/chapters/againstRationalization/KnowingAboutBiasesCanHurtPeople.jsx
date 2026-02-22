@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function KnowingAboutBiasesCanHurtPeople() {
   return <Chapter title={["Knowing About Biases", "Can Hurt People"]}>
 
-    <p><span className="dropCap">O</span>nce upon a time I tried to tell my mother about the problem of expert calibration, saying: “So when an expert says they’re 99% confident, it only happens about 70% of the time.” Then there was a pause as, suddenly, I realized I was talking to my mother, and I hastily added: “Of course, you’ve got to make sure to apply that skepticism evenhandedly, including to yourself, rather than just using it to argue against anything you disagree with—”</p>
+    <p>Once upon a time I tried to tell my mother about the problem of expert calibration, saying: “So when an expert says they’re 99% confident, it only happens about 70% of the time.” Then there was a pause as, suddenly, I realized I was talking to my mother, and I hastily added: “Of course, you’ve got to make sure to apply that skepticism evenhandedly, including to yourself, rather than just using it to argue against anything you disagree with—”</p>
     <p>And my mother said: “Are you kidding? This is great! I’m going to use it all the time!”</p>
     <p>Taber and Lodge’s “Motivated skepticism in the evaluation of political beliefs” describes the confirmation of six predictions:<span class="footnote">Charles S. Taber and Milton Lodge, “Motivated Skepticism in the Evaluation of Political Beliefs,” <em>American Journal of Political Science</em> 50, no. 3 (2006): 755–769, doi:10.1111/j.1540- 5907.2006.00214.x.</span></p>
     <ol>

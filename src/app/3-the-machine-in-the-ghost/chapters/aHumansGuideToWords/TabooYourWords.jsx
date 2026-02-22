@@ -5,7 +5,7 @@ export default function TabooYourWords() {
   return <Chapter title={["Taboo Your Words"]}>
 
 
-    <p><span className="dropCap">I</span>n the game <em>Taboo</em> (by Hasbro), the objective is for a player to have their partner guess a word written on a card, without using that word or five additional words listed on the card. For example, you might have to get your partner to say “baseball” without using the words “sport,” “bat,” “hit,” “pitch,” “base” or of course “baseball.”</p>
+    <p>In the game <em>Taboo</em> (by Hasbro), the objective is for a player to have their partner guess a word written on a card, without using that word or five additional words listed on the card. For example, you might have to get your partner to say “baseball” without using the words “sport,” “bat,” “hit,” “pitch,” “base” or of course “baseball.”</p>
     <p>As soon as I see a problem like that, I at once think, “An artificial group conflict in which you use a long wooden cylinder to whack a thrown spheroid, and then run between four safe positions.” It might not be the most efficient strategy to convey the word “baseball” under the stated rules—that might be, “It’s what the Yankees play”—but the general skill of <em>blanking a word out of my mind</em> was one I’d practiced for years, albeit with a different purpose.</p>
     <p>In the previous essay we saw how replacing terms with definitions could reveal the empirical unproductivity of the classical Aristotelian syllogism. All humans are mortal (and also, apparently, featherless bipeds); Socrates is human; therefore Socrates is mortal. When we replace the word “human” by its apparent definition, the following underlying reasoning is revealed:</p>
     <blockquote>

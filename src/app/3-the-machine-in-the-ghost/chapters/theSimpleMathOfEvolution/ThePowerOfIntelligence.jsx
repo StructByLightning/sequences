@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 
 export default function ThePowerOfIntelligence() {
   return <Chapter title={["The Power of Intelligence"]}>
-    <p><span className="dropCap">I</span>n our skulls we carry around three pounds of slimy, wet, grayish tissue, corrugated like crumpled toilet paper.</p>
+    <p>In our skulls we carry around three pounds of slimy, wet, grayish tissue, corrugated like crumpled toilet paper.</p>
     <p>You wouldn’t think, to look at the unappetizing lump, that it was some of the most powerful stuff in the known universe. If you’d never seen an anatomy textbook, and you saw a brain lying in the street, you’d say “Yuck!” and try not to get any of it on your shoes. Aristotle thought the brain was an organ that cooled the blood. It doesn’t <em>look</em> dangerous.</p>
     <p>Five million years ago, the ancestors of lions ruled the day, the ancestors of wolves roamed the night. The ruling predators were armed with teeth and claws—sharp, hard cutting edges, backed up by powerful muscles. Their prey, in self-defense, evolved armored shells, sharp horns, toxic venoms, camouflage. The war had gone on through hundreds of eons and countless arms races. Many a loser had been removed from the game, but there was no sign of a winner. Where one species had shells, another species would evolve to crack them; where one species became poisonous, another would evolve to tolerate the poison. Each species had its private niche—for who could live in the seas and the skies and the land at once? There was no ultimate weapon and no ultimate defense and no reason to believe any such thing was possible.</p>
     <p>Then came the Day of the Squishy Things.</p>

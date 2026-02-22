@@ -5,7 +5,7 @@ export default function EpistemicViciousness() {
   return <Chapter title={["Epistemic Viciousness"]}>
 
 
-    <p><span className="dropCap">S</span>omeone deserves a large hat tip for this, but I’m having trouble remembering who; my records don’t seem to show any email or <em>Overcoming Bias</em> comment which told me of this 12-page essay, “Epistemic Viciousness in the Martial Arts” by Gillian Russell.<span class="footnote">Gillian Russell, “Epistemic Viciousness in the Martial Arts,” in <em>Martial Arts and Philosophy: Beating and Nothingness</em>, ed. Graham Priest and Damon A. Young (Open Court, 2010).</span> Maybe Anna Salamon?</p>
+    <p>Someone deserves a large hat tip for this, but I’m having trouble remembering who; my records don’t seem to show any email or <em>Overcoming Bias</em> comment which told me of this 12-page essay, “Epistemic Viciousness in the Martial Arts” by Gillian Russell.<span class="footnote">Gillian Russell, “Epistemic Viciousness in the Martial Arts,” in <em>Martial Arts and Philosophy: Beating and Nothingness</em>, ed. Graham Priest and Damon A. Young (Open Court, 2010).</span> Maybe Anna Salamon?</p>
     <blockquote>
       <p>We all lined up in our ties and sensible shoes (this was England) and copied him—left, right, left, right—and afterwards he told us that if we practised in the air with sufficient devotion for three years, then we would be able to use our punches to kill a bull with one blow.</p>
       <p>I worshipped Mr Howard (though I would sooner have died than told him that) and so, as a skinny, eleven-year-old girl, I came to believe that if I practised, I would be able to kill a bull with one blow by the time I was fourteen.</p>

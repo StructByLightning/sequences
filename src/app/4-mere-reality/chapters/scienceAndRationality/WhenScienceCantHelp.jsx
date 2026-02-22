@@ -5,7 +5,7 @@ export default function WhenScienceCantHelp() {
   return <Chapter title={["When Science Can't Help"]}>
 
 
-    <p><span className="dropCap">O</span>nce upon a time, a younger Eliezer had a stupid theory. Let’s say that Eliezer18’s stupid theory was that consciousness was caused by closed timelike curves hiding in quantum gravity. This isn’t the whole story, not even close, but it will do for a start.</p>
+    <p>Once upon a time, a younger Eliezer had a stupid theory. Let’s say that Eliezer18’s stupid theory was that consciousness was caused by closed timelike curves hiding in quantum gravity. This isn’t the whole story, not even close, but it will do for a start.</p>
     <p>And there came a point where I looked back, and realized:</p>
     <ol>
       <li>I had carefully followed everything I’d been told was Traditionally Rational, in the course of going astray. For example, I’d been careful to only believe in stupid theories that made novel experimental predictions, e.g., that neuronal microtubules would be found to support coherent quantum states.</li>

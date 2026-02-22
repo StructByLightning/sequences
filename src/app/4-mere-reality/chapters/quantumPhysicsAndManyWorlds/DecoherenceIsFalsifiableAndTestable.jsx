@@ -6,7 +6,7 @@ export default function DecoherenceIsFalsifiableAndTestable() {
   return <Chapter title={["Decoherence is Falsifiable", "and Testable"]}>
 
 
-    <p><span className="dropCap">T</span>he words "falsifiable" and "testable" are sometimes used interchangeably, which imprecision is the price of speaking in English. There are two different probability-theoretic qualities I wish to discuss here, and I will refer to one as "falsifiable" and the other as "testable" because it seems like the best fit.</p>
+    <p>The words "falsifiable" and "testable" are sometimes used interchangeably, which imprecision is the price of speaking in English. There are two different probability-theoretic qualities I wish to discuss here, and I will refer to one as "falsifiable" and the other as "testable" because it seems like the best fit.</p>
     <p>As for the math, it begins, as so many things do, with:</p>
 
     <Latex display="block" math="P(A_i|B) = \frac{P(B|A_i)P(A_i)}{\sum_j P(B|A_j)P(A_j)}" />

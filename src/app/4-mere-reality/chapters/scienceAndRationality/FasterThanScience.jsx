@@ -5,7 +5,7 @@ export default function FasterThanScience() {
   return <Chapter title={["Faster Than Science"]}>
 
 
-    <p><span className="dropCap">I</span> sometimes say that the method of science is to amass such an enormous mountain of evidence that even scientists cannot ignore it; and that this is the distinguishing characteristic of a scientist. (A non-scientist will ignore it anyway.)</p>
+    <p>I sometimes say that the method of science is to amass such an enormous mountain of evidence that even scientists cannot ignore it; and that this is the distinguishing characteristic of a scientist. (A non-scientist will ignore it anyway.)</p>
     <p>Max Planck was even less optimistic:<span class="footnote">Max Planck, <em>Scientific Autobiography and Other Papers</em> (New York: Philosophical Library, 1949).</span></p>
     <blockquote>
       <p>A new scientific truth does not triumph by convincing its opponents and making them see the light, but rather because its opponents eventually die, and a new generation grows up that is familiar with it.</p>

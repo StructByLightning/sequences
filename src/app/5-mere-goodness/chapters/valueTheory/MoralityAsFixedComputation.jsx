@@ -11,7 +11,7 @@ export default function MoralityAsFixedComputation() {
       <p>Eliezer, I’ve just reread your article and was wondering if this is a good quick summary of your position (leaving apart how you got to it):</p>
       <p>“I should <em>X</em>” means that I would attempt to <em>X</em> were I fully informed.</p>
     </blockquote>
-    <p><span className="dropCap">T</span>oby’s a pro, so if he didn’t get it, I’d better try again. Let me try a different tack of explanation—one closer to the historical way that I arrived at my own position.</p>
+    <p>Toby’s a pro, so if he didn’t get it, I’d better try again. Let me try a different tack of explanation—one closer to the historical way that I arrived at my own position.</p>
     <p>Suppose you build an AI, and—leaving aside that AI goal systems cannot be built around English statements, and all such descriptions are only dreams— you try to infuse the AI with the action-determining principle, “Do what I want.”</p>
     <p>And suppose you get the AI design close <em>enough</em>—it doesn’t just end up tiling the universe with paperclips, cheesecake or tiny molecular copies of satisfied programmers—that its utility function actually assigns utilities as follows, to the world-states we would describe in English as:</p>
     <pre><code>&lt;Programmer weakly desires “X,” quantity 20 of X exists&gt;:    +20</code><br /><code>&lt;Programmer strongly desires “Y,” quantity 20 of X exists&gt;:  0</code><br /><code>&lt;Programmer weakly desires “X,”  quantity 30 of Y exists&gt;:   0</code><br /><code>&lt;Programmer strongly desires “Y,”  quantity 30 of Y exists&gt;: +60</code></pre>

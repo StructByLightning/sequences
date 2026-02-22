@@ -6,7 +6,7 @@ export default function HighChallenge() {
 
 
 
-    <p><span className="dropCap">T</span>here’s a class of prophecy that runs: “In the Future, machines will do all the work. Everything will be automated. Even labor of the sort we now consider ‘intellectual,’ like engineering, will be done by machines. We can sit back and own the capital. You’ll never have to lift a finger, ever again.”</p>
+    <p>There’s a class of prophecy that runs: “In the Future, machines will do all the work. Everything will be automated. Even labor of the sort we now consider ‘intellectual,’ like engineering, will be done by machines. We can sit back and own the capital. You’ll never have to lift a finger, ever again.”</p>
     <p>But then won’t people be bored?</p>
     <p>No; they can play computer games—not like <em>our</em> games, of course, but much more advanced and entertaining.</p>
     <p>Yet wait! If you buy a modern computer game, you’ll find that it contains some tasks that are—there’s no kind word for this—<em>effortful</em>. (I would even say “difficult,” with the understanding that we’re talking about something that takes ten minutes, not ten years.)</p>

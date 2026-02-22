@@ -6,7 +6,7 @@ export default function HelplessIndividuals() {
 
 
 
-    <p><span className="dropCap">W</span>hen you consider that our grouping instincts are optimized for 50-person hunter-gatherer bands where everyone knows everyone else, it begins to seem miraculous that modern-day large institutions survive at all.</p>
+    <p>When you consider that our grouping instincts are optimized for 50-person hunter-gatherer bands where everyone knows everyone else, it begins to seem miraculous that modern-day large institutions survive at all.</p>
     <p>Well—there are governments with specialized militaries and police, which can extract taxes. That’s a non-ancestral idiom which dates back to the invention of sedentary agriculture and extractible surpluses; humanity is still struggling to deal with it.</p>
     <p>There are corporations in which the flow of money is controlled by centralized management, a non-ancestral idiom dating back to the invention of large-scale trade and professional specialization.</p>
     <p>And in a world with large populations and close contact, memes evolve far more virulent than the average case of the ancestral environment; memes that wield threats of damnation, promises of heaven, and professional priest classes to transmit them.</p>

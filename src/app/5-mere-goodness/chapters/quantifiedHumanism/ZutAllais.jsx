@@ -6,7 +6,7 @@ export default function ZutAllais() {
 
 
 
-    <p><span className="dropCap">H</span>uh! I was not expecting so many commenters to defend the preference reversal. Looks like I ran into an&nbsp;inferential distance.</p>
+    <p>Huh! I was not expecting so many commenters to defend the preference reversal. Looks like I ran into an&nbsp;inferential distance.</p>
     <p>It probably helps in interpreting the&nbsp;Allais Paradox&nbsp;to have absorbed more of the&nbsp;<em>gestalt</em>&nbsp;of the field of heuristics and biases, such as:</p>
     <ul>
       <li>Experimental subjects tend to defend incoherent preferences even when they’re&nbsp;<em>really</em>&nbsp;silly.</li>

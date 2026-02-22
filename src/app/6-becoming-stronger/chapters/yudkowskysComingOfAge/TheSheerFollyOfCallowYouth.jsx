@@ -9,7 +9,7 @@ export default function TheSheerFollyOfCallowYouth() {
       <p>There speaks the sheer folly of callow youth; the rashness of an ignorance so abysmal as to be possible only to one of your ephemeral race…</p>
       <p>—Gharlane of Eddore<span class="footnote">Edward Elmer Smith, <em>Second Stage Lensmen</em> (Old Earth Books, 1998).</span></p>
     </blockquote>
-    <p><span className="dropCap">O</span>nce upon a time, years ago, I propounded a mysterious answer to a mysterious question—as I’ve hinted on several occasions. The mysterious question to which I propounded a mysterious answer was not, however, consciousness—or rather, not only consciousness. No, the more embarrassing error was that I took a mysterious view of morality.</p>
+    <p>Once upon a time, years ago, I propounded a mysterious answer to a mysterious question—as I’ve hinted on several occasions. The mysterious question to which I propounded a mysterious answer was not, however, consciousness—or rather, not only consciousness. No, the more embarrassing error was that I took a mysterious view of morality.</p>
     <p>I held off on discussing that until now, after the series on metaethics, because I wanted it to be clear that Eliezer1997 <em>had</em> gotten it wrong.</p>
     <p>When we last left off, Eliezer1997, not satisfied with arguing in an intuitive sense that superintelligence would be moral, was setting out to argue <em>inescapably</em> that creating superintelligence was the right thing to do.</p>
     <p>Well (said Eliezer1997) let’s begin by asking the question: <em>Does life have, in fact, any meaning?</em></p>

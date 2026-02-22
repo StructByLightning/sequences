@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function AnchoringAndAdjustment() {
   return <Chapter title={["Anchoring and", "Adjustment"]}>
 
-    <p><span className="dropCap">S</span>uppose I spin a Wheel of Fortune device as you watch, and it comes up pointing to 65. Then I ask: Do you think the percentage of African countries in the UN is above or below this number? What do you think is the percentage of African countries in the UN? Take a moment to consider these two questions yourself, if you like, and please don’t Google.</p>
+    <p>Suppose I spin a Wheel of Fortune device as you watch, and it comes up pointing to 65. Then I ask: Do you think the percentage of African countries in the UN is above or below this number? What do you think is the percentage of African countries in the UN? Take a moment to consider these two questions yourself, if you like, and please don’t Google.</p>
     <p>Also, try to guess, within <em>five seconds</em>, the value of the following arithmetical expression. Five seconds. Ready? Set… <em>Go!</em></p>
     <p>1 × 2 × 3 × 4 × 5 × 6 × 7 × 8</p>
     <p>Tversky and Kahneman recorded the estimates of subjects who saw the Wheel of Fortune showing various numbers.<span class="footnote">Amos Tversky and Daniel Kahneman, “Judgment Under Uncertainty: Heuristics and Biases,” <em>Science</em> 185, no. 4157 (1974): 1124–1131, doi:10.1126/science.185.4157.1124.</span>) The median estimate of subjects who saw the wheel show 65 was 45%; the median estimate of subjects who saw 10 was 25%.</p>

@@ -6,7 +6,7 @@ export default function DetachedLeverFallacy() {
 
 
 
-    <p><span className="dropCap">T</span>his fallacy gets its name from an ancient sci-fi TV show, which I never saw myself, but was reported to me by a reputable source (some guy at a science fiction convention). Anyone knows the exact reference, do leave a comment.</p>
+    <p>This fallacy gets its name from an ancient sci-fi TV show, which I never saw myself, but was reported to me by a reputable source (some guy at a science fiction convention). Anyone knows the exact reference, do leave a comment.</p>
     <p>So the good guys are battling the evil aliens. Occasionally, the good guys have to fly through an asteroid belt. As we all know, asteroid belts are as crowded as a New York parking lot, so their ship has to carefully dodge the asteroids. The evil aliens, though, can fly&nbsp;<em>right through the asteroid belt</em>&nbsp;because they have amazing technology that dematerializes their ships, and lets them pass through the asteroids.</p>
     <p>Eventually, the good guys capture an evil alien ship, and go exploring inside it. The captain of the good guys finds the alien bridge, and on the bridge is a lever. “Ah,” says the captain, “this must be the lever that makes the ship dematerialize!” So he&nbsp;<em>pries up the control lever and carries it back to his ship</em>, after which his ship can also dematerialize.</p>
     <p>Similarly, to this day, it is still quite popular to try to program an AI with “semantic networks” that look something like this:</p>

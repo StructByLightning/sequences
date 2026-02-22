@@ -5,7 +5,7 @@ export default function CollapsePostulates() {
   return <Chapter title={["Collapse Postulates"]}>
 
 
-    <p><span className="dropCap">M</span>acroscopic decoherence—also known as “many-worlds”—is the idea that the known quantum laws that govern microscopic events simply govern at all levels without alteration. Back when people didn’t know about decoherence—before it occurred to anyone that the laws deduced with such precision for microscopic physics might apply universally—what did people <em>think</em> was going on?</p>
+    <p>Macroscopic decoherence—also known as “many-worlds”—is the idea that the known quantum laws that govern microscopic events simply govern at all levels without alteration. Back when people didn’t know about decoherence—before it occurred to anyone that the laws deduced with such precision for microscopic physics might apply universally—what did people <em>think</em> was going on?</p>
     <p>The initial reasoning seems to have gone something like:</p>
     <blockquote>
       <p>When my calculations showed an amplitude of (−1/3)<em>i</em> for this photon to get absorbed, my experimental statistics showed that the photon was absorbed around 107 times out of 1,000, which is a good fit to 1/9, the square of the modulus.</p>

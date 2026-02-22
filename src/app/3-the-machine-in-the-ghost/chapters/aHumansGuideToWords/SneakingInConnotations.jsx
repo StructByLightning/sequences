@@ -5,7 +5,7 @@ export default function SneakingInConnotations() {
   return <Chapter title={["Sneaking in Connotations"]}>
 
 
-    <p><span className="dropCap">I</span>n the previous essay, we saw that in Japan, blood types have taken the place of astrology—if your blood type is AB, for example, you’re supposed to be “cool and controlled.”</p>
+    <p>In the previous essay, we saw that in Japan, blood types have taken the place of astrology—if your blood type is AB, for example, you’re supposed to be “cool and controlled.”</p>
     <p>So suppose we decided to invent a new word, “wiggin,” and <em>defined</em> this word to mean people with green eyes and black hair—</p>
     <blockquote>
       <p>A green-eyed man with black hair walked into a restaurant.</p>

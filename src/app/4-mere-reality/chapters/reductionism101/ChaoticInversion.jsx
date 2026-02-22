@@ -5,7 +5,7 @@ export default function ChaoticInversion() {
   return <Chapter title={["Chaotic Inversion"]}>
 
 
-    <p><span className="dropCap">I</span> was recently having a conversation with some friends on the topic of hour-by-hour productivity and willpower maintenance—something I’ve struggled with my whole life.</p>
+    <p>I was recently having a conversation with some friends on the topic of hour-by-hour productivity and willpower maintenance—something I’ve struggled with my whole life.</p>
     <p>I can avoid running away from a hard problem the first time I see it (perseverance on a timescale of seconds), and I can stick to the same problem for years; but to keep working on a timescale of <em>hours</em> is a constant battle for me. It goes without saying that I’ve already read reams and reams of advice; and the most help I got from it was realizing that a sizable fraction of other creative professionals had the same problem, and couldn’t beat it either, no matter how reasonable all the advice sounds.</p>
     <p>“What do you do when you can’t work?” my friends asked me. (Conversation probably not accurate, this is a very loose gist.)</p>
     <p>And I replied that I usually browse random websites, or watch a short video.</p>

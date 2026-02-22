@@ -10,7 +10,7 @@ export default function MagicalCategories() {
       <p>We can design intelligent machines so their primary, innate emotion is unconditional love for all humans. First we can build relatively simple machines that learn to recognize happiness and unhappiness in human facial expressions, human voices and human body language. Then we can hard-wire the result of this learning as the innate emotional values of more complex intelligent machines, positively reinforced when we are happy and negatively reinforced when we are unhappy.</p>
       <p>—Bill Hibbard (2001), Super-Intelligent Machines<span class="footnote">Bill Hibbard, “Super-Intelligent Machines,” <em>ACM SIGGRAPH Computer Graphics</em> 35, no. 1 (2001): 13–15, http://www.siggraph.org/publications/newsletter/issues/v35/v35n1.pdf.</span></p>
     </blockquote>
-    <p><span className="dropCap">T</span>hat was published in a peer-reviewed journal, and the author later wrote a whole book about it, so this is not a strawman position I’m discussing here.</p>
+    <p>That was published in a peer-reviewed journal, and the author later wrote a whole book about it, so this is not a strawman position I’m discussing here.</p>
     <p>So… um… what could possibly go wrong…</p>
     <p>When I mentioned (sec. 7.2)<span class="footnote">Eliezer Yudkowsky, “Artificial Intelligence as a Positive and Negative Factor in Global Risk,” in Bostrom and Ćirković, <em>Global Catastrophic Risks</em>, 308–345.</span> that Hibbard’s AI ends up tiling the galaxy with tiny molecular smiley-faces, Hibbard wrote an indignant reply saying:</p>
     <blockquote>

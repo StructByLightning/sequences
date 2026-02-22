@@ -5,7 +5,7 @@ export default function ReplaceTheSymbolWithTheSubstance() {
   return <Chapter title={["Replace the Symbol with", "the Substance"]}>
 
 
-    <p><span className="dropCap">W</span>hat does it take to—as in the previous essay’s example—see a “baseball game” as “An artificial group conflict in which you use a long wooden cylinder to whack a thrown spheroid, and then run between four safe positions”? What does it take to play the rationalist version of Taboo, in which the goal is not to find a synonym that isn’t on the card, but to find a way of describing without the standard concept-handle?</p>
+    <p>What does it take to—as in the previous essay’s example—see a “baseball game” as “An artificial group conflict in which you use a long wooden cylinder to whack a thrown spheroid, and then run between four safe positions”? What does it take to play the rationalist version of Taboo, in which the goal is not to find a synonym that isn’t on the card, but to find a way of describing without the standard concept-handle?</p>
     <p>You have to visualize. You have to make your mind’s eye see the details, as though looking for the first time. You have to perform an Original Seeing.</p>
     <p>Is that a “bat”? No, it’s a long, round, tapering, wooden rod, narrowing at one end so that a human can grasp and swing it.</p>
     <p>Is that a “ball”? No, it’s a leather-covered spheroid with a symmetrical stitching pattern, hard but not metal-hard, which someone can grasp and throw, or strike with the wooden rod, or catch.</p>

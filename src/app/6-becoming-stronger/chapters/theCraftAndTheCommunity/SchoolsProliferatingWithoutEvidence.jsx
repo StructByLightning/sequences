@@ -5,7 +5,7 @@ export default function SchoolsProliferatingWithoutEvidence() {
   return <Chapter title={["Schools Proliferating Without Evidence"]}>
 
 
-    <p><span className="dropCap">R</span>obyn Dawes, author of one of the original papers from <em>Judgment Under Uncertainty</em> and of the book <em>Rational Choice in an Uncertain World</em>—one of the few who tries really hard to import the results to real life—is also the author of <em>House of Cards: Psychology and Psychotherapy Built on Myth</em>.</p>
+    <p>Robyn Dawes, author of one of the original papers from <em>Judgment Under Uncertainty</em> and of the book <em>Rational Choice in an Uncertain World</em>—one of the few who tries really hard to import the results to real life—is also the author of <em>House of Cards: Psychology and Psychotherapy Built on Myth</em>.</p>
     <p>From House of Cards, chapter 1:<span class="footnote">Robyn M. Dawes, <em>House of Cards: Psychology and Psychotherapy Built on Myth</em> (Free Press, 1996).</span></p>
     <blockquote>
       <p>The ability of these professionals has been subjected to empirical scrutiny—for example, their effectiveness as therapists (Chapter 2), their insight about people (Chapter 3), and the relationship between how well they function and the amount of experience they have had in their field (Chapter 4). Virtually all the research—and this book will reference more than three hundred empirical investigations and summaries of investigations—has found that these professionals’ claims to superior intuitive insight, understanding, and skill as therapists are simply invalid…</p>

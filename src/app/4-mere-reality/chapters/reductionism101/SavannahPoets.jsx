@@ -11,7 +11,7 @@ export default function SavannahPoets() {
       <p>For far more marvelous is the truth than any artists of the past imagined! Why do the poets of the present not speak of it? What men are poets who can speak of Jupiter if he were like a man, but if he is an immense spinning sphere of methane and ammonia must be silent?</p>
       <p>—Richard Feynman, <em>The Feynman Lectures on Physics</em>,<span class="footnote">Richard P. Feynman, Robert B. Leighton, and Matthew L. Sands, <em>The Feynman Lectures on Physics</em>, 3 vols. (Reading, MA: Addison-Wesley, 1963).</span> Vol I, p. 3–6 (line breaks added)</p>
     </blockquote>
-    <p><span className="dropCap">T</span>hat’s a real question, there on the last line—what kind of poet can write about Jupiter the god, but not Jupiter the immense sphere? Whether or not Feynman meant the question rhetorically, it has a real answer:</p>
+    <p>That’s a real question, there on the last line—what kind of poet can write about Jupiter the god, but not Jupiter the immense sphere? Whether or not Feynman meant the question rhetorically, it has a real answer:</p>
     <p>If Jupiter is like us, he can fall in love, and lose love, and regain love.</p>
     <p>If Jupiter is like us, he can strive, and rise, and be cast down.</p>
     <p>If Jupiter is like us, he can laugh or weep or dance.</p>

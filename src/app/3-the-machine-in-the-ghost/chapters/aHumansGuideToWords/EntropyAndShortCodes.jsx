@@ -6,7 +6,7 @@ export default function EntropyAndShortCodes() {
   return <Chapter title={["Entropy, and Short Codes"]}>
 
 
-    <p><span className="dropCap">I</span>f you aren't familiar with Bayesian inference, this may be a good time to read An Intuitive Explanation of Bayes's Theorem.</p>
+    <p>If you aren't familiar with Bayesian inference, this may be a good time to read An Intuitive Explanation of Bayes's Theorem.</p>
     <p>Suppose you have a system <Latex math="X" /> that's equally likely to be in any of 8 possible states:</p>
     <Latex display="block" math="\{X_1, X_2, X_3, X_4, X_5, X_6, X_7, X_8\}" />
     <p>There's an extraordinarily ubiquitous quantity—in physics, mathematics, and even biology—called <em>entropy</em>; and the entropy of <Latex math="X" /> is 3 bits. This means that, on average, we'll have to ask 3 yes-or-no questions to find out <Latex math="X" />'s value. For example, someone could tell us <Latex math="X" />'s value using this code:</p>

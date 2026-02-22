@@ -4,7 +4,7 @@ export default function ExplainWorshipIgnore() {
 
 
   return <Chapter title={["Explain/Worship/Ignore"]}>
-    <p><span className="dropCap">A</span>s our tribe wanders through the grasslands, searching for fruit trees and prey, it happens every now and then that water pours down from the sky.</p>
+    <p>As our tribe wanders through the grasslands, searching for fruit trees and prey, it happens every now and then that water pours down from the sky.</p>
     <p>“Why does water sometimes fall from the sky?” I ask the bearded wise man of our tribe.</p>
     <p>He thinks for a moment, this question having never occurred to him before, and then says, “From time to time, the sky spirits battle, and when they do, their blood drips from the sky.”</p>
     <p>“Where do the sky spirits come from?” I ask.</p>

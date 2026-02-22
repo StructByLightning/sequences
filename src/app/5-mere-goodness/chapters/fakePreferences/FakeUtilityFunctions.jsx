@@ -6,7 +6,7 @@ export default function FakeUtilityFunctions() {
 
 
 
-    <p><span className="dropCap">E</span>very now and then, you run across someone who has discovered the One Great Moral Principle, of which all other values are a mere derivative consequence.</p>
+    <p>Every now and then, you run across someone who has discovered the One Great Moral Principle, of which all other values are a mere derivative consequence.</p>
     <p>I run across more of these people than you do. Only in my case, it’s people who know <em>the amazingly simple utility function that is all you need to program into an artificial superintelligence</em> and then everything will turn out fine.</p>
     <p>Some people, when they encounter the how-to-program-a-superintelligence problem, try to solve the problem immediately. Norman R. F. Maier: “Do not propose solutions until the problem has been discussed as thoroughly as possible without suggesting any.” Robyn Dawes: “I have often used this edict with groups I have led—particularly when they face a very tough problem, which is when group members are most apt to propose solutions immediately.” Friendly AI is an <em>extremely</em> tough problem, so people solve it <em>extremely</em> fast.</p>
     <p>There’s several major classes of fast wrong solutions I’ve observed; and one of these is the Incredibly Simple Utility Function That Is All A Superintelligence Needs For Everything To Work Out Just Fine.</p>

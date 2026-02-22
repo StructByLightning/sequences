@@ -5,7 +5,7 @@ export default function ZombieResponses() {
   return <Chapter title={["Zombie Responses"]}>
 
 
-    <p><span className="dropCap">I</span>’m a bit tired today, having stayed up until 3 a.m. writing yesterday’s &gt;6,000-word essay on zombies, so today I’ll just reply to Richard, and tie up a loose end I spotted the next day.</p>
+    <p>I’m a bit tired today, having stayed up until 3 a.m. writing yesterday’s &gt;6,000-word essay on zombies, so today I’ll just reply to Richard, and tie up a loose end I spotted the next day.</p>
     <p><strong>(A)</strong> Richard Chappell writes:</p>
     <blockquote>
       <p>A terminological note (to avoid unnecessary confusion): what you call “conceivable,” others of us would merely call “<em>apparently</em> conceivable.”</p>

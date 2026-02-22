@@ -6,7 +6,7 @@ export default function BeautifulProbability() {
 
 
 
-    <p><span className="dropCap">S</span>hould we expect rationality to be, <em>on some level</em>, simple? Should we search and hope for <em>underlying</em> beauty in the arts of belief and choice?</p>
+    <p>Should we expect rationality to be, <em>on some level</em>, simple? Should we search and hope for <em>underlying</em> beauty in the arts of belief and choice?</p>
     <p>Let me introduce this issue by borrowing a complaint of the late great Bayesian Master, E. T. Jaynes:<span className="footnote">Edwin T. Jaynes, “Probability Theory as Logic,” in <em>Maximum Entropy and Bayesian Methods</em>, ed. Paul F. Fougère (Springer Netherlands, 1990).</span></p>
     <blockquote>
       <p>Two medical researchers use the same treatment independently, in different hospitals. Neither would stoop to falsifying the data, but one had decided beforehand that because of finite resources he would stop after treating <em>n</em> = 100 patients, however many cures were observed by then. The other had staked his reputation on the efficacy of the treatment, and decided he would not stop until he had data indicating a rate of cures definitely greater than 60%, however many patients that might require. But in fact, both stopped with exactly the same data: <em>n</em> = 100 [patients], <em>r</em> = 70 [cures]. Should we then draw different conclusions from their experiments?” [Presumably the two control groups also had equal results.]</p>

@@ -5,7 +5,7 @@ export default function RaisedInTechnophilia() {
   return <Chapter title={["Raised in Technophilia"]}>
 
 
-    <p><span className="dropCap">M</span>y father used to say that if the present system had been in place a hundred years ago, automobiles would have been outlawed to protect the saddle industry.</p>
+    <p>My father used to say that if the present system had been in place a hundred years ago, automobiles would have been outlawed to protect the saddle industry.</p>
     <p>One of my major childhood influences was reading Jerry Pournelle’s <em>A Step Farther Out</em>, at the age of nine. It was Pournelle’s reply to Paul Ehrlich and the Club of Rome, who were saying, in the 1960s and 1970s, that the Earth was running out of resources and massive famines were only years away. It was a reply to Jeremy Rifkin’s so-called fourth law of thermodynamics; it was a reply to all the people scared of nuclear power and trying to regulate it into oblivion.</p>
     <p>I grew up in a world where the lines of demarcation between the Good Guys and the Bad Guys were pretty clear; not an apocalyptic final battle, but a battle that had to be fought over and over again, a battle where you could see the historical echoes going back to the Industrial Revolution, and where you could assemble the historical evidence about the actual outcomes.</p>
     <p>On one side were the scientists and engineers who’d driven all the standard-of-living increases since the Dark Ages, whose work supported luxuries like democracy, an educated populace, a middle class, the outlawing of slavery.</p>

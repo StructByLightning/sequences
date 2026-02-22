@@ -6,7 +6,7 @@ export default function IfManyWorldsHadComeFirst() {
 
 
     <p><em>Not that I’m claiming I could have done better, if I’d been born into that time, instead of this one…</em></p>
-    <p><span className="dropCap">M</span>acroscopic decoherence, a.k.a. many-worlds, was first proposed in a 1957 paper by Hugh Everett III. The paper was ignored. John Wheeler told Everett to see Niels Bohr. Bohr didn’t take him seriously.</p>
+    <p>Macroscopic decoherence, a.k.a. many-worlds, was first proposed in a 1957 paper by Hugh Everett III. The paper was ignored. John Wheeler told Everett to see Niels Bohr. Bohr didn’t take him seriously.</p>
     <p>Crushed, Everett left academic physics, invented the general use of Lagrange multipliers in optimization problems, and became a multimillionaire.</p>
     <p>It wasn’t until 1970, when Bryce DeWitt (who coined the term “many-worlds”) wrote an article for <em>Physics Today</em>, that the general field was first informed of Everett’s ideas. Macroscopic decoherence has been gaining advocates ever since, and may now be the majority viewpoint (or not).</p>
     <p>But suppose that decoherence and macroscopic decoherence had been realized immediately following the discovery of entanglement, in the 1920s. And suppose that no one had proposed collapse theories until 1957. Would decoherence now be steadily declining in popularity, while collapse theories were slowly gaining steam?</p>

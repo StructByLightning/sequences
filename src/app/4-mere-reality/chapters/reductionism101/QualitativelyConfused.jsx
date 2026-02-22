@@ -5,7 +5,7 @@ import Latex from "@/components/Latex/Latex";
 export default function QualitativelyConfused() {
   return <Chapter title={["Qualitatively Confused"]}>
 
-    <p><span className="dropCap">I</span> suggest that a primary cause of confusion about the distinction between "belief," "truth," and "reality" is qualitative thinking about beliefs.</p>
+    <p>I suggest that a primary cause of confusion about the distinction between "belief," "truth," and "reality" is qualitative thinking about beliefs.</p>
     <p>Consider the archetypal postmodernist attempt to be clever:</p>
     <blockquote>
       <p>"The Sun goes around the Earth" is true for Hunga Huntergatherer, but "The Earth goes around the Sun" is true for Amara Astronomer! Different societies have different truths!</p>

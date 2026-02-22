@@ -5,7 +5,7 @@ export default function TheWonderOfEvolution() {
   return <Chapter title={["The Wonder of Evolution"]}>
 
 
-    <p><span className="dropCap">T</span>he wonder of evolution is that it works at all. I mean that literally: If you want to marvel at evolution, that’s what’s marvel-worthy.</p>
+    <p>The wonder of evolution is that it works at all. I mean that literally: If you want to marvel at evolution, that’s what’s marvel-worthy.</p>
     <p>How does optimization first arise in the universe? If an intelligent agent designed Nature, who designed the intelligent agent? Where is the first design that has no designer? The puzzle is <em>not</em> how the first stage of the bootstrap can be super-clever and super-efficient; the puzzle is how it can happen <em>at all</em>.</p>
     <p>Evolution resolves the infinite regression, not by being super-clever and super-efficient, but by being stupid and inefficient and working anyway. <em>This</em> is the marvel.</p>
     <p>For professional reasons, I often have to discuss the slowness, randomness, and blindness of evolution. Afterward someone says: “<em>You</em> just said that evolution can’t plan simultaneous changes, and that evolution is very inefficient because mutations are random. Isn’t that what the <em>creationists</em> say? That you couldn’t assemble a watch by randomly shaking the parts in a box?”</p>

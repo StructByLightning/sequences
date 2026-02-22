@@ -6,7 +6,7 @@ export default function ProbabilityIsInTheMind() {
   return <Chapter title={["Probability is in the Mind"]}>
 
 
-    <p><span className="dropCap">I</span>n the previous essay I spoke of the Mind Projection Fallacy, giving the example of the alien monster who carries off a girl in a torn dress for intended ravishing—a mistake which I imputed to the artist's tendency to think that a woman's sexiness is a property of the woman herself, Woman.sexiness, rather than something that exists in the mind of an observer, and probably wouldn't exist in an alien mind.</p>
+    <p>In the previous essay I spoke of the Mind Projection Fallacy, giving the example of the alien monster who carries off a girl in a torn dress for intended ravishing—a mistake which I imputed to the artist's tendency to think that a woman's sexiness is a property of the woman herself, Woman.sexiness, rather than something that exists in the mind of an observer, and probably wouldn't exist in an alien mind.</p>
     <p>The term "Mind Projection Fallacy" was coined by the late great Bayesian Master E. T. Jaynes, as part of his long and hard-fought battle against the accursèd frequentists. Jaynes was of the opinion that probabilities were in the mind, not in the environment—that probabilities express ignorance, states of partial information; and if I am ignorant of a phenomenon, that is a fact about my state of mind, not a fact about the phenomenon.</p>
     <p>I cannot do justice to this ancient war in a few words—but the classic example of the argument runs thus:</p>
     <p>You have a coin.</p>

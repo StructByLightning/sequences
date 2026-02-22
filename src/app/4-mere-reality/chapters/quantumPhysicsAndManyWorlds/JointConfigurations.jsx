@@ -6,7 +6,7 @@ export default function JointConfigurations() {
   return <Chapter title={["Joint Configurations"]}>
 
 
-    <p><span className="dropCap">T</span>he key to understanding configurations, and hence the key to understanding quantum mechanics, is realizing on a truly gut level that configurations are about more than one particle.</p>
+    <p>The key to understanding configurations, and hence the key to understanding quantum mechanics, is realizing on a truly gut level that configurations are about more than one particle.</p>
     <figure>
       <img src="/JointConfigurations_diagram_1.svg" width="300px" height="auto" />
       <figcaption>Figure 1</figcaption>

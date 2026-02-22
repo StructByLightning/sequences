@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function BeliefInSelfDeception() {
   return <Chapter title={["Belief in", "Self-Deception"]}>
 
-    <p><span className="dropCap">I</span> spoke of my conversation with a nominally Orthodox Jewish woman who vigorously defended the assertion that she believed in God, while seeming not to actually believe in God at all.</p>
+    <p>I spoke of my conversation with a nominally Orthodox Jewish woman who vigorously defended the assertion that she believed in God, while seeming not to actually believe in God at all.</p>
     <p>While I was questioning her about the benefits that she thought came from believing in God, I introduced the&nbsp;Litany of Tarski—which is actually an infinite family of litanies, a specific example being:</p>
     <p>If the sky is blue  <br />
       I desire to believe “the sky is blue”</p>

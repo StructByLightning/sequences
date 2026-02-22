@@ -5,7 +5,7 @@ export default function ScienceDoesntTrustYourRationality() {
   return <Chapter title={["Science Doesn't Trust", "Your Rationality"]}>
 
 
-    <p><span className="dropCap">S</span>cott Aaronson suggests that many-worlds and libertarianism are similar in that they are both cases of bullet-swallowing, rather than bullet-dodging:</p>
+    <p>Scott Aaronson suggests that many-worlds and libertarianism are similar in that they are both cases of bullet-swallowing, rather than bullet-dodging:</p>
     <blockquote>
       <p>Libertarianism and MWI are both grand philosophical theories that start from premises that almost all educated people accept (quantum mechanics in the one case, Econ 101 in the other), and claim to reach conclusions that most educated people reject, or are at least puzzled by (the existence of parallel universes / the desirability of eliminating fire departments).</p>
     </blockquote>

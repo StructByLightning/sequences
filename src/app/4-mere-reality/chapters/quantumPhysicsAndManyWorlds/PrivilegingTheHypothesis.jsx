@@ -5,7 +5,7 @@ export default function PrivilegingTheHypothesis() {
   return <Chapter title={["Privileging the Hypothesis"]}>
 
 
-    <p><span className="dropCap">S</span>uppose that the police of Largeville, a town with a million inhabitants, are investigating a murder in which there are few or no clues—the victim was stabbed to death in an alley, and there are no fingerprints and no witnesses.</p>
+    <p>Suppose that the police of Largeville, a town with a million inhabitants, are investigating a murder in which there are few or no clues—the victim was stabbed to death in an alley, and there are no fingerprints and no witnesses.</p>
     <p>Then, one of the detectives says, “Well… we have no idea who did it… no particular evidence singling out any of the million people in this city… but let’s <em>consider the hypothesis</em> that this murder was committed by Mortimer Q. Snodgrass, who lives at 128 Ordinary Ln. It <em>could</em> have been him, after all.”</p>
     <p>I’ll label this <em>the fallacy of privileging the hypothesis</em>. (Do let me know if it already has an official name—I can’t recall seeing it described.)</p>
     <p>Now the detective may perhaps have some form of rational evidence that is not legal evidence admissible in court—hearsay from an informant, for example. But if the detective does not have <em>some</em> justification <em>already in hand</em> for promoting Mortimer to the police’s special attention—if the name is pulled entirely out of a hat—then Mortimer’s rights are being violated.</p>

@@ -5,7 +5,7 @@ export default function WhenAnthropomorphismBecameStupid() {
   return <Chapter title={["When Anthropomorphism", "Became Stupid"]}>
 
 
-    <p><span className="dropCap">I</span>t turns out that most things in the universe don’t have minds. This statement would have provoked incredulity among many earlier cultures. “Animism” is the usual term. They thought that trees, rocks, streams, and hills all had spirits because, hey, why not?</p>
+    <p>It turns out that most things in the universe don’t have minds. This statement would have provoked incredulity among many earlier cultures. “Animism” is the usual term. They thought that trees, rocks, streams, and hills all had spirits because, hey, why not?</p>
     <p>I mean, those lumps of flesh known as “humans” contain thoughts, so why shouldn’t the lumps of wood known as “trees”?</p>
     <p>My muscles move at my will, and water flows through a river. Who’s to say that the river doesn’t have a will to move the water? The river overflows its banks, and floods my tribe’s gathering-place—why not think that the river was angry, since it moved its parts to hurt us? It’s what we would think when someone’s fist hit our nose.</p>
     <p>There is no obvious reason—no reason obvious <em>to a hunter-gatherer</em>—why this cannot be so. It only seems like a <em>stupid</em> mistake if you confuse weirdness with stupidity. Naturally the belief that rivers have animating spirits seems “weird” to us, since it is not a belief of our tribe. But there is nothing obviously stupid about thinking that great lumps of moving water have spirits, just like our own lumps of moving flesh.</p>

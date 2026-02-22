@@ -7,7 +7,7 @@ export default function DistinctConfigurations() {
 
 
     <p>The experiment in the previous essay carried two key lessons:</p>
-    <p><span className="dropCap">F</span>irst, we saw that because amplitude flows can cancel out, and because our magic measure of squared modulus is not linear, the identity of configurations is nailed down—you can't reorganize configurations the way you can regroup possible worlds. Which configurations are the same, and which are distinct, has experimental consequences; it is an observable fact.</p>
+    <p>First, we saw that because amplitude flows can cancel out, and because our magic measure of squared modulus is not linear, the identity of configurations is nailed down—you can't reorganize configurations the way you can regroup possible worlds. Which configurations are the same, and which are distinct, has experimental consequences; it is an observable fact.</p>
     <p>Second, we saw that configurations are about multiple particles. If there are two photons entering the apparatus, that doesn't mean there are two initial configurations. Instead the initial configuration's identity is "two photons coming in." (Ideally, each configuration we talk about would include every particle in the experiment—including the particles making up the mirrors and detectors. And in the real universe, every configuration is about <em>all</em> the particles… <em>everywhere</em>.)</p>
     <p>What makes for distinct configurations is not distinct particles. Each configuration is about every particle. What makes configurations distinct is particles occupying different positions—at least one particle in a different state.</p>
     <p>To take one important demonstration…</p>

@@ -5,7 +5,7 @@ export default function TheMagnitudeOfHisOwnFolly() {
   return <Chapter title={["The Magnitude of His Own Folly"]}>
 
 
-    <p><span className="dropCap">I</span>n the years before I met a would-be creator of Artificial General Intelligence (with a funded project) who happened to be a creationist, I would still try to argue with individual AGI wannabes.</p>
+    <p>In the years before I met a would-be creator of Artificial General Intelligence (with a funded project) who happened to be a creationist, I would still try to argue with individual AGI wannabes.</p>
     <p>In those days, I sort-of-succeeded in convincing one such fellow that, yes, you had to take Friendly AI into account, and no, you couldn’t just find the right fitness metric for an evolutionary algorithm. (Previously he had been very impressed with evolutionary algorithms.)</p>
     <p>And the one said: <em>Oh, woe! Oh, alas! What a fool I’ve been! Through my carelessness, I almost destroyed the world! What a villain I once was!</em></p>
     <p>Now, <em>there’s</em> a trap I knew better than to fall into—</p>

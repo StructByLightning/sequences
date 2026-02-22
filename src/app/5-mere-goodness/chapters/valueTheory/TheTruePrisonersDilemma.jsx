@@ -7,7 +7,7 @@ export default function TheTruePrisonersDilemma() {
 
 
 
-    <p><span className="dropCap">I</span>t occurred to me one day that the standard visualization of the Prisoner's Dilemma is fake.</p>
+    <p>It occurred to me one day that the standard visualization of the Prisoner's Dilemma is fake.</p>
     <p>The core of the Prisoner's Dilemma is this symmetric payoff matrix:</p>
     <figure>
       <table>

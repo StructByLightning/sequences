@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function BindYourselfToReality() {
   return <Chapter title={["Bind Yourself to Reality"]}>
 
-    <p><span className="dropCap">S</span>o perhaps you’re reading all this, and asking: “Yes, but what does this have to do with reductionism?”</p>
+    <p>So perhaps you’re reading all this, and asking: “Yes, but what does this have to do with reductionism?”</p>
     <p>Partially, it’s a matter of leaving a line of retreat. It’s not easy to take something <em>important</em> apart into components, when you’re convinced that this removes magic from the world, unweaves the rainbow. I do plan to take certain things apart, in this book; and I prefer not to create pointless existential anguish.</p>
     <p>Partially, it’s the crusade against Hollywood Rationality, the concept that understanding the rainbow subtracts its beauty. The rainbow is still beautiful <em>plus</em> you get the beauty of physics.</p>
     <p>But even more deeply, it’s one of these subtle hidden-core-of-rationality things. You know, the sort of thing where I start talking about “the Way.” It’s about <em>binding yourself to reality</em>.</p>

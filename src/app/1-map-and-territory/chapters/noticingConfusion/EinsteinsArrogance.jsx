@@ -4,7 +4,7 @@ export default function EinsteinsArrogance() {
 
 
   return <Chapter title={["Einstein's Arrogance"]}>
-    <p><span className="dropCap">I</span>n 1919, Sir Arthur Eddington led expeditions to Brazil and to the island of Principe, aiming to observe solar eclipses and thereby test an experimental prediction of Einstein’s novel theory of General Relativity. A journalist asked Einstein what he would do if Eddington’s observations failed to match his theory. Einstein famously replied: “Then I would feel sorry for the good Lord. The theory is correct.”</p>
+    <p>In 1919, Sir Arthur Eddington led expeditions to Brazil and to the island of Principe, aiming to observe solar eclipses and thereby test an experimental prediction of Einstein’s novel theory of General Relativity. A journalist asked Einstein what he would do if Eddington’s observations failed to match his theory. Einstein famously replied: “Then I would feel sorry for the good Lord. The theory is correct.”</p>
     <p>It seems like a rather foolhardy statement, defying the trope of Traditional Rationality that experiment above all is sovereign. Einstein seems possessed of an arrogance so great that he would refuse to bend his neck and submit to Nature’s answer, as scientists must do. Who can <em>know</em> that the theory is correct, in advance of experimental test?</p>
     <p>Of course, Einstein did turn out to be right. I try to avoid criticizing people when they are right. If they genuinely deserve criticism, I will not need to wait long for an occasion where they are wrong.</p>
     <p>And Einstein may not have been quite so foolhardy as he sounded…</p>

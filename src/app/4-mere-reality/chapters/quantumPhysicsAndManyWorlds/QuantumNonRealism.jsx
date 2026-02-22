@@ -9,7 +9,7 @@ export default function QuantumNonRealism() {
       <p>Does the moon exist when no one is looking at it?</p>
       <p>—Albert Einstein, asked of Niels Bohr</p>
     </blockquote>
-    <p><span className="dropCap">S</span>uppose you were just starting to work out a theory of quantum mechanics.</p>
+    <p>Suppose you were just starting to work out a theory of quantum mechanics.</p>
     <p>You begin to encounter experiments that deliver different results depending on how closely you observe them. You dig underneath the reality you know, and find an extremely precise mathematical description that only gives you the relative frequency of outcomes; worse, it’s made of complex numbers. Things behave like particles on Monday and waves on Tuesday.</p>
     <p>The correct answer is not available to you as a hypothesis, because it will not be invented for another thirty years.</p>
     <p>In a mess like that, what’s the best you <em>could</em> do?</p>

@@ -6,7 +6,7 @@ export default function WhatWouldYouDoWithoutMorality() {
 
 
 
-    <p><span className="dropCap">T</span>o those who say “Nothing is real,” I once replied, “That’s great, but how does the nothing work?”</p>
+    <p>To those who say “Nothing is real,” I once replied, “That’s great, but how does the nothing work?”</p>
     <p>Suppose you learned, suddenly and definitively, that nothing is moral and nothing is right; that everything is permissible and nothing is forbidden.</p>
     <p>Devastating news, to be sure—and no, I am not telling you this in real life. But suppose I <em>did</em> tell it to you. Suppose that, whatever you think is the basis of your moral philosophy, I convincingly tore it apart, and moreover showed you that nothing could fill its place. Suppose I <em>proved</em> that all utilities equaled zero.</p>
     <p>I know that Your-Moral-Philosophy is as true and undisprovable as 2 + 2 = 4. But still, I ask that you do your best to perform the thought experiment, and concretely envision the possibilities even if they seem painful, or pointless, or logically incapable of any good reply.</p>

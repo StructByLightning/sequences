@@ -9,7 +9,7 @@ export default function WhereToDrawTheBoundary() {
     <blockquote>
       <p>Long have I pondered the meaning of the word “Art,” and at last I’ve found what seems to me a satisfactory definition: “Art is that which is designed for the purpose of creating a reaction in an audience.”</p>
     </blockquote>
-    <p><span className="dropCap">J</span><em>ust because there’s a word “art” doesn’t mean that it <strong>has a meaning</strong>, floating out there in the void, which you can <strong>discover</strong> by finding the right definition.</em></p>
+    <p>J<em>ust because there’s a word “art” doesn’t mean that it <strong>has a meaning</strong>, floating out there in the void, which you can <strong>discover</strong> by finding the right definition.</em></p>
     <p>It feels that way, but it is not so.</p>
     <p>Wondering how to <em>define a word</em> means you’re looking at the problem the wrong way—searching for the mysterious essence of what is, in fact, a communication signal.</p>
     <p>Now, there <em>is</em> a real challenge which a rationalist may legitimately attack, but the challenge is not to find a satisfactory definition of a word. The real challenge can be played as a single-player game, without speaking aloud. The challenge is figuring out which things are similar to each other—which things are clustered together—and sometimes, which things have a common cause.</p>

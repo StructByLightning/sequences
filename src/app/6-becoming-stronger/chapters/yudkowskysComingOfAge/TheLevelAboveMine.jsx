@@ -5,7 +5,7 @@ export default function TheLevelAboveMine() {
   return <Chapter title={["The Level Above Mine"]}>
 
 
-    <p><span className="dropCap">I</span> once lent Xiaoguang “Mike” Li my copy of <em>Probability Theory: The Logic of Science</em>. Mike Li read some of it, and then came back and said:</p>
+    <p>I once lent Xiaoguang “Mike” Li my copy of <em>Probability Theory: The Logic of Science</em>. Mike Li read some of it, and then came back and said:</p>
     <blockquote>
       <p>Wow… it’s like Jaynes is a thousand-year-old vampire.</p>
     </blockquote>

@@ -5,7 +5,7 @@ export default function HowAnAlgorithmFeelsFromInside() {
   return <Chapter title={["How An Algorithm", "Feels From Inside"]}>
 
 
-    <p><span className="dropCap">I</span>f a tree falls in the forest, and no one hears it, does it make a sound? I remember seeing an actual argument get started on this subject—a fully naive argument that went nowhere near Berkeleian subjectivism. Just:</p>
+    <p>If a tree falls in the forest, and no one hears it, does it make a sound? I remember seeing an actual argument get started on this subject—a fully naive argument that went nowhere near Berkeleian subjectivism. Just:</p>
     <blockquote>
       <p>“It makes a sound, just like any other falling tree!”</p>
       <p>“But how can there be a sound that no one hears?”</p>

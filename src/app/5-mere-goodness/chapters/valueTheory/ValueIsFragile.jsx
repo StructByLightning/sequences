@@ -6,7 +6,7 @@ export default function ValueIsFragile() {
 
 
 
-    <p><span className="dropCap">I</span>f I had to pick a single statement that <em>relies</em> on more <em>Overcoming Bias</em> content I’ve written than any other, that statement would be:</p>
+    <p>If I had to pick a single statement that <em>relies</em> on more <em>Overcoming Bias</em> content I’ve written than any other, that statement would be:</p>
     <p><em>Any Future <strong>not</strong> shaped by a goal system with detailed reliable inheritance from human morals and metamorals will contain almost nothing of worth.</em></p>
     <p>“Well,” says the one, “maybe according to your provincial <em>human</em> values, <em>you</em> wouldn’t like it. But I can easily imagine a galactic civilization full of agents who are nothing like <em>you</em>, yet find great value and interest in their <em>own</em> goals. And that’s fine by me. I’m not so bigoted as you are. Let the Future go its own way, without trying to bind it forever to the laughably primitive prejudices of a pack of four-limbed Squishy Things—”</p>
     <p>My friend, I have <em>no problem</em> with the thought of a galactic civilization vastly unlike our own… full of strange beings who look nothing like me even in their own imaginations… pursuing pleasures and experiences I can’t begin to empathize with… trading in a marketplace of unimaginable goods… allying to pursue incomprehensible objectives… people whose life-stories I could never understand.</p>

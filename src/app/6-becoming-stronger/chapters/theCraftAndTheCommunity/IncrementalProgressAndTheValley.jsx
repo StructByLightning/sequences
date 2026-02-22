@@ -5,7 +5,7 @@ export default function IncrementalProgressAndTheValley() {
   return <Chapter title={["Incremental Progress", "and the Valley"]}>
 
 
-    <p><span className="dropCap">R</span>ationality is systematized winning.<br /><br />“But,” you protest, “the reasonable person <em>doesn’t</em> always win!”</p>
+    <p>Rationality is systematized winning.<br /><br />“But,” you protest, “the reasonable person <em>doesn’t</em> always win!”</p>
     <p>What do you mean by this? Do you mean that every week or two, someone who bought a lottery ticket with negative expected value wins the lottery and becomes much richer than you? That is not a <em>systematic</em> loss; it is selective reporting by the media. From a statistical standpoint, lottery winners don’t exist—you would never encounter one in your lifetime, if it weren’t for the selective reporting.</p>
     <p>Even perfectly rational agents can lose. They just can’t <em>know in advance</em> that they’ll lose. They can’t <em>expect to underperform</em> any other performable strategy, or they would simply perform it.</p>
     <p>“No,” you say, “I’m talking about how startup founders strike it rich by believing in themselves and their ideas more strongly than any reasonable person would. I’m talking about how religious people are happier—”</p>

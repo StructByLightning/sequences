@@ -6,7 +6,7 @@ export default function WhereRecursiveJustificationHitsBottom() {
 
 
 
-    <p><span className="dropCap">W</span>hy do I believe that the Sun will rise tomorrow?<br /><br />Because I’ve seen the Sun rise on thousands of previous days.</p>
+    <p>Why do I believe that the Sun will rise tomorrow?<br /><br />Because I’ve seen the Sun rise on thousands of previous days.</p>
     <p>Ah… but why do I believe the future will be like the past?</p>
     <p>Even if I go past the mere surface observation of the Sun rising, to the apparently universal and exceptionless laws of gravitation and nuclear physics, then I am still left with the question: “Why do I believe this will also be true tomorrow?”</p>
     <p>I could appeal to Occam’s Razor, the principle of using the simplest theory that fits the facts… but why believe in Occam’s Razor? Because it’s been successful on past problems? But who says that this means Occam’s Razor will work tomorrow?</p>

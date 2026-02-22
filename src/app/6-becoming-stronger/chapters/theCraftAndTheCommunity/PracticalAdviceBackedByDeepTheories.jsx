@@ -5,7 +5,7 @@ export default function PracticalAdviceBackedByDeepTheories() {
   return <Chapter title={["Practical Advice Backed by Deep Theories"]}>
 
 
-    <p><span className="dropCap">O</span>nce upon a time, Seth Roberts took a European vacation and found that he started losing weight while drinking unfamiliar-tasting caloric fruit juices.</p>
+    <p>Once upon a time, Seth Roberts took a European vacation and found that he started losing weight while drinking unfamiliar-tasting caloric fruit juices.</p>
     <p>Now suppose Roberts had not known, and never did know, anything about metabolic set points or flavor-calorie associations—all this high-falutin’ scientific experimental research that had been done on rats and occasionally humans.</p>
     <p>He would have posted to his blog, “Gosh, everyone! You should try these amazing fruit juices that are making me lose weight!” And that would have been the end of it. Some people would have tried it, it would have worked <em>temporarily</em> for some of them (until the flavor-calorie association kicked in) and there never would have been a Shangri-La Diet <em>per se</em>.</p>
     <p>The existing Shangri-La Diet is visibly incomplete—for some people, like me, it doesn’t seem to work, and there is no apparent reason for this or any logic permitting it. But the reason why as many people have benefited as they have—the reason why there was more than just one more blog post describing a trick that seemed to work for one person and didn’t work for anyone else—is that Roberts <em>knew the experimental science that let him interpret what he was seeing, in terms of deep factors that actually did exist</em>.</p>

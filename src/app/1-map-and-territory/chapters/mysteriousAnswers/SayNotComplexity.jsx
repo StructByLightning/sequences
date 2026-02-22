@@ -5,7 +5,7 @@ export default function SayNotComplexity() {
 
   return <Chapter title={["Say Not “Complexity”"]}>
     <p>Once upon a time…</p>
-    <p><span className="dropCap">T</span>his is a story from when I first met Marcello, with whom I would later work for a year on AI theory; but at this point I had not yet accepted him as my apprentice. I knew that he competed at the national level in mathematical and computing olympiads, which sufficed to attract my attention for a closer look; but I didn’t know yet if he could learn to think about AI.</p>
+    <p>This is a story from when I first met Marcello, with whom I would later work for a year on AI theory; but at this point I had not yet accepted him as my apprentice. I knew that he competed at the national level in mathematical and computing olympiads, which sufficed to attract my attention for a closer look; but I didn’t know yet if he could learn to think about AI.</p>
     <p>I had asked Marcello to say how he thought an AI might discover how to solve a Rubik’s Cube. Not in a preprogrammed way, which is trivial, but rather how the AI itself might figure out the laws of the Rubik universe and reason out how to exploit them. How would an AI <em>invent for itself</em> the concept of an “operator,” or “macro,” which is the key to solving the Rubik’s Cube?</p>
     <p>At some point in this discussion, Marcello said: “Well, I think the AI needs complexity to do <em>X</em>, and complexity to do <em>Y</em>—”</p>
     <p>And I said, “Don’t say ‘<em>complexity</em>.’ ”</p>

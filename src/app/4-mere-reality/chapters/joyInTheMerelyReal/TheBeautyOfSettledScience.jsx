@@ -5,7 +5,7 @@ export default function TheBeautyOfSettledScience() {
   return <Chapter title={["The Beauty of Settled Science"]}>
 
 
-    <p><span className="dropCap">F</span>acts do not need to be unexplainable to be beautiful; truths do not become less worth learning if someone else knows them; beliefs do not become less worthwhile if many others share them…</p>
+    <p>Facts do not need to be unexplainable to be beautiful; truths do not become less worth learning if someone else knows them; beliefs do not become less worthwhile if many others share them…</p>
     <p>… and if you only care about scientific issues that are controversial, you will end up with a head stuffed full of garbage.</p>
     <p>The media thinks that only the cutting edge of science is worth reporting on. How often do you see headlines like “General Relativity Still Governing Planetary Orbits” or “Phlogiston Theory Remains False”? So, by the time anything is solid science, it is no longer a breaking headline. “Newsworthy” science is often based on the thinnest of evidence and wrong half the time—if it were not on the uttermost fringes of the scientific frontier, it would not be breaking news.</p>
     <p>Scientific <em>controversies</em> are problems so <em>difficult</em> that even people who’ve spent years mastering the field can still fool themselves. That’s what makes for the heated arguments that attract all the media attention.</p>

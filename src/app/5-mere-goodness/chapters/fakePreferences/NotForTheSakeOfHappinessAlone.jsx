@@ -6,7 +6,7 @@ export default function NotForTheSakeOfHappinessAlone() {
 
 
 
-    <p><span className="dropCap">W</span>hen I met the futurist Greg Stock some years ago, he argued that the joy of scientific discovery would soon be replaced by pills that could simulate the joy of scientific discovery. I approached him after his talk and said, “I agree that such pills are probably possible, but I wouldn’t voluntarily <em>take them</em>.”</p>
+    <p>When I met the futurist Greg Stock some years ago, he argued that the joy of scientific discovery would soon be replaced by pills that could simulate the joy of scientific discovery. I approached him after his talk and said, “I agree that such pills are probably possible, but I wouldn’t voluntarily <em>take them</em>.”</p>
     <p>And Stock said, “But they’ll be so much better thatthe real thing won’t be able to compete. It will just be way more fun for you to take the pills than to do all the actual scientific work.”</p>
     <p>And I said, “I <em>agree</em> that’s possible, so I’ll make sure never to take them.”</p>
     <p>Stock seemed genuinely surprised by my attitude, which genuinely surprised <em>me</em>. One often sees ethicists arguing as if all human desires are reducible, in principle, to the desire for ourselves and others to be happy. (In particular, Sam Harris does this in <em>The End of Faith</em>, which I just finished perusing—though Harris’s reduction is more of a drive-by shooting than a major topic of discussion.)<span class="footnote">Harris, <em>The End of Faith: Religion, Terror, and the Future of Reason</em>.</span></p>

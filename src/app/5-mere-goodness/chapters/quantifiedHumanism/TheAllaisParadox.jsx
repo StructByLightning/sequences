@@ -10,7 +10,7 @@ export default function TheAllaisParadox() {
     <p>Choose between the following two options:</p>
     <p><strong>1A.</strong> $24,000, with certainty.</p>
     <p><strong>1B.</strong> 33/34 chance of winning $27,000, and 1/34 chance of winning nothing.</p>
-    <p><span className="dropCap">W</span>hich seems more intuitively appealing? And which one would you choose in real life? Now which of these two options would you intuitively prefer, and which would you choose in real life?</p>
+    <p>Which seems more intuitively appealing? And which one would you choose in real life? Now which of these two options would you intuitively prefer, and which would you choose in real life?</p>
     <p><strong>2A.</strong> 34% chance of winning $24,000, and 66% chance of winning nothing.</p>
     <p><strong>2B.</strong> 33% chance of winning $27,000, and 67% chance of winning nothing.</p>
     <p>The Allais Paradox—as Allais called it, though it's not really a paradox—was one of the first conflicts between decision theory and human reasoning to be experimentally exposed, in 1953.<span class="footnote">Maurice Allais, "Le Comportement de l'Homme Rationnel devant le Risque: Critique des Postulats et Axiomes de l'Ecole Americaine," <em>Econometrica</em> 21, no. 4 (1953): 2, doi:10.2307/1907921; Daniel Kahneman and Amos Tversky, "Prospect Theory: An Analysis of Decision Under Risk," <em>Econometrica</em> 47 (1979): 263–292.</span>&lt; I've modified it slightly for ease of math, but the essential problem is the same: Most people prefer <strong>1A</strong> to <strong>1B</strong>, and most people prefer <strong>2B</strong> to <strong>2A</strong>. Indeed, in within-subject comparisons, a majority of subjects express both preferences simultaneously.</p>

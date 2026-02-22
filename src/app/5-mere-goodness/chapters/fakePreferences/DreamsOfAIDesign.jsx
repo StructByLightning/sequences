@@ -7,7 +7,7 @@ export default function DreamsOfAIDesign() {
 
 
 
-    <p><span className="dropCap">A</span>fter spending a decade or two living inside a mind, you might think you knew a bit about how minds work, right? That's what quite a few AGI wannabes (people who think they've got what it takes to program an Artificial General Intelligence) seem to have concluded. This, unfortunately, is wrong.</p>
+    <p>After spending a decade or two living inside a mind, you might think you knew a bit about how minds work, right? That's what quite a few AGI wannabes (people who think they've got what it takes to program an Artificial General Intelligence) seem to have concluded. This, unfortunately, is wrong.</p>
     <p>Artificial Intelligence is fundamentally about reducing the mental to the non-mental.</p>
     <p>You might want to contemplate that sentence for a while. It's important.</p>
     <p>Living inside a human mind doesn't teach you the art of reductionism, because nearly all of the work is carried out beneath your sight, by the opaque black boxes of the brain. So far beneath your sight that there is no introspective sense that the black box is there—no internal sensory event marking that the work has been delegated.</p>

@@ -5,7 +5,7 @@ export default function HandVsFingers() {
   return <Chapter title={["Hand vs. Fingers"]}>
 
 
-    <p><span className="dropCap">B</span>ack to our original topic: Reductionism and the Mind Projection Fallacy. There can be emotional problems in accepting reductionism, if you think that things have to be fundamental to be fun. But this position commits us to never taking joy in anything more complicated than a quark, and so I prefer to reject it.</p>
+    <p>Back to our original topic: Reductionism and the Mind Projection Fallacy. There can be emotional problems in accepting reductionism, if you think that things have to be fundamental to be fun. But this position commits us to never taking joy in anything more complicated than a quark, and so I prefer to reject it.</p>
     <p>To review, the reductionist thesis is that we use multi-level models for computational reasons, but physical reality has only a single level.</p>
     <p>Here I’d like to pose the following conundrum: When you pick up a cup of water, is it your <em>hand</em> that picks it up?</p>
     <p>Most people, of course, go with the naive popular answer: “Yes.”</p>

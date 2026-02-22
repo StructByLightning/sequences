@@ -5,7 +5,7 @@ export default function WordsAsHiddenInferences() {
   return <Chapter title={["Words as Hidden Inferences"]}>
 
 
-    <p><span className="dropCap">S</span>uppose I find a barrel, sealed at the top, but with a hole large enough for a hand. I reach in and feel a small, curved object. I pull the object out, and it’s blue—a bluish egg. Next I reach in and feel something hard and flat, with edges—which, when I extract it, proves to be a red cube. I pull out 11 eggs and 8 cubes, and every egg is blue, and every cube is red.</p>
+    <p>Suppose I find a barrel, sealed at the top, but with a hole large enough for a hand. I reach in and feel a small, curved object. I pull the object out, and it’s blue—a bluish egg. Next I reach in and feel something hard and flat, with edges—which, when I extract it, proves to be a red cube. I pull out 11 eggs and 8 cubes, and every egg is blue, and every cube is red.</p>
     <p>Now I reach in and I feel another egg-shaped object. Before I pull it out and look, I have to guess: What will it look like?</p>
     <p>The evidence doesn’t prove that every egg in the barrel is blue and every cube is red. The evidence doesn’t even argue this all that strongly: 19 is not a large sample size. Nonetheless, I’ll guess that this egg-shaped object is blue—or as a runner-up guess, red. If I guess anything else, there’s as many possibilities as distinguishable colors—and for that matter, who says the egg has to be a single shade? Maybe it has a picture of a horse painted on.</p>
     <p>So I say “blue,” with a dutiful patina of humility. For I am a sophisticated rationalist-type person, and I keep track of my assumptions and dependencies—I guess, but I’m aware that I’m guessing… right?</p>

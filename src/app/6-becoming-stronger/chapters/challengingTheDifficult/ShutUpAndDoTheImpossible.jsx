@@ -5,7 +5,7 @@ export default function ShutUpAndDoTheImpossible() {
   return <Chapter title={["Shut Up and Do the Impossible!"]}>
 
 
-    <p><span className="dropCap">T</span>he virtue of <em>tsuyoku naritai</em>, “I want to become stronger,” is to always keep improving—to do better than your previous failures, not just humbly confess them.</p>
+    <p>The virtue of <em>tsuyoku naritai</em>, “I want to become stronger,” is to always keep improving—to do better than your previous failures, not just humbly confess them.</p>
     <p>Yet there is a level higher than <em>tsuyoku naritai</em>. This is the virtue of <em>isshokenmei</em>, “make a desperate effort.” All-out, as if your own life were at stake. “In important matters, a ‘strong’ effort usually only results in mediocre results.”</p>
     <p>And there is a level higher than <em>isshokenmei</em>. This is the virtue I called “make an extraordinary effort.” To try in ways other than what you have been trained to do, even if it means doing something different from what others are doing, and leaving your comfort zone. Even taking on the very real risk that attends going outside the System.</p>
     <p>But what if even an extraordinary effort will not be enough, because the problem is <em>impossible</em>?</p>

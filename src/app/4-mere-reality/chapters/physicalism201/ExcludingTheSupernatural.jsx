@@ -5,7 +5,7 @@ export default function ExcludingTheSupernatural() {
   return <Chapter title={["Excluding the Supernatural"]}>
 
 
-    <p><span className="dropCap">O</span>ccasionally, you hear someone claiming that creationism should not be taught in schools, especially not as a competing hypothesis to evolution, because creationism is <em>a priori and automatically</em> excluded from scientific consideration, in that it invokes the “supernatural.”</p>
+    <p>Occasionally, you hear someone claiming that creationism should not be taught in schools, especially not as a competing hypothesis to evolution, because creationism is <em>a priori and automatically</em> excluded from scientific consideration, in that it invokes the “supernatural.”</p>
     <p>So… is the idea here, that creationism <em>could</em> be true, but <em>even if it were true</em>, you wouldn’t be <em>allowed</em> to teach it in science class, because science is only about “natural” things?</p>
     <p>It seems clear enough that this notion stems from the desire to avoid a confrontation between science and religion. You don’t want to come right out and say that science doesn’t teach Religious Claim <em>X</em> because <em>X</em> has been tested by the scientific method and found false. So instead, you can… um… claim that science is excluding hypothesis <em>X</em> a priori. That way you don’t have to discuss how experiment has falsified <em>X</em> a posteriori.</p>
     <p>Of course this plays right into the creationist claim that Intelligent Design isn’t getting a fair shake from science—that science has <em>prejudged</em> the issue in favor of atheism, regardless of the evidence. If science excluded Intelligent Design a priori, this would be a justified complaint!</p>

@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 
 export default function TheProperUseOfHumility() {
   return <Chapter title={["The Proper Use", "of Humility"]}>
-    <p><span className="dropCap">I</span>t is widely recognized that good science requires some kind of humility. <em>What sort</em> of humility is more controversial.</p>
+    <p>It is widely recognized that good science requires some kind of humility. <em>What sort</em> of humility is more controversial.</p>
     <p>Consider the creationist who says: “But who can really know whether evolution is correct? It is just a theory. You should be more humble and open-minded.” Is this humility? The creationist practices a very selective underconfidence, refusing to integrate massive weights of evidence in favor of a conclusion they find uncomfortable. I would say that whether you call this “humility” or not, it is the wrong step in the dance.</p>
     <p>What about the engineer who humbly designs fail-safe mechanisms into machinery, even though they’re damn sure the machinery won’t fail? This seems like a good kind of humility to me. Historically, it’s not unheard-of for an engineer to be damn sure a new machine won’t fail, and then it fails anyway.</p>
     <p>What about the student who humbly double-checks the answers on their math test? Again I’d categorize that as good humility.</p>

@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 
 export default function TheCrackpotOffer() {
   return <Chapter title={["The Crackpot Offer"]}>
-    <p><span className="dropCap">W</span>hen I was very young—I think thirteen or maybe fourteen—I thought I had found a disproof of Cantor’s Diagonal Argument, a famous theorem which demonstrates that the real numbers outnumber the rational numbers. Ah, the dreams of fame and glory that danced in my head!</p>
+    <p>When I was very young—I think thirteen or maybe fourteen—I thought I had found a disproof of Cantor’s Diagonal Argument, a famous theorem which demonstrates that the real numbers outnumber the rational numbers. Ah, the dreams of fame and glory that danced in my head!</p>
     <p>My idea was that since each whole number can be decomposed into a bag of powers of 2, it was possible to map the whole numbers onto the set of subsets of whole numbers simply by writing out the binary expansion. The number 13, for example, 1101, would map onto {"{0, 2, 3}"}. It took a whole week before it occurred to me that perhaps I should <em>apply</em> Cantor’s Diagonal Argument to my clever construction, and of course it found a counterexample—the binary number (… 1111), which does not correspond to any finite whole number.</p>
     <p>So I found this counterexample, and saw that my attempted disproof was false, along with my dreams of fame and glory.</p>
     <p>I was initially a bit disappointed.</p>

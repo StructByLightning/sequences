@@ -6,7 +6,7 @@ export default function ChangingYourMetaethics() {
 
 
 
-    <p><span className="dropCap">I</span>f you say, “Killing people is wrong,” that’s morality. If you say, “You shouldn’t kill people because God prohibited it,” or “You shouldn’t kill people because it goes against the trend of the universe,” that’s metaethics.</p>
+    <p>If you say, “Killing people is wrong,” that’s morality. If you say, “You shouldn’t kill people because God prohibited it,” or “You shouldn’t kill people because it goes against the trend of the universe,” that’s metaethics.</p>
     <p>Just as there’s far more agreement on Special Relativity than there is on the question “What is science?,” people find it much easier to agree “Murder is bad” than to agree <em>what</em> makes it bad, or what it <em>means</em> for something to be bad.</p>
     <p>People do get attached to their metaethics. Indeed they frequently insist that if their metaethic is wrong, all morality necessarily falls apart. It might be interesting to set up a panel of metaethicists—theists, Objectivists, Platonists, etc.—all of whom agree that killing is wrong; all of whom disagree on what it means for a thing to be “wrong”; and all of whom insist that if their metaethic is untrue, then morality falls apart.</p>
     <p>Clearly a good number of people, if they are to make philosophical progress, will need to shift metathics at some point in their lives. <em>You</em> may have to do it.</p>

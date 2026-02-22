@@ -5,7 +5,7 @@ export default function AnthropomorphicOptimism() {
   return <Chapter title={["Anthropomorphic Optimism"]}>
 
 
-    <p><span className="dropCap">T</span>he core fallacy of anthropomorphism is expecting something to be predicted by the black box of your brain, when its causal structure is so different from that of a human brain as to give you no license to expect any such thing.</p>
+    <p>The core fallacy of anthropomorphism is expecting something to be predicted by the black box of your brain, when its causal structure is so different from that of a human brain as to give you no license to expect any such thing.</p>
     <p>The early (pre-1966) biologists in The Tragedy of Group Selectionism believed that predators would voluntarily restrain their breeding to avoid overpopulating their habitat and exhausting the prey population. Later on, when Michael J. Wade actually went out and created in the laboratory the nighimpossible conditions for group selection, the adults adapted to cannibalize eggs and larvae, especially female larvae.<span class="footnote">Wade, “Group selections among laboratory populations of Tribolium.”</span></p>
     <p>Now, why might the group selectionists have <em>not</em> thought of that possibility?</p>
     <p>Suppose you were a member of a tribe, and you knew that, in the near future, your tribe would be subjected to a resource squeeze. You might propose, as a solution, that no couple have more than one child—after the first child, the couple goes on birth control. Saying, “Let’s all individually have as many children as we can, but then hunt down and cannibalize each other’s children, especially the girls,” would not even <em>occur to you as a possibility</em>.</p>

@@ -5,7 +5,7 @@ export default function EinsteinsSuperpowers() {
   return <Chapter title={["Einstein's Superpowers"]}>
 
 
-    <p><span className="dropCap">T</span>here is a widespread tendency to talk (and think) as if Einstein, Newton, and similar historical figures had superpowers—something magical, something sacred, something beyond the mundane. (Remember, there are many more ways to worship a thing than lighting candles around its altar.)</p>
+    <p>There is a widespread tendency to talk (and think) as if Einstein, Newton, and similar historical figures had superpowers—something magical, something sacred, something beyond the mundane. (Remember, there are many more ways to worship a thing than lighting candles around its altar.)</p>
     <p>Once I unthinkingly thought this way too, with respect to Einstein in particular, until reading Julian Barbour’s <em>The End of Time</em> cured me of it.<span class="footnote">Julian Barbour, <em>The End of Time: The Next Revolution in Physics</em>, 1st ed. (New York: Oxford University Press, 1999).</span></p>
     <p>Barbour laid out the history of anti-epiphenomenal physics and Mach’s Principle; he described the historical controversies that predated Mach—all this that stood behind Einstein and was known to Einstein, when Einstein tackled his problem…</p>
     <p>And maybe I’m just imagining things—reading too much of <em>myself</em> into Barbour’s book—but I thought I heard Barbour very quietly shouting, coded between the polite lines:</p>

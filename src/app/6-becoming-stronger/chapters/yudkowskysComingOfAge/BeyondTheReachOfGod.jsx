@@ -5,7 +5,7 @@ export default function BeyondTheReachOfGod() {
   return <Chapter title={["Beyond the Reach of God"]}>
 
 
-    <p><span className="dropCap">T</span>his essay is a tad gloomier than usual, as I measure such things. It deals with a thought experiment I invented to smash my own optimism, after I realized that optimism had misled me. Those readers sympathetic to arguments like, “It’s important to keep our biases because they help us stay happy,” should consider not reading. (Unless they have something to protect, including their own life.)</p>
+    <p>This essay is a tad gloomier than usual, as I measure such things. It deals with a thought experiment I invented to smash my own optimism, after I realized that optimism had misled me. Those readers sympathetic to arguments like, “It’s important to keep our biases because they help us stay happy,” should consider not reading. (Unless they have something to protect, including their own life.)</p>
     <p>So! Looking back on the magnitude of my own folly, I realized that at the root of it had been a disbelief in the Future’s vulnerability—a reluctance to accept that things could <em>really</em> turn out wrong. Not as the result of any explicit propositional verbal belief. More like something inside that persisted in believing, even in the face of adversity, that everything would be all right in the end.</p>
     <p>Some would account this a virtue (<em>zettai daijobu da yo</em>), and others would say that it’s a thing necessary for mental health.</p>
     <p>But we don’t live in that world. We live in the world beyond the reach of God.</p>

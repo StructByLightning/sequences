@@ -5,7 +5,7 @@ export default function HeatVsMotion() {
   return <Chapter title={["Heat vs. Motion"]}>
 
 
-    <p><span className="dropCap">A</span>fter the last essay, it occurred to me that there’s a much simpler example of reductionism jumping a gap of apparent-difference-in-kind: the reduction of heat to motion.</p>
+    <p>After the last essay, it occurred to me that there’s a much simpler example of reductionism jumping a gap of apparent-difference-in-kind: the reduction of heat to motion.</p>
     <p>Today, the equivalence of heat and motion may seem too obvious in hindsight—everyone says that “heat is motion,” therefore, it can’t be a “weird” belief.</p>
     <p>But there was a time when the kinetic theory of heat was a highly controversial scientific hypothesis, contrasting to belief in a caloric fluid that flowed from hot objects to cold objects. Still earlier, the main theory of heat was “Phlogiston!”</p>
     <p>Suppose you’d <em>separately</em> studied kinetic theory and caloric theory. You now know something about kinetics: collisions, elastic rebounds, momentum, kinetic energy, gravity, inertia, free trajectories. Separately, you know something about heat: temperatures, pressures, combustion, heat flows, engines, melting, vaporization.</p>

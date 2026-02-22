@@ -6,7 +6,7 @@ export default function SortingPebblesIntoCorrectHeaps() {
 
 
 
-    <p><span className="dropCap">O</span>nce upon a time there was a strange little species—that might have been biological, or might have been synthetic, and perhaps were only a dream—whose passion was sorting pebbles into correct heaps.</p>
+    <p>Once upon a time there was a strange little species—that might have been biological, or might have been synthetic, and perhaps were only a dream—whose passion was sorting pebbles into correct heaps.</p>
     <p>They couldn’t tell you <em>why</em> some heaps were correct, and some incorrect. But all of them agreed that the most important thing in the world was to create correct heaps, and scatter incorrect ones.</p>
     <p>Why the Pebblesorting People cared so much, is lost to this history—maybe a Fisherian runaway sexual selection, started by sheer accident a million years ago? Or maybe a strange work of sentient art, created by more powerful minds and abandoned?</p>
     <p>But it mattered so drastically to them, this sorting of pebbles, that all the Pebblesorting philosophers said in unison that pebble-heap-sorting was the very meaning of their lives: and held that the only justified reason to eat was to sort pebbles, the only justified reason to mate was to sort pebbles, the only justified reason to participate in their world economy was to efficiently sort pebbles.</p>

@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function TheParableOfTheDagger() {
   return <Chapter title={["The Parable of the Dagger"]}>
     <p><em>(Adapted from Raymond Smullyan.)</em><span class="footnote">Raymond M. Smullyan,&nbsp;<em>What Is the Name of This Book?: The Riddle of Dracula and Other Logical Puzzles</em>&nbsp;(Penguin Books, 1990).</span></p>
-    <p><span className="dropCap">O</span>nce upon a time, there was a court jester who dabbled in logic. The jester presented the king with two boxes. Upon the first box was inscribed:</p>
+    <p>Once upon a time, there was a court jester who dabbled in logic. The jester presented the king with two boxes. Upon the first box was inscribed:</p>
     <blockquote>
       <p>Either this box contains an angry frog, or the box with a false inscription contains an angry frog, but not both.</p>
     </blockquote>

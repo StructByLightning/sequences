@@ -5,7 +5,7 @@ export default function HumansInFunnySuits() {
   return <Chapter title={["Humans in Funny Suits"]}>
 
 
-    <p><span className="dropCap">M</span>any times the human species has travelled into space, only to find the stars inhabited by aliens who look remarkably like humans in funny suits—or even humans with a touch of makeup and latex—or just beige Caucasians in fee simple.</p>
+    <p>Many times the human species has travelled into space, only to find the stars inhabited by aliens who look remarkably like humans in funny suits—or even humans with a touch of makeup and latex—or just beige Caucasians in fee simple.</p>
     <p>It’s remarkable how the human form is the natural baseline of the universe, from which all other alien species are derived via a few modifications.</p>
     <p>What could possibly explain this fascinating phenomenon? Convergent evolution, of course! Even though these alien life-forms evolved on a thousand alien planets, completely independently from Earthly life, they all turned out the same.</p>
     <p>Don’t be fooled by the fact that a kangaroo (a mammal) resembles us rather less than does a chimp (a primate), nor by the fact that a frog (amphibians, like us, are tetrapods) resembles us less than the kangaroo. Don’t be fooled by the bewildering variety of the insects, who split off from us even longer ago than the frogs; don’t be fooled that insects have six legs, and their skeletons on the outside, and a different system of optics, and rather different sexual practices.</p>

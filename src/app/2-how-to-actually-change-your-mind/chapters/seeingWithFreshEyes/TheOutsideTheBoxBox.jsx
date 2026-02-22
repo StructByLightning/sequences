@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function TheOutsideTheBoxBox() {
   return <Chapter title={["The \"Outside the Box\" Box"]}>
 
-    <p><span className="dropCap">W</span>henever someone exhorts you to “think outside the box,” they usually, <em>for your convenience</em>, point out exactly where “outside the box” is located. Isn’t it funny how nonconformists all dress the same…</p>
+    <p>Whenever someone exhorts you to “think outside the box,” they usually, <em>for your convenience</em>, point out exactly where “outside the box” is located. Isn’t it funny how nonconformists all dress the same…</p>
     <p>In Artificial Intelligence, everyone outside the field has a cached result for <em>brilliant new revolutionary AI idea</em>—neural networks, which work just like the human brain! New AI idea. Complete the pattern: “Logical AIs, despite all the big promises, have failed to provide real intelligence for decades—what we need are neural networks!”</p>
     <p>This cached thought has been around for three decades. Still no general intelligence. But, somehow, everyone outside the field knows that neural networks are the Dominant-Paradigm-Overthrowing New Idea, ever since backpropagation was invented in the 1970s. Talk about your aging hippies.</p>
     <p>Nonconformist images, by their nature, permit no departure from the norm. If you don’t wear black, how will people know you’re a tortured artist? How will people recognize uniqueness if you don’t fit the standard pattern for what uniqueness is supposed to look like? How will anyone recognize you’ve got a revolutionary AI concept, if it’s not about neural networks?</p>

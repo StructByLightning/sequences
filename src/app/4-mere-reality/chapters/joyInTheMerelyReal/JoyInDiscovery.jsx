@@ -9,7 +9,7 @@ export default function JoyInDiscovery() {
       <p>Newton was the greatest genius who ever lived, and the most fortunate; for we cannot find more than once a system of the world to establish.</p>
       <p>—Lagrange</p>
     </blockquote>
-    <p><span className="dropCap">I</span> have more fun discovering things for myself than reading about them in textbooks. This is right and proper, and only to be expected.</p>
+    <p>I have more fun discovering things for myself than reading about them in textbooks. This is right and proper, and only to be expected.</p>
     <p>But discovering something that <em>no one else knows</em>—being the <em>first</em> to unravel the secret—</p>
     <p>There is a story that one of the first men to realize that stars were burning by fusion—plausible attributions I’ve seen are to Fritz Houtermans and Hans Bethe—was walking out with his girlfriend of a night, and she made a comment on how beautiful the stars were, and he replied: “Yes, and right now, I’m the only man in the world who knows why they shine.”</p>
     <p>It is attested by numerous sources that this experience, being the first person to solve a major mystery, is a <em>tremendous</em> high. It’s probably the closest experience you can get to taking drugs, without taking drugs—though I wouldn’t know.</p>

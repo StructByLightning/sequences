@@ -5,7 +5,7 @@ export default function PositiveBiasLookIntoTheDark() {
 
 
   return <Chapter title={["Positive Bias:", "Look Into the Dark"]}>
-    <p><span className="dropCap">I</span> am teaching a class, and I write upon the blackboard three numbers: 2-4-6. “I am thinking of a rule,” I say, “which governs sequences of three numbers. The sequence 2-4-6, as it so happens, obeys this rule. Each of you will find, on your desk, a pile of index cards. Write down a sequence of three numbers on a card, and I’ll mark it ‘Yes’ for fits the rule, or ‘No’ for not fitting the rule. Then you can write down another set of three numbers and ask whether it fits again, and so on. When you’re confident that you know the rule, write down the rule on a card. You can test as many triplets as you like.”</p>
+    <p>I am teaching a class, and I write upon the blackboard three numbers: 2-4-6. “I am thinking of a rule,” I say, “which governs sequences of three numbers. The sequence 2-4-6, as it so happens, obeys this rule. Each of you will find, on your desk, a pile of index cards. Write down a sequence of three numbers on a card, and I’ll mark it ‘Yes’ for fits the rule, or ‘No’ for not fitting the rule. Then you can write down another set of three numbers and ask whether it fits again, and so on. When you’re confident that you know the rule, write down the rule on a card. You can test as many triplets as you like.”</p>
     <p>Here’s the record of one student’s guesses:</p>
     <figure>
       <table>

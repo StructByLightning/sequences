@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function IsRealityUgly() {
   return <Chapter title={["Is Reality Ugly?"]}>
 
-    <p><span className="dropCap">C</span>onsider the cubes, &#123;1, 8, 27, 64, 125, &hellip; &#125;. Their first differences &#123;7, 19, 37, 61, &hellip; &#125;
+    <p>Consider the cubes, &#123;1, 8, 27, 64, 125, &hellip; &#125;. Their first differences &#123;7, 19, 37, 61, &hellip; &#125;
       might at first seem to lack an obvious pattern, but taking the second differences &#123;12, 18, 24, … &#125; takes you down to the simply related level. Taking the third differences &#123;6, 6, … &#125; brings us to the perfectly stable level, where chaos dissolves into order.</p>
     <p>But this is a handpicked example. Perhaps the “messy real world” lacks the beauty of these abstract mathematical objects? Perhaps it would be more appropriate to talk about neuroscience or gene expression networks?</p>
     <p>Abstract math, being constructed solely in imagination, arises from simple foundations—a small set of initial axioms—and is a closed system; conditions that might seem <em>unnaturally</em> conducive to neatness.</p>

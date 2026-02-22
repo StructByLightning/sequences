@@ -6,7 +6,7 @@ export default function DissolvingTheQuestion() {
 
 
     <p>“If a tree falls in the forest, but no one hears it, does it make a sound?”</p>
-    <p><span className="dropCap">I</span> didn’t <em>answer</em> that question. I didn’t pick a position “Yes!” or “No!” and defend it. Instead I went off and deconstructed the human algorithm for processing words, even going so far as to sketch an illustration of a neural network. At the end, I hope, there was no question left—not even the feeling of a question.</p>
+    <p>I didn’t <em>answer</em> that question. I didn’t pick a position “Yes!” or “No!” and defend it. Instead I went off and deconstructed the human algorithm for processing words, even going so far as to sketch an illustration of a neural network. At the end, I hope, there was no question left—not even the feeling of a question.</p>
     <p>Many philosophers—particularly amateur philosophers, and ancient philosophers—share a dangerous instinct: If you give them a question, they try to answer it.</p>
     <p>Like, say, “Do we have free will?”</p>
     <p>The dangerous instinct of philosophy is to marshal the arguments in favor, and marshal the arguments against, and weigh them up, and publish them in a prestigious journal of philosophy, and so finally conclude: “Yes, we must have free will,” or “No, we cannot possibly have free will.”</p>

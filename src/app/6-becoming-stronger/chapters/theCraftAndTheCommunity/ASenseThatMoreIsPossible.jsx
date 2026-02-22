@@ -5,7 +5,7 @@ export default function ASenseThatMoreIsPossible() {
   return <Chapter title={["A Sense That More Is Possible"]}>
 
 
-    <p><span className="dropCap">T</span>o teach people about a topic you’ve labeled “rationality,” it helps for them to be interested in “rationality.” (There are less direct ways to teach people how to attain the map that reflects the territory, or optimize reality according to their values; but the explicit method <em>is</em> the course I tend to take.)</p>
+    <p>To teach people about a topic you’ve labeled “rationality,” it helps for them to be interested in “rationality.” (There are less direct ways to teach people how to attain the map that reflects the territory, or optimize reality according to their values; but the explicit method <em>is</em> the course I tend to take.)</p>
     <p>And when people explain why they’re <em>not</em> interested in rationality, one of the most commonly proffered reasons tends to be like: “Oh, I’ve known a couple of rational people and they didn’t seem any happier.”</p>
     <p>Who are they thinking of? Probably an Objectivist or some such. Maybe someone they know who’s an ordinary scientist. Or an ordinary atheist.</p>
     <p>That’s really <em>not</em> a whole lot of rationality, as I have previously said.</p>

@@ -6,7 +6,7 @@ export default function FeelingMoral() {
 
 
 
-    <p><span className="dropCap">S</span>uppose that a disease, or a monster, or a war, or something, is killing people. And suppose you only have enough resources to implement one of the following two options:</p>
+    <p>Suppose that a disease, or a monster, or a war, or something, is killing people. And suppose you only have enough resources to implement one of the following two options:</p>
     <ol>
       <li>Save 400 lives, with certainty.</li>
       <li>Save 500 lives, with 90% probability; save no lives, 10% probability.</li>

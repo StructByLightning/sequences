@@ -5,7 +5,7 @@ export default function TypicalityAndAsymmetricalSimilarity() {
   return <Chapter title={["Typicality and", "Asymmetrical Similarity"]}>
 
 
-    <p><span className="dropCap">B</span>irds fly. Well, except ostriches don’t. But which is a more typical bird—a robin, or an ostrich?</p>
+    <p>Birds fly. Well, except ostriches don’t. But which is a more typical bird—a robin, or an ostrich?</p>
     <p>Which is a more typical chair: a desk chair, a rocking chair, or a beanbag chair?</p>
     <p>Most people would say that a robin is a more typical bird, and a desk chair is a more typical chair. The cognitive psychologists who study this sort of thing experimentally, do so under the heading of “typicality effects” or “prototype effects.”<span class="footnote">Eleanor Rosch, “Principles of Categorization,” in <em>Cognition and Categorization</em>, ed. Eleanor Rosch and Barbara B. Lloyd (Hillsdale, NJ: Lawrence Erlbaum, 1978).</span> For example, if you ask subjects to press a button to indicate “true” or “false” in response to statements like “A robin is a bird” or “A penguin is a bird,” reaction times are faster for more central examples.<span class="footnote">George Lakoff, <em>Women, Fire, and Dangerous Things: What Categories Reveal about the Mind</em> (Chicago: Chicago University Press, 1987).</span> Typicality measures correlate well using different investigative methods—reaction times are one example; you can also ask people to directly rate, on a scale of 1 to 10, how well an example (like a specific robin) fits a category (like “bird”).</p>
     <p>So we have a mental measure of typicality—which might, perhaps, function as a heuristic—but is there a corresponding bias we can use to pin it down?</p>

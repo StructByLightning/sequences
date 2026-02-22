@@ -5,7 +5,7 @@ export default function AngryAtoms() {
   return <Chapter title={["Angry Atoms"]}>
 
 
-    <p><span className="dropCap">F</span>undamental physics—quarks ’n’ stuff—is far removed from the levels we can <em>see</em>, like hands and fingers. At best, you can know how to replicate the experiments that show that your hand (like everything else) is composed of quarks, and you may know how to derive a few equations for things like atoms and electron clouds and molecules.</p>
+    <p>Fundamental physics—quarks ’n’ stuff—is far removed from the levels we can <em>see</em>, like hands and fingers. At best, you can know how to replicate the experiments that show that your hand (like everything else) is composed of quarks, and you may know how to derive a few equations for things like atoms and electron clouds and molecules.</p>
     <p>At worst, the existence of quarks beneath your hand may just be something you were told. In which case it’s questionable in what sense you can be said to “know” it at all, even if you repeat back the same word “quark” that a physicist would use to convey knowledge to another physicist.</p>
     <p>Either way, you can’t actually <em>see</em> the identity between levels—no one has a brain large enough to <em>visualize</em> avogadros of quarks and recognize a hand-pattern in them.</p>
     <p>But we at least understand what hands <em>do</em>. Hands push on things, exert forces on them. When we’re told about atoms, we visualize little billiard balls bumping into each other. This makes it seem obvious that “atoms” can push on things too, by bumping into them.</p>

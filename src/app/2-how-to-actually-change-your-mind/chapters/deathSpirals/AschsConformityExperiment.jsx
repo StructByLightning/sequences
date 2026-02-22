@@ -4,7 +4,7 @@ import Chapter from "@/components/Chapter/Chapter";
 export default function AschsConformityExperiment() {
   return <Chapter title={["Asch's Conformity", "Experiment"]}>
 
-    <p><span className="dropCap">S</span>olomon Asch, with experiments originally carried out in the 1950s and well- replicated since, highlighted a phenomenon now known as “conformity.” In the classic experiment, a subject sees a puzzle like the one in the nearby dia- gram: Which of the lines <em>A</em>, <em>B</em>, and <em>C</em> is the same size as the line <em>X</em>? Take a moment to determine your own answer…</p>
+    <p>Solomon Asch, with experiments originally carried out in the 1950s and well- replicated since, highlighted a phenomenon now known as “conformity.” In the classic experiment, a subject sees a puzzle like the one in the nearby dia- gram: Which of the lines <em>A</em>, <em>B</em>, and <em>C</em> is the same size as the line <em>X</em>? Take a moment to determine your own answer…</p>
     <figure>
       <img src="https://www.readthesequences.com/wiki/uploads/asch2.png" alt="diagram: four vertical line segments of different lengths, marked X, A, B, and C" title="diagram: four vertical line segments of different lengths, marked X, A, B, and C" />
     </figure>

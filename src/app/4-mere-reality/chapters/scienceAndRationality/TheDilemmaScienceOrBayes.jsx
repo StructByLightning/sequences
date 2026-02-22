@@ -13,7 +13,7 @@ export default function TheDilemmaScienceOrBayes() {
       <p>In light of your QM explanation, which to me sounds perfectly logical, it seems <em>obvious and normal</em> that many worlds is overwhelmingly likely. It just seems almost too good to be true that <em>I</em> now get what plenty of genius quantum physicists still can’t. […] Sure I can explain all that away, and I still think you’re right, I’m just suspicious of myself for believing the first believable explanation I met.</p>
       <p>—Recovering_irrationalist</p>
     </blockquote>
-    <p><span className="dropCap">R</span>ecovering_irrationalist, you’ve got no idea how glad I was to see you post that comment.</p>
+    <p>Recovering_irrationalist, you’ve got no idea how glad I was to see you post that comment.</p>
     <p>Of course I had more than just <em>one</em> reason for spending all that time writing about quantum physics. I like having lots of hidden motives. It’s the closest I can ethically get to being a supervillain.</p>
     <p>But to give an example of a purpose I could <em>only</em> accomplish by discussing quantum physics…</p>
     <p>In physics, you can get absolutely clear-cut issues. Not in the sense that the issues are trivial to explain. But if you try to apply Bayes to healthcare, or economics, you may not be able to <em>formally</em> lay out what is the simplest hypothesis, or what the evidence supports. But when I say “macroscopic decoherence is simpler than collapse” it is actually <em>strict</em> simplicity; you could write the two hypotheses out as computer programs and count the lines of code. Nor is the evidence itself in dispute.</p>

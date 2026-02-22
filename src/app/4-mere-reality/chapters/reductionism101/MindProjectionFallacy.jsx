@@ -3,7 +3,7 @@ import Chapter from "@/components/Chapter/Chapter";
 
 export default function MindProjectionFallacy() {
   return <Chapter title={["Mind Projection Fallacy"]}>
-    <p><span className="dropCap">I</span>n the dawn days of science fiction, alien invaders would occasionally kidnap a girl in a torn dress and carry her off for intended ravishing, as lovingly depicted on many ancient magazine covers. Oddly enough, the aliens never go after men in torn shirts.</p>
+    <p>In the dawn days of science fiction, alien invaders would occasionally kidnap a girl in a torn dress and carry her off for intended ravishing, as lovingly depicted on many ancient magazine covers. Oddly enough, the aliens never go after men in torn shirts.</p>
     <p>Would a non-humanoid alien, with a different evolutionary history and evolutionary psycho­lo­gy, sexually desire a human female? It seems rather unlikely. To put it mildly.</p>
     <p>People don’t make mistakes like that by deliberately reasoning: “All possible minds are likely to be wired pretty much the same way, therefore a bug-eyed monster will find human females attractive.” Probably the artist did not even think to ask whether an alien <em>perceives</em> human females as attractive. Instead, a human female in a torn dress <em>is sexy</em>—inherently so, as an intrinsic property.</p>
     <p>They who went astray did not think about the alien’s evolutionary history; they focused on the woman’s torn dress. If the dress were not torn, the woman would be less sexy; the alien monster doesn’t enter into it.</p>
