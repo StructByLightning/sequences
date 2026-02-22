@@ -53,7 +53,7 @@ import TitlePage from "@/components/TitlePage/TitlePage";
 
 export default function Home() {
   return <>
-    <TitlePage volume="1" name="Map and Territory" />
+    {/* <TitlePage volume="1" name="Map and Territory" />
 
     <TableOfContents items={[
       {
@@ -130,12 +130,12 @@ export default function Home() {
         ]
       }
 
-    ]} />
+    ]} /> */}
 
 
-    <SequenceHeader title="Predictably Wrong" letter="A" />
+    {/* <SequenceHeader title="Predictably Wrong" letter="A" /> */}
     <WhatDoIMeanByRationality />
-    <FeelingRational />
+    {/* <FeelingRational />
     <WhyTruth />
     <WhatsABias />
     <Availability />
@@ -194,6 +194,6 @@ export default function Home() {
     <ExplainWorshipIgnore />
     <ScienceAsCuriosityStopper />
     <TrulyPartOfYou />
-    <TheSimpleTruth /> 
+    <TheSimpleTruth />  */}
   </>;
 }

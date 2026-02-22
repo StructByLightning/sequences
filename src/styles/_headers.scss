@@ -54,6 +54,8 @@ h4{
   height: min-content;
   margin: var(--spacing7) 0;
 
+  text-align: center;
+
   h2{
     margin: 0;
   }
@@ -75,7 +77,7 @@ p:has(.dropCap){
   }
 }
 
-.chapter > .chapterHeader + p{
+.chapter > .chapterHeader + .talmud-main-text > p:first-child{
   &::first-letter{
     initial-letter: 2.75;
 

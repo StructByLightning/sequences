@@ -1,8 +1,8 @@
 //Base page styling
 @page{
-  size: 6in 8.5in;
-
   margin: 0.75in 0.5in 0.75in 0.5in;
+
+  size: 8in 10.5in;
   @footnote{
     margin-top: var(--spacing6);
     padding-top: var(--spacing5);
@@ -20,7 +20,7 @@
     font-size: 0.8em;
     font-family: var(--secondaryFont);
     white-space: nowrap;
-    text-align: left;
+    text-align: center;
 
     border-bottom: 1px solid  var(--black);
 
@@ -49,7 +49,7 @@
     font-size: 0.8em;
     font-family: var(--secondaryFont);
     white-space: nowrap;
-    text-align: right;
+    text-align: center;
 
     border-bottom: 1px solid black;
 
@@ -142,7 +142,7 @@ section{
     break-before: page;
   }
   @page chapter#{$i}{
-    size: 6in 8.5in;
+    size: 8in 10.5in;
 
     margin: 0.75in 0.5in 0.75in 0.5in;
   }
@@ -174,7 +174,7 @@ section{
     break-before: page;
   }
   @page section#{$i}{
-    size: 6in 8.5in;
+    size: 8in 10.5in;
 
     margin: 0.75in 0.5in 0.75in 0.5in;
   }
@@ -221,7 +221,7 @@ section{
   break-after: page;
 }
 @page plainpage{
-  size: 6in 8.5in;
+  size: 8in 10.5in;
 
   margin: 0.75in 0.5in 0.75in 0.5in;
 }
@@ -252,7 +252,7 @@ section{
 
 //Blank page styling (no headers/footers)
 @page blankpage{
-  size: 6in 8.5in;
+  size: 8in 10.5in;
 
   margin: 0.75in 0.5in 0.75in 0.5in;
   @top-left{
@@ -300,4 +300,55 @@ p{
 
 .last{
   margin-bottom: auto;
+}
+
+//Talmud three-column layout
+//Commentary is extracted before paged.js and injected after rendering
+.talmud-commentary-left,
+.talmud-commentary-right{
+  display: none;
+}
+
+.talmud-column-left,
+.talmud-column-right{
+
+  hr{
+    width: 100%;
+    margin: var(--spacing4) 0;
+  }
+}
+
+.talmud-main-text{
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing5);
+
+  margin-right: 27%;
+  margin-left: 27%;
+}
+
+.talmud-column{
+  position: absolute;
+  top: 0;
+
+  overflow: hidden;
+
+  font-size: var(--fontSize0);
+  line-height: var(--lineHeight);
+
+  p + p{
+    margin-top: 0.75em;
+  }
+}
+
+.talmud-column-left{
+  left: 0;
+
+  width: 23%;
+}
+
+.talmud-column-right{
+  right: 0;
+
+  width: 23%;
 }
