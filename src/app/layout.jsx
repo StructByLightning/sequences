@@ -1,99 +1,105 @@
 "use client"
 
 import "@/styles/core.scss";
-import { useRef, useEffect } from "react";
-import { Previewer } from "pagedjs";
+import {useEffect, useRef} from "react";
+import {Previewer} from "pagedjs";
 
 
 /**
- * Injects talmud commentary columns into rendered paged.js pages.
- * For each talmud chapter, finds all pages containing its main text
- * and fills left/right columns with commentary that flows across pages.
+ * Positions margin notes in the left/right margins of rendered paged.js pages.
+ * Each note is placed at its anchor's Y position, pushed down if it would
+ * overlap a previous note on the same side (soft anchoring).
  *
- * @param container    - The paged.js preview container element
- * @param commentaryData - Map of chapterId to {left, right} HTML strings
+ * @param container - The paged.js preview container element
+ * @param noteData  - Map of noteId to {side, content} objects
  */
-function injectTalmudCommentary(container, commentaryData) {
-  for (const [chapterId, commentary] of Object.entries(commentaryData)) {
-    //Find pages containing this specific chapter's talmud content
-    //Uses data-chapter-id on .talmud-main-text since paged.js fragments
-    //don't preserve the parent section's id on subsequent pages
-    const pages = [];
-    const allPages = container.querySelectorAll(".pagedjs_page");
+function injectMarginNotes(container, noteData) {
+  const allPages = container.querySelectorAll(".pagedjs_page");
 
-    allPages.forEach((page) => {
-      const content = page.querySelector(".pagedjs_page_content");
-      if (content && content.querySelector(`.talmud-main-text[data-chapter-id="${chapterId}"]`)) {
-        pages.push(page);
-      }
+  allPages.forEach((page) => {
+    const area = page.querySelector(".pagedjs_area");
+    const areaRect = area.getBoundingClientRect();
+    const areaHeight = area.clientHeight;
+    area.style.position = "relative";
+
+    //Track the bottom edge of the last note on each side for collision avoidance
+    const lastBottom = {left: 0, right: 0};
+
+    //Find all anchors on this page, sorted by vertical position
+    const anchors = [...page.querySelectorAll(".margin-note-anchor")];
+    anchors.sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
+
+    anchors.forEach((anchor) => {
+      const noteId = anchor.dataset.noteId;
+      const note = noteData[noteId];
+      if (!note) return;
+
+      const {content, side} = note;
+      const anchorY = anchor.getBoundingClientRect().top - areaRect.top;
+
+      //Soft anchor: start at anchor position, but push down if overlapping previous note
+      const top = Math.max(anchorY, lastBottom[side]);
+
+      //Don't render if pushed entirely off the page
+      if (top >= areaHeight) return;
+
+      const noteEl = document.createElement("div");
+      noteEl.className = `margin-note-rendered margin-note-${side}`;
+      noteEl.style.top = top + "px";
+      noteEl.style.maxHeight = (areaHeight - top) + "px";
+      noteEl.innerHTML = content;
+      area.appendChild(noteEl);
+
+      //Update collision tracking with actual rendered height
+      lastBottom[side] = top + noteEl.offsetHeight;
     });
-
-    if (pages.length === 0) {
-      //No pages found for this chapter, skip to next
-    } else {
-      //Get the content area height for offset calculations
-      const firstArea = pages[0].querySelector(".pagedjs_area");
-      const areaHeight = firstArea.clientHeight;
-
-      //On the first page, measure where the main text starts to align commentary
-      const areaRect = firstArea.getBoundingClientRect();
-      const mainTextEl = pages[0].querySelector(".talmud-main-text");
-      const headerHeight = mainTextEl
-        ? mainTextEl.getBoundingClientRect().top - areaRect.top
-        : 0;
-
-      //Measure actual rendered line height so we can snap column heights
-      //to line boundaries and avoid clipping text mid-glyph
-      firstArea.style.position = "relative";
-      const measureEl = document.createElement("div");
-      measureEl.className = "talmud-column talmud-column-left";
-      measureEl.style.visibility = "hidden";
-      measureEl.innerHTML = "<p>X</p>";
-      firstArea.appendChild(measureEl);
-      const lineHeight = parseFloat(getComputedStyle(measureEl.querySelector("p")).lineHeight);
-      measureEl.remove();
-
-      //Track how much commentary content has been shown across pages
-      let contentShown = 0;
-
-      pages.forEach((page, index) => {
-        const area = page.querySelector(".pagedjs_area");
-        area.style.position = "relative";
-
-        //First page: commentary starts below header. Subsequent: full height.
-        const topOffset = index === 0 ? headerHeight : 0;
-        const rawHeight = areaHeight - topOffset;
-        //Snap column height down to nearest line boundary to prevent mid-line clipping
-        const columnHeight = Math.floor(rawHeight / lineHeight) * lineHeight;
-
-        const scrollOffset = contentShown;
-
-        if (commentary.left) {
-          const leftCol = document.createElement("div");
-          leftCol.className = "talmud-column talmud-column-left";
-          leftCol.style.top = topOffset + "px";
-          leftCol.style.height = columnHeight + "px";
-          leftCol.innerHTML = `<div style="margin-top: -${scrollOffset}px">${commentary.left}</div>`;
-          area.appendChild(leftCol);
-        }
-
-        if (commentary.right) {
-          const rightCol = document.createElement("div");
-          rightCol.className = "talmud-column talmud-column-right";
-          rightCol.style.top = topOffset + "px";
-          rightCol.style.height = columnHeight + "px";
-          rightCol.innerHTML = `<div style="margin-top: -${scrollOffset}px">${commentary.right}</div>`;
-          area.appendChild(rightCol);
-        }
-
-        contentShown += columnHeight;
-      });
-    }
-  }
+  });
 }
 
 
-export default function RootLayout({ children }) {
+/**
+ * Extracts margin notes from the DOM before paged.js processes it.
+ * Replaces each note with an inline anchor span in the preceding element,
+ * and returns a map of note content keyed by generated IDs.
+ *
+ * @param container - The DOM element containing the content
+ * @returns         Map of noteId to {side, content} objects
+ */
+function extractMarginNotes(container) {
+  const noteData = {};
+  const notes = container.querySelectorAll(".margin-note");
+  let noteIndex = 0;
+
+  notes.forEach((note) => {
+    const id = `margin-note-${noteIndex++}`;
+    const side = note.dataset.side;
+
+    //Walk backward to find the preceding non-margin-note sibling (the anchor paragraph)
+    let anchor = note.previousElementSibling;
+    while (anchor && anchor.classList.contains("margin-note")) {
+      anchor = anchor.previousElementSibling;
+    }
+
+    if (anchor) {
+      //Insert a zero-width anchor span at the start of the preceding element
+      //so the note aligns with the top of the paragraph it annotates
+      const marker = document.createElement("span");
+      marker.className = "margin-note-anchor";
+      marker.dataset.noteId = id;
+      marker.dataset.side = side;
+      anchor.insertBefore(marker, anchor.firstChild);
+    }
+
+    //Store note content and remove from flow
+    noteData[id] = {content: note.innerHTML, side};
+    note.remove();
+  });
+
+  return noteData;
+}
+
+
+export default function RootLayout({children}) {
 
   const contentRef = useRef(null);
   useEffect(() => {
@@ -112,44 +118,27 @@ export default function RootLayout({ children }) {
           let htmlContent = contentRef.current.innerHTML;
 
           //Insert blank pages before chapters
-          const tempDiv = document.createElement('div');
+          const tempDiv = document.createElement("div");
           tempDiv.innerHTML = htmlContent;
 
           //Find all chapter elements
-          const chapters = tempDiv.querySelectorAll('.chapter');
+          const chapters = tempDiv.querySelectorAll(".chapter");
 
           chapters.forEach((chapter) => {
             //Create a blank page element that will force a page break
-            const blankPage = document.createElement('div');
-            blankPage.className = 'forced-blank-page';
-            blankPage.style.cssText = 'page-break-before: always; page-break-after: always; height: 1px;';
-            blankPage.innerHTML = '&nbsp;'; //Non-breaking space to ensure the element renders
+            const blankPage = document.createElement("div");
+            blankPage.className = "forced-blank-page";
+            blankPage.style.cssText = "page-break-before: always; page-break-after: always; height: 1px;";
+            blankPage.innerHTML = "&nbsp;"; //Non-breaking space to ensure the element renders
 
             //Insert the blank page before the chapter
             chapter.parentNode.insertBefore(blankPage, chapter);
           });
 
-          //Extract talmud commentary before paged.js processes the content
-          const talmudChapters = tempDiv.querySelectorAll("[data-talmud]");
-          const commentaryData = {};
-          talmudChapters.forEach((chapter) => {
-            const id = chapter.id;
-            const leftEl = chapter.querySelector(".talmud-commentary-left");
-            const rightEl = chapter.querySelector(".talmud-commentary-right");
-            commentaryData[id] = {
-              left: leftEl ? leftEl.innerHTML : "",
-              right: rightEl ? rightEl.innerHTML : "",
-            };
-            //Remove commentary from the flow so paged.js only paginates the main text
-            if (leftEl) leftEl.remove();
-            if (rightEl) rightEl.remove();
+          //Extract margin notes before paged.js processes the content
+          const noteData = extractMarginNotes(tempDiv);
 
-            //Tag the main text div with the chapter id so we can find it after fragmentation
-            const mainTextEl = chapter.querySelector(".talmud-main-text");
-            if (mainTextEl) mainTextEl.setAttribute("data-chapter-id", id);
-          });
-
-          //Update the HTML content with the blank pages
+          //Update the HTML content with the blank pages and extracted notes
           htmlContent = tempDiv.innerHTML;
 
           //Create a container for the preview
@@ -177,19 +166,19 @@ export default function RootLayout({ children }) {
 
             //Set height: 100% on all .chapter elements
             //We have to do it here instead of css or it will break the layout with footnotes
-            const chapterElements = previewContainer.querySelectorAll('.chapter');
+            const chapterElements = previewContainer.querySelectorAll(".chapter");
             chapterElements.forEach((chapter) => {
-              chapter.style.height = '100%';
+              chapter.style.height = "100%";
             });
 
-            //Inject talmud commentary columns into rendered pages
-            if (Object.keys(commentaryData).length > 0) {
-              injectTalmudCommentary(previewContainer, commentaryData);
+            //Position margin notes in the rendered pages
+            if (Object.keys(noteData).length > 0) {
+              injectMarginNotes(previewContainer, noteData);
             }
 
           });
 
-          // Update TOC page numbers after a short delay to ensure DOM is ready
+          //Update TOC page numbers after a short delay to ensure DOM is ready
           setTimeout(() => {
             if (window.updateTableOfContents) {
               console.log("Updating TOC page numbers...");

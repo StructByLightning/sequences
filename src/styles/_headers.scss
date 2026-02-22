@@ -77,7 +77,7 @@ p:has(.dropCap){
   }
 }
 
-.chapter > .chapterHeader + .talmud-main-text > p:first-child{
+.chapter > .chapterHeader + .margin-notes-content > p:first-child{
   &::first-letter{
     initial-letter: 2.75;
 

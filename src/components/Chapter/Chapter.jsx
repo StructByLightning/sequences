@@ -2,7 +2,7 @@ import React from "react";
 import hashChapterTitle from "@/utils/hashChapterTitle";
 import css from "./Chapter.module.scss";
 
-export default function Chapter({children, leftCommentary, rightCommentary, title}) {
+export default function Chapter({children, marginNotes, title}) {
   //Convert children to array and add className to last child
   const childrenArray = React.Children.toArray(children);
   const modifiedChildren = childrenArray.map((child, index) => {
@@ -16,12 +16,9 @@ export default function Chapter({children, leftCommentary, rightCommentary, titl
     return child;
   });
 
-  const hasTalmud = Boolean(leftCommentary || rightCommentary);
-
   return <section
     className={"chapter " + css.chapter}
     id={hashChapterTitle(title.join(" "))}
-    data-talmud={hasTalmud ? "true" : undefined}
   >
     <div className="chapterHeader">
       <h2 className="title">
@@ -29,16 +26,8 @@ export default function Chapter({children, leftCommentary, rightCommentary, titl
       </h2>
     </div>
 
-    {hasTalmud && leftCommentary && <div className={"talmud-commentary-left "+css.commentary}>
-      {leftCommentary}
-    </div>}
-
-    <div className={hasTalmud ? "talmud-main-text" : undefined}>
+    <div className={marginNotes ? "margin-notes-content" : undefined}>
       {modifiedChildren}
     </div>
-
-    {hasTalmud && rightCommentary && <div className={"talmud-commentary-right "+css.commentary}>
-      {rightCommentary}
-    </div>}
   </section>;
 }
