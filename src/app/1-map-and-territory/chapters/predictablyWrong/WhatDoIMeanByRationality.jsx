@@ -84,7 +84,7 @@ export default function WhatDoIMeanByRationality() {
         <MarginNote side="left">
         </MarginNote>
 
-        <p>Second, sometimes the meaning of the math itself is called into question. The exact rules of probability theory are called into question by, e.g., anthropic problems in which the number of observers is uncertain. The exact rules of decision theory are called into question by, e.g., Newcomblike problems in which other agents may predict your decision before it happens<span className="footnote"><em>Editor's Note: For a good introduction to Newcomb's Problem, see https://slate.com/culture/2002/02/robert-nozick-and-newcomb-s-problem.html.</em></span>.</p>
+        <p>Second, sometimes the meaning of the math itself is called into question. The exact rules of probability theory are called into question by, e.g., anthropic problems in which the number of observers is uncertain. The exact rules of decision theory are called into question by, e.g., Newcomblike problems in which other agents may predict your decision before it happens<span className="footnote"><em>For a good introduction to Newcomb's Problem, see https://slate.com/culture/2002/02/robert-nozick-and-newcomb-s-problem.html.</em></span>.</p>
         
         <p>In cases like these, it is futile to try to settle the problem by coming up with some new definition of the word "rational" and saying, "Therefore my preferred answer, <em>by definition</em>, is what is meant by the word 'rational.' " This simply raises the question of why anyone should pay attention to your definition. I'm not interested in probability theory because it is the holy word handed down from Laplace. I'm interested in Bayesian-style belief-updating (with Occam priors) because I expect that this style of thinking gets us systematically closer to, you know, <em>accuracy</em>, the map that reflects the territory.</p>
         <p>And then there are questions of how to think that seem not quite answered by either probability theory or decision theory—like the question of how to feel about the truth once you have it. Here, again, trying to define "rationality" a particular way doesn't support an answer, but merely presumes one.</p>
@@ -112,6 +112,14 @@ export default function WhatDoIMeanByRationality() {
 
 
         <p>In fact, I recommend reading back through this essay, replacing every instance of "rational" with "foozal," and seeing if that changes the connotations of what I'm saying any. If so, I say: strive not for rationality, but for foozality.</p>
+
+        <MarginNote side="left">
+          <p>
+            This is a rationality technique disguised as a joke. Taboo the word, keep the concept, see if the argument still works. This gets formalized later as <em>Taboo Your Words</em>, one of the most practically useful tools in the Sequences. If swapping in a nonsense word changes how an argument feels, you were being moved by connotations, not content.
+          </p>
+        </MarginNote>
+
+
         <p>The word "rational" has potential pitfalls, but there are plenty of <em>non</em>-borderline cases where "rational" works fine to communicate what I'm getting at. Likewise "irrational." In these cases I'm not afraid to use it.</p>
         <p>Yet one should be careful not to <em>overuse</em> that word. One receives no points merely for pronouncing it loudly. If you speak overmuch of the Way, you will not attain it.</p>
         <MarginNote side="right">
