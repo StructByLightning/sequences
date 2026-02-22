@@ -14,18 +14,95 @@ import {Previewer} from "pagedjs";
  * @param noteData  - Map of noteId to {side, content} objects
  */
 function injectMarginNotes(container, noteData) {
-  const allPages = container.querySelectorAll(".pagedjs_page");
+  const allPages = [...container.querySelectorAll(".pagedjs_page")];
+  if (allPages.length === 0) return;
+
+  //Measure rendered line height for snapping clip boundaries
+  const firstArea = allPages[0].querySelector(".pagedjs_area");
+  firstArea.style.position = "relative";
+  const measureEl = document.createElement("div");
+  measureEl.className = "margin-note-rendered margin-note-left";
+  measureEl.style.visibility = "hidden";
+  measureEl.innerHTML = "<p>X<br>X</p>";
+  firstArea.appendChild(measureEl);
+  const measureP = measureEl.querySelector("p");
+  const twoLineHeight = measureP.getBoundingClientRect().height;
+  measureP.innerHTML = "X";
+  const oneLineHeight = measureP.getBoundingClientRect().height;
+  const lineHeight = twoLineHeight - oneLineHeight;
+  measureEl.remove();
+
+  /**
+   * Snaps a height down to the nearest line-height multiple
+   * so clipping never cuts through the middle of a text line.
+   */
+  const snapToLine = (h) => Math.floor(h / lineHeight) * lineHeight;
+  const noteGap = lineHeight;
+
+  //Notes that overflow the bottom of a page and need to continue on the next
+  let pendingOverflow = [];
 
   allPages.forEach((page) => {
     const area = page.querySelector(".pagedjs_area");
     const areaRect = area.getBoundingClientRect();
-    const areaHeight = area.clientHeight;
+    const footnoteArea = area.querySelector(".pagedjs_footnote_area:not(.pagedjs_footnote_empty)");
+    const areaHeight = area.clientHeight - (footnoteArea ? footnoteArea.clientHeight : 0);
     area.style.position = "relative";
 
     //Track the bottom edge of the last note on each side for collision avoidance
     const lastBottom = {left: 0, right: 0};
+    const newOverflow = [];
 
-    //Find all anchors on this page, sorted by vertical position
+    //First, render continuation notes from previous page overflow
+    pendingOverflow.forEach(({content, shownHeight, side, totalHeight}) => {
+      const top = lastBottom[side];
+      const rawAvailable = areaHeight - top;
+      if (rawAvailable <= 0) {
+        //No room even for continuation, defer to next page
+        newOverflow.push({content, shownHeight, side, totalHeight});
+        return;
+      }
+
+      const noteEl = document.createElement("div");
+      noteEl.className = `margin-note-rendered margin-note-${side}`;
+      noteEl.style.top = top + "px";
+
+      if (totalHeight === null) {
+        //Deferred note — never rendered before, render fresh and measure
+        noteEl.innerHTML = content;
+        area.appendChild(noteEl);
+        const naturalHeight = noteEl.scrollHeight;
+
+        if (naturalHeight > rawAvailable) {
+          const clippedHeight = snapToLine(rawAvailable);
+          noteEl.style.height = clippedHeight + "px";
+          noteEl.style.overflow = "hidden";
+          newOverflow.push({content, shownHeight: clippedHeight, side, totalHeight: naturalHeight});
+          lastBottom[side] = areaHeight;
+        } else {
+          lastBottom[side] = top + naturalHeight + noteGap;
+        }
+      } else {
+        //Continuation — offset content by already-shown height
+        const remainingHeight = totalHeight - shownHeight;
+        noteEl.style.overflow = "hidden";
+        noteEl.innerHTML = `<div style="margin-top: -${shownHeight}px">${content}</div>`;
+
+        if (remainingHeight > rawAvailable) {
+          const clippedHeight = snapToLine(rawAvailable);
+          noteEl.style.height = clippedHeight + "px";
+          newOverflow.push({content, shownHeight: shownHeight + clippedHeight, side, totalHeight});
+          lastBottom[side] = areaHeight;
+        } else {
+          noteEl.style.height = remainingHeight + "px";
+          lastBottom[side] = top + remainingHeight + noteGap;
+        }
+
+        area.appendChild(noteEl);
+      }
+    });
+
+    //Then handle anchored notes on this page
     const anchors = [...page.querySelectorAll(".margin-note-anchor")];
     anchors.sort((a, b) => a.getBoundingClientRect().top - b.getBoundingClientRect().top);
 
@@ -40,19 +117,36 @@ function injectMarginNotes(container, noteData) {
       //Soft anchor: start at anchor position, but push down if overlapping previous note
       const top = Math.max(anchorY, lastBottom[side]);
 
-      //Don't render if pushed entirely off the page
-      if (top >= areaHeight) return;
+      //Pushed entirely off the page — defer as overflow to next page
+      if (top >= areaHeight) {
+        newOverflow.push({content, shownHeight: 0, side, totalHeight: null});
+        return;
+      }
 
+      const rawAvailable = areaHeight - top;
+
+      //Render note with auto height to measure natural size
       const noteEl = document.createElement("div");
       noteEl.className = `margin-note-rendered margin-note-${side}`;
       noteEl.style.top = top + "px";
-      noteEl.style.maxHeight = (areaHeight - top) + "px";
       noteEl.innerHTML = content;
       area.appendChild(noteEl);
 
-      //Update collision tracking with actual rendered height
-      lastBottom[side] = top + noteEl.offsetHeight;
+      const naturalHeight = noteEl.scrollHeight;
+
+      if (naturalHeight > rawAvailable) {
+        //Note overflows — clip to line-snapped height, schedule continuation
+        const clippedHeight = snapToLine(rawAvailable);
+        noteEl.style.height = clippedHeight + "px";
+        noteEl.style.overflow = "hidden";
+        newOverflow.push({content, shownHeight: clippedHeight, side, totalHeight: naturalHeight});
+        lastBottom[side] = areaHeight;
+      } else {
+        lastBottom[side] = top + naturalHeight + noteGap;
+      }
     });
+
+    pendingOverflow = newOverflow;
   });
 }
 
