@@ -102,7 +102,7 @@ export default [
           prop: "ignore",
         },
       ],
-      "react/prop-types": ["skipUndeclared"],
+      "react/prop-types": ["warn", {skipUndeclared: true}],
 
       //Next.js rules
       "@next/next/no-async-client-component": "error",

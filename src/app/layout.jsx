@@ -152,6 +152,65 @@ function injectMarginNotes(container, noteData) {
 
 
 /**
+ * Adjusts line-height on each page's main text column so the last line
+ * sits flush with the page bottom. Distributes extra space evenly across
+ * all text lines. Skips pages where the per-line adjustment would exceed
+ * a visibility threshold (title pages, short final pages, etc.).
+ *
+ * @param container - The paged.js preview container element
+ */
+function featherColumns(container) {
+  const MAX_PER_LINE = 1.5;
+  const allPages = [...container.querySelectorAll(".pagedjs_page")];
+  if (allPages.length === 0) return;
+
+  //Measure main text line-height from the first page
+  const firstArea = allPages[0].querySelector(".pagedjs_area");
+  if (!firstArea) return;
+  const probe = document.createElement("p");
+  probe.style.visibility = "hidden";
+  probe.innerHTML = "X<br>X";
+  firstArea.appendChild(probe);
+  const twoLine = probe.getBoundingClientRect().height;
+  probe.innerHTML = "X";
+  const oneLine = probe.getBoundingClientRect().height;
+  const mainLH = twoLine - oneLine;
+  probe.remove();
+
+  allPages.forEach((page) => {
+    const area = page.querySelector(".pagedjs_area");
+    if (!area) return;
+    const footnoteArea = area.querySelector(".pagedjs_footnote_area:not(.pagedjs_footnote_empty)");
+    const areaH = area.clientHeight - (footnoteArea ? footnoteArea.clientHeight : 0);
+    const areaTop = area.getBoundingClientRect().top;
+
+    const chapter = area.querySelector(".chapter");
+    if (!chapter) return;
+
+    const paras = [...chapter.querySelectorAll("p")];
+    if (paras.length === 0) return;
+
+    const lastP = paras[paras.length - 1];
+    const bottom = lastP.getBoundingClientRect().bottom - areaTop;
+    const shortfall = areaH - bottom;
+    if (shortfall <= 0) return;
+
+    //Count text lines across all paragraphs
+    const totalTextH = paras.reduce((sum, p) => sum + p.getBoundingClientRect().height, 0);
+    const lineCount = Math.round(totalTextH / mainLH);
+    if (lineCount <= 0) return;
+
+    const perLine = shortfall / lineCount;
+    if (perLine > MAX_PER_LINE) return;
+
+    paras.forEach((p) => {
+      p.style.lineHeight = (mainLH + perLine) + "px";
+    });
+  });
+}
+
+
+/**
  * Extracts margin notes from the DOM before paged.js processes it.
  * Replaces each note with an inline anchor span in the preceding element,
  * and returns a map of note content keyed by generated IDs.
@@ -175,13 +234,18 @@ function extractMarginNotes(container) {
     }
 
     if (anchor) {
-      //Insert a zero-width anchor span at the start of the preceding element
-      //so the note aligns with the top of the paragraph it annotates
+      //Insert anchor span at the start of the preceding element, after any
+      //existing anchors so consecutive notes maintain their DOM order
       const marker = document.createElement("span");
       marker.className = "margin-note-anchor";
       marker.dataset.noteId = id;
       marker.dataset.side = side;
-      anchor.insertBefore(marker, anchor.firstChild);
+      const lastExisting = anchor.querySelector(".margin-note-anchor:last-of-type");
+      if (lastExisting) {
+        lastExisting.after(marker);
+      } else {
+        anchor.insertBefore(marker, anchor.firstChild);
+      }
     }
 
     //Store note content and remove from flow
@@ -269,6 +333,9 @@ export default function RootLayout({children}) {
             if (Object.keys(noteData).length > 0) {
               injectMarginNotes(previewContainer, noteData);
             }
+
+            //Vertically justify main text columns
+            featherColumns(previewContainer);
 
           });
 
