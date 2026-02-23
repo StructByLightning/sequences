@@ -148,11 +148,36 @@ export default function WhatDoIMeanByRationality() {
 
     <p>Second, sometimes the meaning of the math itself is called into question. The exact rules of probability theory are called into question by, e.g., anthropic problems in which the number of observers is uncertain. The exact rules of decision theory are called into question by, e.g., Newcomblike problems in which other agents may predict your decision before it happens<span className="footnote"><em>For a good introduction to Newcomb's Problem, see https://slate.com/culture/2002/02/robert-nozick-and-newcomb-s-problem.html.</em></span>.</p>
 
+    <MarginNote side="right" author="Datawitch">
+      <p>
+        Newcomb's problem: A perfect predictor has put $1M in an opaque box if it predicted you'll take only that box ("one-boxing"), or nothing if it predicted you'll take both the opaque box and a transparent box containing $1,000 ("two-boxing"). Should you one-box or two-box?
+      </p>
+    </MarginNote>
+
     <p>In cases like these, it is futile to try to settle the problem by coming up with some new definition of the word "rational" and saying, "Therefore my preferred answer, <em>by definition</em>, is what is meant by the word 'rational.' " This simply raises the question of why anyone should pay attention to your definition. I'm not interested in probability theory because it is the holy word handed down from Laplace. I'm interested in Bayesian-style belief-updating (with Occam priors) because I expect that this style of thinking gets us systematically closer to, you know, <em>accuracy</em>, the map that reflects the territory.</p>
 
+    <MarginNote side="left" author="Datawitch">
+      <p>
+        If you and the other person both understand what the other means, the argument is usually over. You might be using different words for the same concept or the same word for different concepts, but once that's clear, there's nothing left to fight about. The urge to keep fighting is a sign that something else is going on. Sometimes that something else is legitimate. Arguing over definitions can be a way to reshape norms. Calling something "violence" that used to be called "rudeness" changes what responses are socially permitted. That can be a useful action, sometimes, but you should always know when that's your strategy and avoid confusing yourself into thinking that the other person is "wrong" for using a different definition.
+      </p>
+    </MarginNote>
+
+    <MarginNote side="right" author="Datawitch">
+      <p>
+        Notice what this does. It's not a defense of Bayesianism because it's correct by definition, but a defense based on it working. Pick your tools based on results, not pedigree. This is instrumental rationality applied to epistemology. If a better framework comes along, use that instead. Loyalty to your tools is not a virtue.
+      </p>
+    </MarginNote>
 
 
     <p>And then there are questions of how to think that seem not quite answered by either probability theory or decision theory—like the question of how to feel about the truth once you have it. Here, again, trying to define "rationality" a particular way doesn't support an answer, but merely presumes one.</p>
+
+    <MarginNote side="right" author="Datawitch">
+      <p>
+        This is one of the hardest parts of the Art. You can get very good at updating, at noticing where your map is wrong, at running the numbers. None of that helps if you can't sit with what the numbers say and internalize them.
+      </p>
+    </MarginNote>
+
+
     <p>I am not here to argue the meaning of a word, not even if that word is "rationality." The point of attaching sequences of letters to particular concepts is to let two people <em>communicate</em>—to help transport thoughts from one mind to another. You cannot change reality, or prove the thought, by manipulating which meanings go with which words.</p>
     <MarginNote side="left" author="It is">
       <p>
