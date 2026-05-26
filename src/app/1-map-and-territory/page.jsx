@@ -134,11 +134,13 @@ export default function Home() {
 
 
     {/*<SequenceHeader title="Predictably Wrong" letter="A" /> */}
-    <WhatDoIMeanByRationality />
-    <FeelingRational />
+    {/*<WhatDoIMeanByRationality /> */}
+    {/*<FeelingRational /> */}
+
+    <WhyTruth />
 
     {/*
-    <WhyTruth />
+
     <WhatsABias />
     <Availability />
     <BurdensomeDetails />
