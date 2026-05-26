@@ -1,6 +1,42 @@
 "use client";
-import { Previewer } from "pagedjs";
-import { React, useEffect, useRef } from "react";
+import {Previewer} from "pagedjs";
+import {React, useEffect, useRef} from "react";
+import AFableOfScienceAndPolitics from "@/app/1-map-and-territory/chapters/fakeBeliefs/AFableOfScienceAndPolitics";
+import ApplauseLights from "@/app/1-map-and-territory/chapters/fakeBeliefs/ApplauseLights";
+import BayesianJudo from "@/app/1-map-and-territory/chapters/fakeBeliefs/BayesianJudo";
+import BeliefAsAttire from "@/app/1-map-and-territory/chapters/fakeBeliefs/BeliefAsAttire";
+import BeliefInBelief from "@/app/1-map-and-territory/chapters/fakeBeliefs/BeliefInBelief";
+import MakingBeliefsPayRent from "@/app/1-map-and-territory/chapters/fakeBeliefs/MakingBeliefsPayRent";
+import PretendingToBeWise from "@/app/1-map-and-territory/chapters/fakeBeliefs/PretendingToBeWise";
+import ProfessingAndCheering from "@/app/1-map-and-territory/chapters/fakeBeliefs/ProfessingAndCheering";
+import ReligionsClaimToBeNonDisprovable from "@/app/1-map-and-territory/chapters/fakeBeliefs/ReligionsClaimToBeNonDisprovable";
+import ExplainWorshipIgnore from "@/app/1-map-and-territory/chapters/mysteriousAnswers/ExplainWorshipIgnore";
+import FailingToLearnFromHistory from "@/app/1-map-and-territory/chapters/mysteriousAnswers/FailingToLearnFromHistory";
+import FakeCausality from "@/app/1-map-and-territory/chapters/mysteriousAnswers/FakeCausality";
+import FakeExplanations from "@/app/1-map-and-territory/chapters/mysteriousAnswers/FakeExplanations";
+import GuessingTheTeachersPassword from "@/app/1-map-and-territory/chapters/mysteriousAnswers/GuessingTheTeachersPassword";
+import LawfulUncertainty from "@/app/1-map-and-territory/chapters/mysteriousAnswers/LawfulUncertainty";
+import MakingHistoryAvailable from "@/app/1-map-and-territory/chapters/mysteriousAnswers/MakingHistoryAvailable";
+import MyWildAndRecklessYouth from "@/app/1-map-and-territory/chapters/mysteriousAnswers/MyWildAndRecklessYouth";
+import MysteriousAnswersToMysteriousQuestions from "@/app/1-map-and-territory/chapters/mysteriousAnswers/MysteriousAnswersToMysteriousQuestions";
+import PositiveBiasLookIntoTheDark from "@/app/1-map-and-territory/chapters/mysteriousAnswers/PositiveBiasLookIntoTheDark";
+import SayNotComplexity from "@/app/1-map-and-territory/chapters/mysteriousAnswers/SayNotComplexity";
+import ScienceAsAttire from "@/app/1-map-and-territory/chapters/mysteriousAnswers/ScienceAsAttire";
+import ScienceAsCuriosityStopper from "@/app/1-map-and-territory/chapters/mysteriousAnswers/ScienceAsCuriosityStopper";
+import SemanticStopsigns from "@/app/1-map-and-territory/chapters/mysteriousAnswers/SemanticStopsigns";
+import TheFutilityOfEmergence from "@/app/1-map-and-territory/chapters/mysteriousAnswers/TheFutilityOfEmergence";
+import TheSimpleTruth from "@/app/1-map-and-territory/chapters/mysteriousAnswers/TheSimpleTruth";
+import TrulyPartOfYou from "@/app/1-map-and-territory/chapters/mysteriousAnswers/TrulyPartOfYou";
+import AbsenceOfEvidence from "@/app/1-map-and-territory/chapters/noticingConfusion/AbsenceOfEvidence";
+import ConservationOfExpectedEvidence from "@/app/1-map-and-territory/chapters/noticingConfusion/ConservationOfExpectedEvidence";
+import EinsteinsArrogance from "@/app/1-map-and-territory/chapters/noticingConfusion/EinsteinsArrogance";
+import FocusYourUncertainty from "@/app/1-map-and-territory/chapters/noticingConfusion/FocusYourUncertainty";
+import HindsightDevaluesScience from "@/app/1-map-and-territory/chapters/noticingConfusion/HindsightDevaluesScience";
+import HowMuchEvidenceDoesItTake from "@/app/1-map-and-territory/chapters/noticingConfusion/HowMuchEvidenceDoesItTake";
+import OccamsRazor from "@/app/1-map-and-territory/chapters/noticingConfusion/OccamsRazor";
+import ScientificEvidenceLegalEvidenceRationalEvidence from "@/app/1-map-and-territory/chapters/noticingConfusion/ScientificEvidenceLegalEvidenceRationalEvidence";
+import WhatIsEvidence from "@/app/1-map-and-territory/chapters/noticingConfusion/WhatIsEvidence";
+import YourStrengthAsARationalist from "@/app/1-map-and-territory/chapters/noticingConfusion/YourStrengthAsARationalist";
 import Availability from "@/app/1-map-and-territory/chapters/predictablyWrong/Availability";
 import BurdensomeDetails from "@/app/1-map-and-territory/chapters/predictablyWrong/BurdensomeDetails";
 import ExpectingShortInferentialDistances from "@/app/1-map-and-territory/chapters/predictablyWrong/ExpectingShortInferentialDistances";
@@ -12,48 +48,12 @@ import WhatDoIMeanByRationality from "@/app/1-map-and-territory/chapters/predict
 import WhatsABias from "@/app/1-map-and-territory/chapters/predictablyWrong/WhatsABias";
 import WhyTruth from "@/app/1-map-and-territory/chapters/predictablyWrong/WhyTruth";
 import SequenceHeader from "@/components/SequenceHeader/SequenceHeader";
-import AFableOfScienceAndPolitics from "@/app/1-map-and-territory/chapters/fakeBeliefs/AFableOfScienceAndPolitics";
-import ApplauseLights from "@/app/1-map-and-territory/chapters/fakeBeliefs/ApplauseLights";
-import BayesianJudo from "@/app/1-map-and-territory/chapters/fakeBeliefs/BayesianJudo";
-import BeliefAsAttire from "@/app/1-map-and-territory/chapters/fakeBeliefs/BeliefAsAttire";
-import BeliefInBelief from "@/app/1-map-and-territory/chapters/fakeBeliefs/BeliefInBelief";
-import MakingBeliefsPayRent from "@/app/1-map-and-territory/chapters/fakeBeliefs/MakingBeliefsPayRent";
-import PretendingToBeWise from "@/app/1-map-and-territory/chapters/fakeBeliefs/PretendingToBeWise";
-import ProfessingAndCheering from "@/app/1-map-and-territory/chapters/fakeBeliefs/ProfessingAndCheering";
-import ReligionsClaimToBeNonDisprovable from "@/app/1-map-and-territory/chapters/fakeBeliefs/ReligionsClaimToBeNonDisprovable";
-import FocusYourUncertainty from "@/app/1-map-and-territory/chapters/noticingConfusion/FocusYourUncertainty";
-import WhatIsEvidence from "@/app/1-map-and-territory/chapters/noticingConfusion/WhatIsEvidence";
-import ScientificEvidenceLegalEvidenceRationalEvidence from "@/app/1-map-and-territory/chapters/noticingConfusion/ScientificEvidenceLegalEvidenceRationalEvidence";
-import HowMuchEvidenceDoesItTake from "@/app/1-map-and-territory/chapters/noticingConfusion/HowMuchEvidenceDoesItTake";
-import EinsteinsArrogance from "@/app/1-map-and-territory/chapters/noticingConfusion/EinsteinsArrogance";
-import OccamsRazor from "@/app/1-map-and-territory/chapters/noticingConfusion/OccamsRazor";
-import YourStrengthAsARationalist from "@/app/1-map-and-territory/chapters/noticingConfusion/YourStrengthAsARationalist";
-import AbsenceOfEvidence from "@/app/1-map-and-territory/chapters/noticingConfusion/AbsenceOfEvidence";
-import ConservationOfExpectedEvidence from "@/app/1-map-and-territory/chapters/noticingConfusion/ConservationOfExpectedEvidence";
-import HindsightDevaluesScience from "@/app/1-map-and-territory/chapters/noticingConfusion/HindsightDevaluesScience";
-import FakeExplanations from "@/app/1-map-and-territory/chapters/mysteriousAnswers/FakeExplanations";
-import GuessingTheTeachersPassword from "@/app/1-map-and-territory/chapters/mysteriousAnswers/GuessingTheTeachersPassword";
-import ScienceAsAttire from "@/app/1-map-and-territory/chapters/mysteriousAnswers/ScienceAsAttire";
-import FakeCausality from "@/app/1-map-and-territory/chapters/mysteriousAnswers/FakeCausality";
-import SemanticStopsigns from "@/app/1-map-and-territory/chapters/mysteriousAnswers/SemanticStopsigns";
-import MysteriousAnswersToMysteriousQuestions from "@/app/1-map-and-territory/chapters/mysteriousAnswers/MysteriousAnswersToMysteriousQuestions";
-import TheFutilityOfEmergence from "@/app/1-map-and-territory/chapters/mysteriousAnswers/TheFutilityOfEmergence";
-import SayNotComplexity from "@/app/1-map-and-territory/chapters/mysteriousAnswers/SayNotComplexity";
-import PositiveBiasLookIntoTheDark from "@/app/1-map-and-territory/chapters/mysteriousAnswers/PositiveBiasLookIntoTheDark";
-import LawfulUncertainty from "@/app/1-map-and-territory/chapters/mysteriousAnswers/LawfulUncertainty";
-import MyWildAndRecklessYouth from "@/app/1-map-and-territory/chapters/mysteriousAnswers/MyWildAndRecklessYouth";
-import FailingToLearnFromHistory from "@/app/1-map-and-territory/chapters/mysteriousAnswers/FailingToLearnFromHistory";
-import MakingHistoryAvailable from "@/app/1-map-and-territory/chapters/mysteriousAnswers/MakingHistoryAvailable";
-import ExplainWorshipIgnore from "@/app/1-map-and-territory/chapters/mysteriousAnswers/ExplainWorshipIgnore";
-import ScienceAsCuriosityStopper from "@/app/1-map-and-territory/chapters/mysteriousAnswers/ScienceAsCuriosityStopper";
-import TrulyPartOfYou from "@/app/1-map-and-territory/chapters/mysteriousAnswers/TrulyPartOfYou";
-import TheSimpleTruth from "@/app/1-map-and-territory/chapters/mysteriousAnswers/TheSimpleTruth";
 import TableOfContents from "@/components/TableOfContents/TableOfContents";
 import TitlePage from "@/components/TitlePage/TitlePage";
 
 export default function Home() {
   return <>
-    {/* <TitlePage volume="1" name="Map and Territory" />
+    {/*<TitlePage volume="1" name="Map and Territory" />
 
     <TableOfContents items={[
       {
@@ -133,9 +133,11 @@ export default function Home() {
     ]} /> */}
 
 
-    {/* <SequenceHeader title="Predictably Wrong" letter="A" /> */}
+    {/*<SequenceHeader title="Predictably Wrong" letter="A" /> */}
     <WhatDoIMeanByRationality />
-    {/* <FeelingRational />
+    <FeelingRational />
+
+    {/*
     <WhyTruth />
     <WhatsABias />
     <Availability />
@@ -172,7 +174,6 @@ export default function Home() {
     <AbsenceOfEvidence />
     <ConservationOfExpectedEvidence />
     <HindsightDevaluesScience />
-
 
 
 

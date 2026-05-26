@@ -110,10 +110,10 @@ export default function WhatDoIMeanByRationality() {
     <p>Let "<Latex math="P(\textit{such-and-such})" />" stand for "the probability that such-and-such hap­pens," and <Latex math="P(A, B)" /> for "the probability that both <Latex math="A" /> and <Latex math="B" /> happen." Since it is a universal law of probability theory that <Latex math="P(A) \geq P(A, B)" />, this judgment is labeled incorrect:</p>
 
     <MarginNote side="right" author="Richard Ngo">
-      <p>An ideal bayesian is not <em>thinking</em> in any reasonable sense of the word—instead, it's <em>simulating every logically possible universe</em>. The framework resists falsification—any reasoning success or failure can be retrofitted as "approximating" the ideal Bayesian calculation.</p>
+      <p>An ideal Bayesian is not <em>thinking</em> in any reasonable sense of the word—instead, they're <em>simulating every logically possible universe</em>. The framework resists falsification—any reasoning success or failure can be retrofitted as "approximating" the ideal Bayesian calculation.</p>
     </MarginNote>
 
-    <Latex math="P(\textit{Bill plays jazz}) < P(\textit{Bill plays jazz, Bill is an accountant})" display="block" />
+    <Latex math="P(\textit{Bill plays jazz}) <\\P(\textit{Bill plays jazz, Bill is an accountant})" display="block" />
 
     <p>To keep it technical, you would say that this probability judgment is <em>non-Bayesian</em>. Beliefs and actions that are rational in this mathematically well defined sense are called "Bayesian."</p>
 
