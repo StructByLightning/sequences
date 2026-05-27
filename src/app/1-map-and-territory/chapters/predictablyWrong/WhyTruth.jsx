@@ -1,5 +1,4 @@
-
-import {React} from "react";
+import React from "react";
 import Chapter from "@/components/Chapter/Chapter";
 import MarginNote from "@/components/MarginNote/MarginNote";
 

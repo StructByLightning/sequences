@@ -1,20 +1,63 @@
+import React from "react";
 import Chapter from "@/components/Chapter/Chapter";
-import Latex from "@/components/Latex/Latex";
+import MarginNote from "@/components/MarginNote/MarginNote";
 
 export default function WhatsABias() {
+  return <Chapter title={["...What's a Bias, Again?"]} marginNotes>
 
-  return <Chapter title={["...What's a Bias, Again?"]}>
-    <p>A <em>bias</em> is a certain kind of obstacle to our goal of obtaining truth. (Its character as an “obstacle” stems from this goal of truth.) However, there are many obstacles that are not “biases.”</p>
-    <p>If we start right out by asking “What is bias?,” it comes at the question in the wrong order. As the proverb goes, “There are forty kinds of lunacy but only one kind of common sense.” The truth is a narrow target, a small region of configuration space to hit. “She loves me, she loves me not” may be a binary question, but <Latex math="E=mc^2" /> is a tiny dot in the space of all equations, like a winning lottery ticket in the space of all lottery tickets. Error is not an exceptional condition; it is success that is a priori so improbable that it requires an explanation.</p>
-    <p>We don’t start out with a moral duty to “reduce bias,” because biases are bad and evil and Just Not Done. This is the sort of thinking someone might end up with if they acquired a deontological duty of “rationality” by social osmosis, which leads to people trying to execute techniques without appreciating the reason for them. (Which is bad and evil and Just Not Done, according to <em>Surely You’re Joking, Mr. Feynman</em>, which I read as a kid.)</p>
-    <p>Rather, we want to get to the truth, for whatever reason, and we find various obstacles getting in the way of our goal. These obstacles are not wholly dissimilar to each other—for example, there are obstacles that have to do with not having enough computing power available, or information being expensive. It so happens that a large group of obstacles seem to have a certain character in common—to cluster in a region of obstacle-to-truth space—and this cluster has been labeled “biases.”</p>
-    <p>What is a bias? Can we look at the empirical cluster and find a compact test for membership? Perhaps we will find that we can’t really give any explanation better than pointing to a few extensional examples, and hoping the listener understands. If you are a scientist just beginning to investigate fire, it might be a lot wiser to point to a campfire and say “Fire is that orangey-bright hot stuff over there,” rather than saying “I define fire as an alchemical transmutation of substances which releases phlogiston.” You should not ignore something just because you can’t define it. I can’t quote the equations of General Relativity from memory, but nonetheless if I walk off a cliff, I’ll fall. And we can say the same of biases—they won’t hit any less hard if it turns out we can’t define compactly what a “bias” is. So we might point to conjunction fallacies, to overconfidence, to the availability and representativeness heuristics, to base rate neglect, and say: “Stuff like that.”</p>
-    <p>With all that said, we seem to label as “biases” those obstacles to truth which are produced, not by the cost of information, nor by limited computing power, but by the shape of our own mental machinery. Perhaps the machinery is evolutionarily optimized to purposes that actively oppose epistemic accuracy; for example, the machinery to win arguments in adaptive political contexts. Or the selection pressure ran skew to epistemic accuracy; for example, believing what others believe, to get along socially. Or, in the classic heuristic-and-bias, the machinery operates by an identifiable algorithm that does some useful work but also produces systematic errors: the availability heuristic is not itself a bias, but it gives rise to identifiable, compactly describable biases. Our brains are doing something wrong, and after a lot of experimentation and/or heavy thinking, someone identifies the problem in a fashion that System 2 can comprehend; then we call it a “bias.” Even if we can do no better for knowing, it is still a failure that arises, in an identifiable fashion, from a particular kind of cognitive machinery—not from having too little machinery, but from the machinery’s shape.</p>
-    <p>“Biases” are distinguished from errors that arise from cognitive content, such as adopted beliefs, or adopted moral duties. These we call “mistakes,” rather than “biases,” and they are much easier to correct, once we’ve noticed them for ourselves. (Though the source of the mistake, or the source of the source of the mistake, may ultimately be some bias.)</p>
-    <p>“Biases” are distinguished from errors that arise from damage to an individual human brain, or from absorbed cultural mores; biases arise from machinery that is humanly universal.</p>
+    <p>The availability heuristic is a cognitive shortcut humans use to reach conclusions; and where this shortcut reliably causes inaccurate conclusions, we can say that an availability bias is at work. Scope insensitivity is another example of a <em>cognitive bias.</em></p>
+
+
+    <p>“Cognitive biases” are those obstacles to truth which are produced, not by the cost of information, nor by limited computing power, but by the <em>shape of our own mental machinery</em>. For example, our mental processes might be evolutionarily adapted to specifically believe some things that aren't true, so that we could win political arguments in a tribal context. Or the mental machinery might be adapted not to particularly care whether something is true, such as when we feel the urge to believe what others believe to get along socially. Or the bias may be a side-effect of a useful reasoning heuristic. The availability heuristic is not itself a bias, but it gives rise to them; the machinery uses an algorithm (give things more evidential weight if they come to mind more readily) that does some good cognitive work but also produces systematic errors.</p>
+
+    <MarginNote side="right" author="Peter Wildeford">
+      <p>Biases seem like they could be understood in terms of logical validity. Even if you reason solely from sound premises, you could still adopt an invalid argument (aka a fallacy; a conclusion that does not actually follow from the premises, no matter how true). I suggest the definition that biases are whatever cause people to adopt invalid arguments.</p>
+    </MarginNote>
+
+    <MarginNote side="right" author="Viktor Riabtsev">
+      <p>False or incomplete/insufficient data can cause the adoption of invalid arguments.</p>
+    </MarginNote>
+
+    <p>Our brains are doing something wrong, and after a lot of experimentation and/or heavy thinking, someone identifies the problem verbally and concretely; then we call it a “(cognitive) bias.” Not to be confused with the colloquial “that person is biased,” which just means “that person has a skewed or prejudiced attitude toward something.”</p>
+
+    <p>In cognitive science, “biases” are distinguished from errors that arise from <em>cognitive content</em>, such as learned false beliefs. These we call “mistakes” rather than “biases,” and they are much easier to correct, once we’ve noticed them for ourselves. (Though the source of the mistake, or the source of the source of the mistake, may ultimately be some bias.)</p>
+
+    <MarginNote side="left" author="Arandur">
+      <p>I had previously misunderstood the adopted meaning of the word "bias"... using the term as it's socially used, that is to say, a prior reason for holding a certain belief over another due to convenience. A judge might be biased because one side is paying him; a jury member might be biased because their sister is the one on trial. Are these "mistakes"? Or do they fall under a certain type of cognitive bias that is similar among all humans?</p>
+    </MarginNote>
+
+    <MarginNote side="left" author="MarkusRamikin">
+      <p>I would call a judge who is favoring a side because they're paying him "biased", and not "mistaken" or any such thing. But it's not a <em>cognitive bias</em>. The word "bias" has legitimate meanings other than what EY is saying, so it would have been clearer if the article used the term "cognitive bias" at least at the outset.</p>
+    </MarginNote>
+
+    <MarginNote side="left" author="simonthedeer">
+      <p>I would argue a corrupt judge only seems biased as biased people in my understanding are not aware of their underlying preferences. That also might be the common ground with a cognitive bias: you are never directly aware of its presence and can only deduce on it by analysis.</p>
+    </MarginNote>
+
+    <MarginNote side="left" author="Benjamin Kost">
+      <p>You are confusing two definitions for the same word. The judge is biased by one definition of “bias”, but not by the other definition as used in cognitive or statistical bias.</p>
+    </MarginNote>
+
+
+    <MarginNote side="right" author="thomblake">
+      <p>This definition of bias seems problematic. If a putative bias is caused by absorbed cultural mores, then supposedly it is not a bias. But that causal chain can be tricky to track down; we go on thinking something is a 'bias' until we find the black swan culture where the bias doesn't exist, and then realize that the problem was not inherent in our mental machinery. But is <em>that</em> distinction even worth making, if we <em>don't</em> know what caused the bias?</p>
+    </MarginNote>
+    <p>“Biases” are also distinguished from errors stemming from damage to an individual human brain, or from absorbed cultural mores; biases arise from machinery that is humanly universal.</p>
+
+
+    <MarginNote side="right" author="Navanen">
+      <p>I suspect the definition is worth making because even if we don't know what caused the bias, we can use the label of a bias "not inherent in our mental machinery" as a marker for study of what it's cause is in the future.</p>
+    </MarginNote>
+
     <p>Plato wasn’t “biased” because he was ignorant of General Relativity—he had no way to gather that information, his ignorance did not arise from the shape of his mental machinery. But if Plato believed that philosophers would make better kings because he himself was a philosopher—and this belief, in turn, arose because of a universal adaptive political instinct for self-promotion, and not because Plato’s daddy told him that everyone has a moral duty to promote their own profession to governorship, or because Plato sniffed too much glue as a kid—then that was a bias, whether Plato was ever warned of it or not.</p>
-    <p>Biases may not be cheap to correct. They may not even be correctable. But where we look upon our own mental machinery and see a causal account of an identifiable class of errors; and when the problem seems to come from the evolved shape of the machinery, rather from there being too little machinery, or bad specific content; then we call that a bias.</p>
-    <p>Personally, I see our quest in terms of acquiring personal skills of rationality, in improving truthfinding technique. The challenge is to attain the positive goal of truth, not to avoid the negative goal of failure. Failurespace is wide, infinite errors in infinite variety. It is difficult to describe so huge a space: “What is true of one apple may not be true of another apple; thus more can be said about a single apple than about all the apples in the world.” Success-space is narrower, and therefore more can be said about it.</p>
-    <p>While I am not averse (as you can see) to discussing definitions, we should remember that is not our primary goal. We are here to pursue the great human quest for truth: for we have desperate need of the knowledge, and besides, we’re curious. To this end let us strive to overcome whatever obstacles lie in our way, whether we call them “biases” or not.</p>
-  </Chapter>
+
+
+
+    <p>While I am not averse (as you can see) to discussing definitions, I don’t want to suggest that the project of better wielding our own minds rests on a particular choice of terminology. If the term “cognitive bias” turns out to be unhelpful, we should just drop it.</p>
+
+    <p>We don’t start out with a moral duty to “reduce bias,” simply because biases are bad and evil and Just Not Done. This is the sort of thinking someone might end up with if they acquired a deontological duty of “rationality” by social osmosis, which leads to people trying to execute techniques without appreciating the reason for them. (Which is bad and evil and Just Not Done, according to <em>Surely You’re Joking, Mr. Feynman</em>, which I read as a kid.) A bias is an obstacle to our goal of obtaining truth, and thus <em>in our way</em>.</p>
+
+    <p>We are here to pursue the great human quest for truth: for we have desperate need of the knowledge, and besides, we're curious. To this end let us strive to overcome whatever obstacles lie in our way, whether we call them “biases” or not.</p>
+
+  </Chapter>;
 }

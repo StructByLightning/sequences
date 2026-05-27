@@ -137,11 +137,11 @@ export default function Home() {
     {/*<WhatDoIMeanByRationality /> */}
     {/*<FeelingRational /> */}
 
-    <WhyTruth />
+    {/*<WhyTruth /> */}
 
-    {/*
 
     <WhatsABias />
+    {/*
     <Availability />
     <BurdensomeDetails />
     <PlanningFallacy />
