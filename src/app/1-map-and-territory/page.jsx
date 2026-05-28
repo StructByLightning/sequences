@@ -140,9 +140,9 @@ export default function Home() {
     {/*<WhyTruth /> */}
 
 
-    <WhatsABias />
-    {/*
+    {/*<WhatsABias /> */}
     <Availability />
+    {/*
     <BurdensomeDetails />
     <PlanningFallacy />
     <IllusionOfTransparency />
